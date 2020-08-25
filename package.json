@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "codeando",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
     "react-scripts": "3.4.2"
   },
   "scripts": {
@@ -30,5 +31,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "react-dropdown": "^1.7.0",
+    "react-router-dom": "^5.2.0"
   }
 }
