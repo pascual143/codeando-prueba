@@ -45,10 +45,10 @@ export default class Categorias extends Component {
 					</Helmet>
 				</div>
 				<div className="">
-				<li className="menu--link ">
+				<li className="menu--link fontMainButtons">
 				<i class='uil-layers menu--icon'></i>
 
-						<button className="menu--item menu--item__has_sub_menu" onClick={this.showMenu}>Videos</button>
+						<button className="fontMainButtons menu--item menu--item__has_sub_menu" onClick={this.showMenu}>Videos</button>
 
 						{this.state.showMenu ? (
 							<div

@@ -46,10 +46,10 @@ export default class Manual extends Component {
 					</Helmet>
 				</div>
 				<div className="">
-				<li className="menu--link ">
-				<i class='uil-clipboard-alt menu--icon'></i>
+				<li className="menu--link fontMainButtons">
+				<i className='uil-clipboard-alt menu--icon'></i>
 
-						<button className="menu--item menu--item__has_sub_menu" onClick={this.showMenu}>Manual</button>
+						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}>Manual</button>
 
 						{this.state.showMenu ? (
 							<div
