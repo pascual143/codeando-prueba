@@ -15,7 +15,7 @@ export default class Nav extends Component {
 						<title>Nav</title>
 					</Helmet>
 				</div>
-                <div>
+                <div  style={{minHeight:"1000px"}}>
                     {/* <!-- Left Sidebar Start --> */}
 						<nav className="vertical_nav">
 							<div className="left_section menu_left" id="js-menu">
