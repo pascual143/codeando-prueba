@@ -17,7 +17,7 @@ class AnatomiaHtml extends Component {
 						</Helmet>
 					</div>
 					<div>
-						<h1>Anatomia del Html</h1>
+						<h1 className="h1__tituloCapitulos">Anatomia del Html</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un elemento generalmente consiste en
 							una etiqueta(tag) de apertura y una etiqueta de cierre, 

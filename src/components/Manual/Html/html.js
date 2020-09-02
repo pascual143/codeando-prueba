@@ -4,6 +4,7 @@ import '../../../styles/css/styles.css';
 // Capitulos
 import QueEsHtml from './CapitulosHtml/queEsHtml.js';
 import AnatomiaHtml from './CapitulosHtml/anatomiaHtml.js';
+import NormasStandar from './CapitulosHtml/normasStandard3';
 // import RecursosHtml from './CapitulosHtml/Recursos/recursosHtml.js';
 // import EjerciciosHtml from './CapitulosHtml/Ejercicios/ejerciciosHtml.js';
 import HomeFeatures from '../../Home/HomeFeatures.js';
@@ -103,8 +104,8 @@ export default class IntroHtml extends Component {
 							<Button className="buttonNext float-right" onClick={this.next}>
 								Next
 							</Button>
-							<Card className="cardHtmlInside" style={{ width: '86%' }}>
-								<h3>3</h3>
+							<Card className="cardHtmlInside">
+								<NormasStandar />
 							</Card>
 						</div>
 						<div className="divBody2">
