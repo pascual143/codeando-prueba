@@ -1,14 +1,15 @@
 import React, { Fragment, Component } from 'react';
-import './stylesHome.css';
+import '../../styles/css/stylesHome.css';
 
-export default class Home extends Component {
+export default class HomeFeatures extends Component {
 	render() {
 		return (
 			<Fragment>
 				{/* // <Header /> */}
+				<div>
 				<body>
 					<div className="pug">
-						<section>
+						<section style={{width: "100%"}}>
 							<div className="slide">
 								<div className="content">
 									<h2>HTML</h2>
@@ -48,6 +49,7 @@ export default class Home extends Component {
 						</section>
 					</div>
 				</body>
+				</div>
 			</Fragment>
 		);
 	}

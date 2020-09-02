@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './App.css';
+import './styles/css/App.css';
 
 //Routing
 import { BrowserRouter as Router, Route } from 'react-router-dom'; 
@@ -7,10 +7,16 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 //components
 import Home from './components/Home.js';
 import About from './components/About.js';
+import Manual from './components/layouts/Manual.js';
+import Categorias from './components/layouts/Categorias.js';
 import Nav from './components/layouts/Nav.js';
 import Explora from './components/layouts/Explora.js';
 import Header from './components/Header';
+import Footer from './components/layouts/Footer'
+// import HomeFeatures from './components/Home/HomeFeatures.js';
+import IntroHtml from './components/Manual/Html/Html';
 
+// import IntroHtml from './components/Manual/Html/Html.js'
 
 function App() {
   return (
@@ -19,9 +25,15 @@ function App() {
         <Header />
         <Nav />
         <Route exact path="/" component={Home} />
+        <Route path="/Manual" component={Manual} />
+        <Route path="/Categorias" component={Categorias} />
         <Route path="/About" component={About} />
         <Route path="/Explora" component={Explora} />
+        <Route path="/IntroHtml" component={IntroHtml} />
+        {/* <Route path="" component={IntroHtml}/> */}
+        <Footer />
       </Fragment>
+
     </Router>
   );
 }

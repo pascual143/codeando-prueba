@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // import Dropdown from 'react-dropdown';
 import Helmet from 'react-helmet';
 import 'react-dropdown/style.css';
 import './stylesLayouts.css';
+// import HomeFeatures from '../Home/HomeFeatures.js';
+
+// import IntroHtml from '../Manual/Html/Html.js'
 
 // const options = [ 'Manual', 'Html', 'Css', 'JavaScript', 'jQuery', 'Bootstrap', 'React' ];
 // const defaultOption = options[0];
@@ -48,9 +52,9 @@ export default class Manual extends Component {
 				<div className="">
 				<li className="menu--link fontMainButtons">
 				<i className='uil-clipboard-alt menu--icon'></i>
-
-						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}>Manual</button>
-
+						<Link to={"/HomeFeatures"}>
+						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}> Manual</button>
+						</Link>
 						{this.state.showMenu ? (
 							<div
 							className=""
@@ -61,14 +65,14 @@ export default class Manual extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li className="menu--link"><button className="menuDropdown"> HTML</button></li>
-								<li className="menu--link"><button className="menuDropdown"> CSS</button></li>
-								<li className="menu--link"><button className="menuDropdown"> JavaScript</button></li>
-								<li className="menu--link"><button className="menuDropdown"> jQuery</button></li>
-								<li className="menu--link"><button className="menuDropdown"> Bootstrap</button></li>
-								<li className="menu--link"><button className="menuDropdown"> React</button></li>
-								<li className="menu--link"><button className="menuDropdown"> Git</button></li>
-								<li className="menu--link"><button className="menuDropdown"> More...</button></li>
+								<li asclassName="menu--link"><Link to={"/IntroHtml"} className="menuDropdown">HTML</Link></li>
+								<li className="menu--link"><Link to={"/Css"}className="menuDropdown">CSS</Link></li>
+								<li className="menu--link"><Link to={""}className="menuDropdown"> JavaScript</Link></li>
+								<li className="menu--link"><Link to={""}className="menuDropdown"> jQuery</Link></li>
+								<li className="menu--link"><Link to={""}className="menuDropdown"> Bootstrap</Link></li>
+								<li className="menu--link"><Link to={""}className="menuDropdown"> React</Link></li>
+								<li className="menu--link"><Link to={""}className="menuDropdown"> Git</Link></li>
+								<li className="menu--link"><Link to={""}className="menuDropdown"> More...</Link></li>
 							</div>
 							</div>
 

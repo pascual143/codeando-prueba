@@ -1,8 +1,10 @@
 import React, { Component, Fragment } from 'react'
+import {Link} from 'react-router-dom';
 import Helmet from 'react-helmet';
 
 import Categorias from './Categorias';
 import Manual from './Manual';
+// import IntroHtml from '../Manual/Html/Html.js';
 
 export default class Nav extends Component {
     render() {
@@ -11,11 +13,11 @@ export default class Nav extends Component {
                 <div>
 					<Helmet>
 						<meta charSet="utf-8" />
-						<title>Codeando</title>
+						<title>Codeando - Aprende a programar y desarrollar paginas web</title>
 						<title>Nav</title>
 					</Helmet>
 				</div>
-                <div  style={{minHeight:"1000px"}}>
+                <div>
                     {/* <!-- Left Sidebar Start --> */}
 						<nav className="vertical_nav">
 							<div className="left_section menu_left" id="js-menu">
@@ -39,8 +41,8 @@ export default class Nav extends Component {
 												<span className="menu--label">Explora</span>
 											</a>
 										</li> */}
-										<Manual />
-                                        <Categorias />
+										<Link to={"/Manual"}><Manual href="Manual"/></Link>
+										<Link to={"/Categorias"}><Categorias /></Link>
 
 										{/* <li className="menu--item">
 											<a href="saved_courses.html" className="menu--link" title="Saved Courses">

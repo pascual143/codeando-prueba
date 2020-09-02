@@ -1,3 +1,7 @@
+* {
+    margin: auto;
+}
+
 /* Cards Capitulos */
 .cardHtml {
     width: 75rem;

@@ -5,53 +5,51 @@
 }
 section {
 	position: absolute;
-	width: 100%;
-	height: 100vh;
+	height: 155rem;
 	display: flex;
-	border: 2px solid #000;
 }
 section .slide {
 	position: relative;
 	background: #0f0;
-	height: 100%;
+	height: 10%;
 	flex: 1;
 	border-right: 2px solid #000;
 	overflow: hidden;
 	transition: 0.5s ease-in-out;
 }
 section .slide:nth-child(1) {
-	background: url(../../img/htmlpic.jpg);
+	background: url(../../styles/img/htmlpic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(2) {
-	background: url(../../img/csspic.jpg);
+	background: url(../../styles/img/csspic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(3) {
-	background: url(../../img/javascriptpic.jpg);
+	background: url(../../styles/img/javascriptpic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(4) {
-	background: url(../../img/jquerypic.jpg);
+	background: url(../../styles/img/jquerypic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(5) {
-	background: url(../../img/bootstrappic.jpg);
+	background: url(../../styles/img/bootstrappic.jpg);
 	width: 100%;
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(6) {
-	background: url(../../img/reactpic.jpg);
+	background: url(../../styles/img/reactpic.jpg);
 	width: 100%;
 	background-position: center center;
 	background-size: 60rem;
@@ -85,17 +83,15 @@ section .slide:hover .content {
 }
 
 .pug {
-	background: url();
+	/* background: url(); */
 	background-color: #fff;
 	background-repeat: no-repeat;
-	width: 1500px;
-	height: 600px;
+	width: 100%;
+	height: 100%;
 }
 
 .video {
     background-repeat: no-repeat;
-	width: 1500px;
-	height: 600px;
     background-size: cover;
     position: absolute;
     z-index: 0;

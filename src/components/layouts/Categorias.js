@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import 'react-dropdown/style.css';
 
+import Html from '../Manual/Html/Html.js';
+
 // const options = [ 'Cursos', 'Html', 'Css', 'JavaScript', 'jQuery', 'Bootstrap', 'React' ];
 // const defaultOption = options[0];
 
@@ -60,7 +62,7 @@ export default class Categorias extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li className="menu--link"><button className="menuDropdown"> HTML</button></li>
+								<li className="menu--link"><link href={<Html />} className="menuDropdown"> HTML</link></li>
 								<li className="menu--link"><button className="menuDropdown"> CSS</button></li>
 								<li className="menu--link"><button className="menuDropdown"> JavaScript</button></li>
 								<li className="menu--link"><button className="menuDropdown"> jQuery</button></li>

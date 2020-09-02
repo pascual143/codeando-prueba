@@ -1,0 +1,120 @@
+:root {
+    --fontTexto:  'Raleway', sans-serif;
+    --fontHeading: 'Staatliches', cursive;
+
+    /** Colores **/
+    --azul : #f2f8fc;
+    --rojo : #ed2a26;
+    --naranja : #AF1F24;
+    --blanco: #FFFFFF;
+    --negro : #1d3557;
+}
+
+h1 {
+    margin-top: 0.1rem;
+}
+
+.h1__tituloCapitulos {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Cards Capitulos */
+.divBody {
+    background-color: var(--blanco);
+    font-size: 1.6rem;
+    font-family: var(--fontTexto);
+    height: 100%;
+    margin: 210px 0px 10px 190px;
+};
+
+.divBody2 {
+    background-color: var(--blanco);
+    font-size: 1.6rem;
+    font-family: var(--fontTexto);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+.cardHtml {
+    width: 75rem;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.cardHtmlInside {
+    width: 100%;
+    float: none;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 0;
+}
+
+/* Card Technologias */
+.cardHtml2 {
+    width: 55rem;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.cardHtmlInside2 {
+    width: 15rem;
+    height: 15rem;
+    float: none;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+/* Botones Prev y Next */
+.buttonCapitulos {
+    margin: 10px;
+    margin-top: 25px;
+    background-color: var(--rojo);
+}
+
+.buttonPrev {
+    margin: 20px;
+    width: 55px;
+    height: 35em;
+    float: left;
+    background-color: var(--rojo);
+}
+
+.buttonNext {
+    margin: 20px;
+    width: 55px;
+    height: 35em;
+    float: right;
+    background-color: var(--rojo);
+}
+
+.tabs {
+    background-color: var(--blanco);
+    min-height: 75px;
+}
+
+.homeFeatures {
+    padding: 60px 20px 30px 190px;
+}
+
+
+/* Responsive */
+@media (max-width: 600px){
+.divBody {
+        margin: 230px 0px 10px 190px;
+        width: 500px;
+    }
+.homeFeatures {
+        width: 10px;
+        height: 10px;
+        visibility: hidden;
+    }
+.divBody {
+        margin-top: 0;
+    }
+}
