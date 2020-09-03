@@ -18,38 +18,38 @@ section .slide {
 	transition: 0.5s ease-in-out;
 }
 section .slide:nth-child(1) {
-	background: url(../../styles/img/htmlpic.jpg);
+	background: url(../../styles/img/homeFeaturesPics/htmlpic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(2) {
-	background: url(../../styles/img/csspic.jpg);
+	background: url(../../styles/img/homeFeaturesPics/csspic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(3) {
-	background: url(../../styles/img/javascriptpic.jpg);
+	background: url(../../styles/img/homeFeaturesPics/javascriptpic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(4) {
-	background: url(../../styles/img/jquerypic.jpg);
+	background: url(../../styles/img/homeFeaturesPics/jquerypic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(5) {
-	background: url(../../styles/img/bootstrappic.jpg);
+	background: url(../../styles/img/homeFeaturesPics/bootstrappic.jpg);
 	width: 100%;
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(6) {
-	background: url(../../styles/img/reactpic.jpg);
+	background: url(../../styles/img/homeFeaturesPics/reactpic.jpg);
 	width: 100%;
 	background-position: center center;
 	background-size: 60rem;

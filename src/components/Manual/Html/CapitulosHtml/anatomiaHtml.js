@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
-import element from '../../../../styles/img/element.png';
-import InspectorDeGoogle from '../../../../styles/img/InspectorDeGoogle.jpg';
+import element from '../../../../styles/img/capitulosPics/element.png';
+import InspectorDeGoogle from '../../../../styles/img/capitulosPics/InspectorDeGoogle.jpg';
 
 class AnatomiaHtml extends Component {
 	render() {

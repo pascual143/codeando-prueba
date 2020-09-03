@@ -2,11 +2,12 @@ import React, { Fragment, Component } from 'react';
 
 import '../../../styles/css/styles.css';
 // Capitulos
-import QueEsHtml from './CapitulosHtml/queEsHtml.js';
-import AnatomiaHtml from './CapitulosHtml/anatomiaHtml.js';
+import QueEsHtml from './CapitulosHtml/queEsHtml';
+import AnatomiaHtml from './CapitulosHtml/anatomiaHtml';
 import NormasStandar from './CapitulosHtml/normasStandard3';
-// import RecursosHtml from './CapitulosHtml/Recursos/recursosHtml.js';
-// import EjerciciosHtml from './CapitulosHtml/Ejercicios/ejerciciosHtml.js';
+import EtiquetaHtml from './CapitulosHtml/etiquetaHtml';
+import EstructuraHtml from './CapitulosHtml/estructuraHtml';
+
 import HomeFeatures from '../../Home/HomeFeatures.js';
 
 // bootstrap
@@ -115,8 +116,8 @@ export default class IntroHtml extends Component {
 							<Button className="buttonNext float-right" onClick={this.next}>
 								Next
 							</Button>
-							<Card className="cardHtmlInside" style={{ width: '86%' }}>
-								<h3>4</h3>
+							<Card className="cardHtmlInside">
+								<EtiquetaHtml />
 							</Card>
 						</div>
 						<div className="divBody2">
@@ -126,9 +127,10 @@ export default class IntroHtml extends Component {
 							<Button className="buttonNext float-right" onClick={this.next}>
 								Next
 							</Button>
-							<Card className="cardHtmlInside" style={{ width: '86%' }}>
-								<h3>5</h3>
+							<Card className="cardHtmlInside">
+								<EstructuraHtml />
 							</Card>
+														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>

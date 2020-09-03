@@ -1,6 +1,6 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
-import htmlStructure from '../../../../styles/img/htmlStructure.jpg'
+import htmlStructure from '../../../../styles/img/capitulosPics/htmlStructure.jpg'
 
 class queEsHtml extends Component {
 	render() {
