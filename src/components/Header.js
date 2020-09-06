@@ -9,7 +9,7 @@ export default class Header extends Component {
 					<Helmet>
 						<meta charSet="utf-8" />
 						<title>Codeando</title>
-						<title>About</title>
+						<title>Aprender a programar con codeando</title>
 					</Helmet>
 				</div>
                 <div>
@@ -30,7 +30,7 @@ export default class Header extends Component {
 									<img className="logo-inverse" src="images/ct_logo.svg" alt="logo" />
 								</a>
 							</div>
-							<div className="top-category">
+							{/* <div className="top-category">
 								<div className="ui compact menu cate-dpdwn">
 									<div className="ui simple dropdown item">
 										<a href="/" className="option_links p-0" title="categories">
@@ -58,7 +58,7 @@ export default class Header extends Component {
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> */}
 							<div className="search120">
 								<div className="ui search">
 									<div className="ui left icon input swdh10">

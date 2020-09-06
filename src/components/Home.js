@@ -22,7 +22,7 @@ export default class Home extends Component {
 								<div className="container-fluid">
 									<div className="row">
 										<div className="col-xl-9 col-lg-8">
-											<div style={{margin: "20px"}}>
+											<div>
 												<HomeFeatures />
 											</div>
 											<div className="section3125 mt-50">

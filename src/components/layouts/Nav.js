@@ -2,9 +2,9 @@ import React, { Component, Fragment } from 'react'
 import {Link} from 'react-router-dom';
 import Helmet from 'react-helmet';
 
-import Categorias from './Categorias';
+import Videos from './Videos';
 import Manual from './Manual';
-// import IntroHtml from '../Manual/Html/Html.js';
+import CheapSheet from './CheapSheet';
 
 export default class Nav extends Component {
     render() {
@@ -42,7 +42,8 @@ export default class Nav extends Component {
 											</a>
 										</li> */}
 										<Link to={"/Manual"}><Manual href="Manual"/></Link>
-										<Link to={"/Categorias"}><Categorias /></Link>
+										<Link to={"/Videos"}><Videos /></Link>
+										<Link to={"/CheapSheet"}><CheapSheet /></Link>
 
 										{/* <li className="menu--item">
 											<a href="saved_courses.html" className="menu--link" title="Saved Courses">
@@ -240,11 +241,6 @@ export default class Nav extends Component {
 											<a href="terms_of_use.html">Terms</a>
 										</li>
 									</ul>
-									<div className="left_footer_content">
-										<p>
-											© 2020 <strong>Cursus</strong>. All Rights Reserved.
-										</p>
-									</div>
 								</div>
 							</div>
 						</nav>

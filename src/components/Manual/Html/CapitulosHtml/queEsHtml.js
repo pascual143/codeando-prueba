@@ -18,13 +18,13 @@ class queEsHtml extends Component {
 					<div>
 						<h1 className="h1__tituloCapitulos">Que es Html?</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML es el esqueleto de todas las páginas
-							web. A menudo es el primer idioma que aprenden los especialistas en marketing y diseñadores
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML es el esqueleto de todas las páginas
+							web. A menudo es el primer idioma que aprenden los especialistas en marketing y diseñadores,
 							y es fundamental para el trabajo de desarrollo front-end.
 						</p>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aprender HTML es el primer paso para crear
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aprender HTML es el primer paso para crear
 							sitios web. Puedes ayudarte a crear código en blogs o plantillas de sitios web. A medida que
 							continues aprendiendo, puedes superponer HTML con CSS y JavaScript para crear sitios web
 							visualmente atractivos y dinámicos. Pero por ahora, nos centraremos en cómo agregar y
@@ -32,7 +32,7 @@ class queEsHtml extends Component {
 						</p>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML o Lenguaje de Marcado de Hipertexto,
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML o Lenguaje de Marcado de Hipertexto,
 							utiliza un sistema de marcado, compuesto de elementos que representan contenido. El marcado
 							significa que con HTML declaras lo que se presenta a un espectador, pero no cómo se
 							presenta. Las representaciones visuales se definen mediante hojas de estilo en cascada (CSS)
@@ -40,7 +40,7 @@ class queEsHtml extends Component {
 						</p>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML a veces se llama un lenguaje de
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HTML a veces se llama un lenguaje de
 							programación pero no tiene lógica, por lo que es un lenguaje de marcado.{' '}
 						</p>
 						<br />						

@@ -8,7 +8,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Manual from './components/layouts/Manual.js';
-import Categorias from './components/layouts/Categorias.js';
+import Videos from './components/layouts/Videos.js';
 import Nav from './components/layouts/Nav.js';
 import Explora from './components/layouts/Explora.js';
 import Header from './components/Header';
@@ -26,7 +26,7 @@ function App() {
         <Nav />
         <Route exact path="/" component={Home} />
         <Route path="/Manual" component={Manual} />
-        <Route path="/Categorias" component={Categorias} />
+        <Route path="/Videos" component={Videos} />
         <Route path="/About" component={About} />
         <Route path="/Explora" component={Explora} />
         <Route path="/IntroHtml" component={IntroHtml} />

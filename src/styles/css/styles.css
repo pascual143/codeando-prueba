@@ -20,7 +20,11 @@ h1 {
 }
 
 p {
-    font-size: 18px;
+    font-size: 16px;
+    letter-spacing: 0.2rem;
+    line-height: 2rem;
+    word-spacing: 0.8rem;;
+    color: black;
 }
 
 /* Cards Capitulos */
@@ -80,16 +84,22 @@ p {
 .buttonPrev {
     margin: 20px;
     width: 55px;
-    height: 35em;
+    height: 59.5em;
+    border: none;
+    border-radius: 100px;
     float: left;
+    background-image: linear-gradient(to left, var(--rojo), var(--naranja));
     background-color: var(--rojo);
 }
 
 .buttonNext {
     margin: 20px;
     width: 55px;
-    height: 35em;
+    height: 59.5em;
+    border: none;
+    border-radius: 100px;
     float: right;
+    background-image: linear-gradient(to right, var(--rojo), var(--naranja));
     background-color: var(--rojo);
 }
 
@@ -99,14 +109,13 @@ p {
 }
 
 .homeFeatures {
-    padding: 60px 20px 30px 190px;
+    padding: 60px 20px 30px 140px;
 }
-
 
 /* Responsive */
 @media (max-width: 600px){
 .divBody {
-        margin: 230px 0px 10px 190px;
+        margin: 230px 20px 10px 190px;
         width: 500px;
     }
 .homeFeatures {

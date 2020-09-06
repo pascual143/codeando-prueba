@@ -5,8 +5,15 @@ import '../../../styles/css/styles.css';
 import QueEsHtml from './CapitulosHtml/queEsHtml';
 import AnatomiaHtml from './CapitulosHtml/anatomiaHtml';
 import NormasStandar from './CapitulosHtml/normasStandard3';
-import EtiquetaHtml from './CapitulosHtml/etiquetaHtml';
-import EstructuraHtml from './CapitulosHtml/estructuraHtml';
+import EtiquetaHtml from './CapitulosHtml/etiquetaHtml4';
+import EstructuraHtml from './CapitulosHtml/estructuraHtml5';
+import Divs from './CapitulosHtml/divs6';
+import Head from './CapitulosHtml/head7';
+import Title from './CapitulosHtml/title8';
+import Headings from  './CapitulosHtml/headings9';
+import Atributos from  './CapitulosHtml/atributos10';
+import Texto from './CapitulosHtml/texto11';
+
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
 
@@ -49,7 +56,7 @@ export default class IntroHtml extends Component {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			appendDots: (dots) => {
-				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={20} />;
+				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={30} />;
 			}
 		};
 
@@ -72,7 +79,7 @@ export default class IntroHtml extends Component {
 						ref={(c) => (this.slider = c)}
 						{...settings}
 						className="z-depth-5"
-						style={{ margin: '30px' }}
+						style={{ margin: '30px', marginTop: "-150px" }}
 					>
 						<div>
 							<div className="divBody2" style={{}}>
@@ -129,6 +136,113 @@ export default class IntroHtml extends Component {
 							</Button>
 							<Card className="cardHtmlInside">
 								<EstructuraHtml />
+							</Card>														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Divs />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Head />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Title />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Headings />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Atributos />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Texto />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<EstructuraHtml />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<EstructuraHtml />
+							</Card>
+														
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<EstructuraHtml />
 							</Card>
 														
 						</div>
@@ -143,6 +257,7 @@ export default class IntroHtml extends Component {
 								<h3>6</h3>
 							</Card>
 						</div>
+						
 					</Slider>
 					{/* <div style={{ textAlign: 'center', marginTop: '25px' }}>
 						<Button className="buttonCapitulos" onClick={this.previous}>

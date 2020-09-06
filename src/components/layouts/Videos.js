@@ -8,7 +8,7 @@ import Html from '../Manual/Html/Html.js';
 // const options = [ 'Cursos', 'Html', 'Css', 'JavaScript', 'jQuery', 'Bootstrap', 'React' ];
 // const defaultOption = options[0];
 
-export default class Categorias extends Component {
+export default class Videos extends Component {
 	constructor() {
 		super();
 
@@ -43,7 +43,7 @@ export default class Categorias extends Component {
 					<Helmet>
 						<meta charSet="utf-8" />
 						<title>Codeando</title>
-						<title>Categorias Menu Navegacion</title>
+						<title>Videos Menu Navegacion</title>
 					</Helmet>
 				</div>
 				<div className="">
@@ -80,15 +80,3 @@ export default class Categorias extends Component {
 		);
 	}
 }
-
-// <div className="uil uil-layers menu--icon"/>
-
-// <Dropdown
-// 	options={options}
-// 	onChange={this._onSelect}
-// 	value={defaultOption}
-// 	placeholder="Categorias"
-// 	className=""
-// />
-
-// <div>
