@@ -21,7 +21,7 @@ import Imagenes from './CapitulosHtml/imagenes16';
 import Videos from './CapitulosHtml/videos17';
 import AnclasHyperlinks from './CapitulosHtml/anclasHyperlinks19';
 import EnlacePagina from './CapitulosHtml/enlacePagina20';
-
+import EnlaceOtra from './CapitulosHtml/enlaceOtra21';
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
 
@@ -91,216 +91,226 @@ export default class IntroHtml extends Component {
 					>
 						<div>
 							<div className="divBody2" style={{}}>
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
 								<Card className="cardHtmlInside">
-									<Button className="buttonPrev float-left" onClick={this.previous}>
-										<span>Prev</span>
-									</Button>
-									<Button className="buttonNext float-right" onClick={this.next}>
-										<span>Next</span>
-									</Button>
 									<QueEsHtml />
 								</Card>
 							</div>
 						</div>
-						<div className="divBody2">
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<AnatomiaHtml />
+								</Card>
+							</div>
+							<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<AnatomiaHtml />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<NormasStandar />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<EtiquetaHtml />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<EstructuraHtml />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Divs />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Head />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Title />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Headings />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Atributos />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Texto />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<EstilosTexto />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<SaltosLinea />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<ListasNoOrdenadas />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<ListasOrdenadas />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Imagenes />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<Videos />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<AnclasHyperlinks />
-							</Card>
-						</div>
-						<div className="divBody2">
-							<Button className="buttonPrev float-left" onClick={this.previous}>
-								Prev
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button>
-							<Card className="cardHtmlInside">
-								<EnlacePagina />
-							</Card>
-						</div>
-						
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<NormasStandar />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EtiquetaHtml />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EstructuraHtml />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Divs />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Head />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Title />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Headings />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Atributos />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Texto />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EstilosTexto />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<SaltosLinea />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<ListasNoOrdenadas />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<ListasOrdenadas />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Imagenes />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Videos />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<AnclasHyperlinks />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EnlacePagina />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EnlaceOtra />
+								</Card>
+							</div>
 					</Slider>
 					{/* <div style={{ textAlign: 'center', marginTop: '25px' }}>
 						<Button className="buttonCapitulos" onClick={this.previous}>

@@ -46,7 +46,7 @@ class AnclasHyperlinks extends Component {
 						</div>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hay una serie de atributos que se pueden anadir a los
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hay una serie de atributos que se pueden añadir a los
 							links son:
 						</p>
 						<br />
@@ -90,7 +90,7 @@ class AnclasHyperlinks extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Especifica información adicional sobre un
 							enlace. La información se muestra con mayor frecuencia como texto de información sobre
 							herramientas cuando el cursor se mueve sobre el enlace. Este atributo no está restringido a
-							enlaces, se puede usar en casi todas las etiquetas HTML
+							enlaces, se puede usar en casi todas las etiquetas HTML.
 						</p>
 						<h2 className="h2__tituloCapitulos">&nbsp;&nbsp;&nbsp;Download</h2>
 						<p>
@@ -102,7 +102,7 @@ class AnclasHyperlinks extends Component {
 						</p>
                         <br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explicarems mas adelante.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Explicaremos más adelante.
 						</p>
 					</div>
 				</div>
