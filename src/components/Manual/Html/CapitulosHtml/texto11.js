@@ -18,18 +18,22 @@ class Texto extends Component {
 					<div>
 						<h1 className="h1__tituloCapitulos">Mostrando Texto</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si desea mostrar texto en HTML, puede usar un párrafo o un span:
-						</p>						
-						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Los párrafos (<code>&lt;p&gt;</code>) contienen un bloque de texto plano.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si desea mostrar texto en HTML, puede usar un párrafo o
+							un span:
 						</p>
-                        <p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <code>&lt;span&gt;</code> contiene fragmentos cortos de texto u otro HTML. 
-                        Se usan para separar pequeñas piezas de contenido que están en la misma línea que otro contenido.
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Los párrafos (<code>&lt;p&gt;</code>)
+							contienen un bloque de texto plano.
+						</p>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• <code>&lt;span&gt;</code> contiene
+							fragmentos cortos de texto u otro HTML. Se usan para separar pequeñas piezas de contenido
+							que están en la misma línea que otro contenido.
 						</p>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eche un vistazo a cada uno de estos elementos en acción a continuación:
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Eche un vistazo a cada uno de estos elementos en acción
+							a continuación:
 						</p>
 						<br />
 						<div style={{ margin: 'auto', width: '50%' }}>
@@ -42,13 +46,19 @@ class Texto extends Component {
 								src={texto11}
 							/>
 						</div>
-                        <br />
+						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el ejemplo anterior, hay dos <code>&lt;div&gt;</code> diferentes. El segundo <code>&lt;div&gt;</code> contiene un <code>&lt;p&gt;</code> con <code>&lt;span&gt;</code> Vehículos sin conductor <code>&lt;span&gt;</code>. Este elemento <code>&lt;span&gt;</code> separa los "automóviles autónomos" del resto del texto en el párrafo.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el ejemplo anterior, hay dos <code>&lt;div&gt;</code>{' '}
+							diferentes. El segundo <code>&lt;div&gt;</code> contiene un <code>&lt;p&gt;</code> con{' '}
+							<code>&lt;span&gt;</code> Vehículos sin conductor <code>&lt;span&gt;</code>. Este elemento{' '}
+							<code>&lt;span&gt;</code> separa los "automóviles autónomos" del resto del texto en el
+							párrafo.
 						</p>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es mejor usar un elemento <code>&lt;span&gt;</code> cuando desee orientar un contenido específico que esté en línea o en la misma línea que otro texto. Si desea dividir su contenido en bloques, es mejor usar un <code>&lt;div&gt;</code>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es mejor usar un elemento <code>&lt;span&gt;</code>{' '}
+							cuando desee orientar un contenido específico que esté en línea o en la misma línea que otro
+							texto. Si desea dividir su contenido en bloques, es mejor usar un <code>&lt;div&gt;</code>
 						</p>
 					</div>
 				</div>

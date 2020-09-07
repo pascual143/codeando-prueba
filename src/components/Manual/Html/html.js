@@ -10,9 +10,17 @@ import EstructuraHtml from './CapitulosHtml/estructuraHtml5';
 import Divs from './CapitulosHtml/divs6';
 import Head from './CapitulosHtml/head7';
 import Title from './CapitulosHtml/title8';
-import Headings from  './CapitulosHtml/headings9';
-import Atributos from  './CapitulosHtml/atributos10';
+import Headings from './CapitulosHtml/headings9';
+import Atributos from './CapitulosHtml/atributos10';
 import Texto from './CapitulosHtml/texto11';
+import EstilosTexto from './CapitulosHtml/estilosTexto12';
+import SaltosLinea from './CapitulosHtml/saltosLinea13';
+import ListasNoOrdenadas from './CapitulosHtml/listasNoOrdenadas14';
+import ListasOrdenadas from './CapitulosHtml/listasOrdenadas15';
+import Imagenes from './CapitulosHtml/imagenes16';
+import Videos from './CapitulosHtml/videos17';
+import AnclasHyperlinks from './CapitulosHtml/anclasHyperlinks19';
+import EnlacePagina from './CapitulosHtml/enlacePagina20';
 
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
@@ -63,7 +71,7 @@ export default class IntroHtml extends Component {
 		return (
 			<Fragment>
 				<div className="homeFeatures">
-				<HomeFeatures />
+					<HomeFeatures />
 				</div>
 				<div className="divBody">
 					{/* <div style={{ textAlign: 'center' }}>
@@ -79,7 +87,7 @@ export default class IntroHtml extends Component {
 						ref={(c) => (this.slider = c)}
 						{...settings}
 						className="z-depth-5"
-						style={{ margin: '30px', marginTop: "-150px" }}
+						style={{ margin: '30px', marginTop: '-150px' }}
 					>
 						<div>
 							<div className="divBody2" style={{}}>
@@ -136,7 +144,7 @@ export default class IntroHtml extends Component {
 							</Button>
 							<Card className="cardHtmlInside">
 								<EstructuraHtml />
-							</Card>														
+							</Card>
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -148,7 +156,6 @@ export default class IntroHtml extends Component {
 							<Card className="cardHtmlInside">
 								<Divs />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -160,7 +167,6 @@ export default class IntroHtml extends Component {
 							<Card className="cardHtmlInside">
 								<Head />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -172,7 +178,6 @@ export default class IntroHtml extends Component {
 							<Card className="cardHtmlInside">
 								<Title />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -184,7 +189,6 @@ export default class IntroHtml extends Component {
 							<Card className="cardHtmlInside">
 								<Headings />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -196,7 +200,6 @@ export default class IntroHtml extends Component {
 							<Card className="cardHtmlInside">
 								<Atributos />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -208,7 +211,6 @@ export default class IntroHtml extends Component {
 							<Card className="cardHtmlInside">
 								<Texto />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -218,9 +220,8 @@ export default class IntroHtml extends Component {
 								Next
 							</Button>
 							<Card className="cardHtmlInside">
-								<EstructuraHtml />
+								<EstilosTexto />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -230,9 +231,8 @@ export default class IntroHtml extends Component {
 								Next
 							</Button>
 							<Card className="cardHtmlInside">
-								<EstructuraHtml />
+								<SaltosLinea />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
@@ -242,19 +242,62 @@ export default class IntroHtml extends Component {
 								Next
 							</Button>
 							<Card className="cardHtmlInside">
-								<EstructuraHtml />
+								<ListasNoOrdenadas />
 							</Card>
-														
 						</div>
 						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
 								Prev
 							</Button>
-							{/* <Button className="buttonNext float-right" onClick={this.next}>
+							<Button className="buttonNext float-right" onClick={this.next}>
 								Next
-							</Button> */}
-							<Card className="cardHtmlInside" style={{ width: '86%' }}>
-								<h3>6</h3>
+							</Button>
+							<Card className="cardHtmlInside">
+								<ListasOrdenadas />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Imagenes />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<Videos />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<AnclasHyperlinks />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								Prev
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								Next
+							</Button>
+							<Card className="cardHtmlInside">
+								<EnlacePagina />
 							</Card>
 						</div>
 						

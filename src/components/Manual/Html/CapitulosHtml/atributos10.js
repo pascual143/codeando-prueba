@@ -46,7 +46,7 @@ class Atributos extends Component {
 						</p>
 						<div style={{ margin: 'auto', width: '50%' }}>
 							<img
-								width={550}
+								width={650}
 								height={400}
 								alt="Los atributos se utilizan para referenciar elementos para poder ser editados"
 								data-caption="Atributos dan nombre a los elementos del contenido"
