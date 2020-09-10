@@ -56,7 +56,7 @@ class EnlaceOtra extends Component {
 						<br />
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Como veis utilizo la terminologia “abrir una nueva
-							ventana”. Los nuevos navegadores ya no usan ventanas, anadieron hace tiempo el concepto
+							ventana”. Los nuevos navegadores ya no usan ventanas, añadieron hace tiempo el concepto
 							pestanas para ver mas sitos web. Con target=”_blank”, en los navegadores modernos no abre
 							una nueva ventana sino una nueva pestana.
 						</p>
