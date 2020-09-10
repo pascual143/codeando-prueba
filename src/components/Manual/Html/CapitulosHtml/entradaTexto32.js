@@ -43,7 +43,7 @@ class IntroduccionFormularios31 extends Component {
 							<img
 								className="materialboxed"
 								width="550"
-								height="200"
+								height="350"
 								alt="Introduccion a los formularios Html. Este es un codigo de ejemplo de un formulario sencillo."
 								data-caption="Introduccion a los formularios Html. Este es un codigo de ejemplo de un formulario sencillo."
 								src={entradaTexto32}
@@ -86,11 +86,11 @@ class IntroduccionFormularios31 extends Component {
 							el atributo de valor para que los usuarios tengan un campo de texto precargado cuando vean
 							por primera vez el formulario representado de esta manera:
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: 'auto', width: '70%' }}>
 							<img
 								className="materialboxed"
-								width="550"
-								height="200"
+								width="750"
+								height="150"
 								alt="Asi aparece cuando escribimos en el campo de texto"
 								data-caption="Asi aparece cuando escribimos en el campo de texto"
 								src={entradaTexto32c}

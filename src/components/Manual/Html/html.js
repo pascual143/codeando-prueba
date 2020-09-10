@@ -32,7 +32,7 @@ import CuerpoTabla28 from "./CapitulosHtml/cuerpoTabla28";
 import CabezaTabla29 from "./CapitulosHtml/cabezaTabla29";
 import FooterTabla30 from "./CapitulosHtml/footerTabla30";
 import IntroduccionFormularios31 from "./CapitulosHtml/introduccionFormularios31";
-
+import EntradaTexto32 from "./CapitulosHtml/entradaTexto32";
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
 
@@ -431,6 +431,17 @@ export default class IntroHtml extends Component {
 								</Button>
 								<Card className="cardHtmlInside">
 									<IntroduccionFormularios31 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EntradaTexto32 />
 								</Card>
 							</div>
 					</Slider>
