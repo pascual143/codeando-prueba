@@ -33,6 +33,15 @@ import CabezaTabla29 from "./CapitulosHtml/cabezaTabla29";
 import FooterTabla30 from "./CapitulosHtml/footerTabla30";
 import IntroduccionFormularios31 from "./CapitulosHtml/introduccionFormularios31";
 import EntradaTexto32 from "./CapitulosHtml/entradaTexto32";
+import EntradaContrasena34 from "./CapitulosHtml/entradaContrasena34";
+import AgregarEtiqueta33 from "./CapitulosHtml/agregarEtiqueta33";
+import EntradaNumeros35 from "./CapitulosHtml/entradaNumeros35";
+import RangoEntrada36 from './CapitulosHtml/rangoEntrada36';
+import EntradaVerificaion37 from './CapitulosHtml/entradaVerificacion37';
+import EntradaRadio38 from './CapitulosHtml/entradaRadio38';
+import ListaDesplegable39 from './CapitulosHtml/listaDesplegable39';
+import EntradaDataList40 from './CapitulosHtml/entradaDatalist40';
+import ElementoAreaTexto41 from './CapitulosHtml/elementoAreaTexto41';
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
 
@@ -76,7 +85,7 @@ export default class IntroHtml extends Component {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			appendDots: (dots) => {
-				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={30} />;
+				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={40} />
 			}
 		};
 
@@ -442,6 +451,105 @@ export default class IntroHtml extends Component {
 								</Button>
 								<Card className="cardHtmlInside">
 									<EntradaTexto32 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<AgregarEtiqueta33 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EntradaContrasena34 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EntradaNumeros35 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<RangoEntrada36 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EntradaVerificaion37 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EntradaRadio38 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<ListaDesplegable39 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EntradaDataList40 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<ElementoAreaTexto41 />
 								</Card>
 							</div>
 					</Slider>

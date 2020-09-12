@@ -21,29 +21,29 @@ class IntroduccionFormularios31 extends Component {
 						<h1 className="h1__tituloCapitulos">Entrada de Texto</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Si queremos crear un campo de entrada en un{' '}
-							<code>&lg;formulario&gt;</code>, necesitaremos la ayuda del elemento{' '}
-							<code>&lg;formulario&gt;</code>.
+							<code>&lt;formulario&gt;</code>, necesitaremos la ayuda del elemento{' '}
+							<code>&lt;formulario&gt;</code>.
 						</p>
 						<br />
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento <code>&lg;input&gt;</code> tiene un atributo
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento <code>&lt;input&gt;</code> tiene un atributo
 							de tipo que determina cómo se representa en la página web y qué tipo de datos puede aceptar.
 						</p>
 						<br />
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El primer valor para el atributo de tipo que vamos a
-							explorar es "texto". Cuando creamos un elemento <code>&lg;input&gt;</code> con type =
+							explorar es "texto". Cuando creamos un elemento <code>&lt;input&gt;</code> con type =
 							"text", genera un campo de texto en el que los usuarios pueden escribir. También es
-							importante que incluyamos un atributo de nombre para <code>&lg;input&gt;</code>: sin el
-							atributo de nombre, la información en <code>&lg;input&gt;</code> no se enviará cuando se
-							envíe el <code>&lg;formulario&gt;</code>.
+							importante que incluyamos un atributo de nombre para <code>&lt;input&gt;</code>: sin el
+							atributo de nombre, la información en <code>&lt;input&gt;</code> no se enviará cuando se
+							envíe el <code>&lt;formulario&gt;</code>.
 						</p>
 						<br />
 						<div style={{ margin: 'auto', width: '50%' }}>
 							<img
 								className="materialboxed"
 								width="550"
-								height="350"
+								height="250"
 								alt="Introduccion a los formularios Html. Este es un codigo de ejemplo de un formulario sencillo."
 								data-caption="Introduccion a los formularios Html. Este es un codigo de ejemplo de un formulario sencillo."
 								src={entradaTexto32}
@@ -55,11 +55,11 @@ class IntroduccionFormularios31 extends Component {
 							vacío:
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: 'auto', width: '70%' }}>
 							<img
 								className="materialboxed"
-								width="550"
-								height="200"
+								width="700"
+								height="150"
 								alt="Asi aparece cuando escribimos en el campo de texto"
 								data-caption="Asi aparece cuando escribimos en el campo de texto"
 								src={entradaTexto32b}
@@ -68,11 +68,11 @@ class IntroduccionFormularios31 extends Component {
 						<br />
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Después de que los usuarios escriban en el elemento{' '}
-							<code>&lg;input&gt;</code>, el valor del atributo value se convierte en lo que se escribe en
+							<code>&lt;input&gt;</code>, el valor del atributo value se convierte en lo que se escribe en
 							el campo de texto. El valor del atributo de valor se combina con el valor del atributo de
 							nombre y se envía como texto cuando se envía el formulario. Por ejemplo, si un usuario
 							escribió "detalles importantes" en el campo de texto creado por nuestro elemento{' '}
-							<code>&lg;input&gt;</code>.
+							<code>&lt;input&gt;</code>.
 						</p>
 						<br />
 						<p>
