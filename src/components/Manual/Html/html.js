@@ -42,6 +42,16 @@ import EntradaRadio38 from './CapitulosHtml/entradaRadio38';
 import ListaDesplegable39 from './CapitulosHtml/listaDesplegable39';
 import EntradaDataList40 from './CapitulosHtml/entradaDatalist40';
 import ElementoAreaTexto41 from './CapitulosHtml/elementoAreaTexto41';
+import ValidacionFormularios42 from './CapitulosHtml/validaciónFormularios42';
+import RequerirEntrada43 from './CapitulosHtml/requerirEntrada43';
+import EstablecerMinMax44 from './CapitulosHtml/establecerMinMax44';
+import LongitudTexto45 from './CapitulosHtml/longitudTexto45';
+import CoincidirPatron46 from './CapitulosHtml/coincidirPatron46';
+import SemanticoHtml47 from './CapitulosHtml/semanticoHtml47';
+import MainYPiePagina48 from './CapitulosHtml/mainYPiePagina48';
+import ArticuloYSeccion49 from './CapitulosHtml/articuloYSeccion49';
+import Aside50 from './CapitulosHtml/aside50';
+import FigureFigcaption51 from './CapitulosHtml/figureFigcaption51';
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
 
@@ -550,6 +560,116 @@ export default class IntroHtml extends Component {
 								</Button>
 								<Card className="cardHtmlInside">
 									<ElementoAreaTexto41 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<ValidacionFormularios42 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<RequerirEntrada43 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<EstablecerMinMax44 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<LongitudTexto45 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<CoincidirPatron46 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<SemanticoHtml47 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<MainYPiePagina48 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<ArticuloYSeccion49 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<Aside50 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+								</Button>
+								<Card className="cardHtmlInside">
+									<FigureFigcaption51 />
 								</Card>
 							</div>
 					</Slider>

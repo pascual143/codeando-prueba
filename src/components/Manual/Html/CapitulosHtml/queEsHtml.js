@@ -47,6 +47,14 @@ class queEsHtml extends Component {
 						<div style={{margin: "auto", width: "50%"}}>
 							<img width={400} height={300} alt="La estructura basica en html consta de elementos divisores" data-caption="La estructura basica en html consta de elementos divisores" src={htmlStructure} />
 						</div>
+						<div>
+							<iframe 
+								title="prueba"
+								width="420" 
+								height="315"
+								src="https://www.youtube.com/embed/tgbNymZ7vqY">
+							</iframe>
+						</div>
 					</div>
 				</div>
 			</Fragment>
