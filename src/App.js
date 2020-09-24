@@ -4,7 +4,7 @@ import './styles/css/App.css';
 //Routing
 import { BrowserRouter as Router, Route } from 'react-router-dom'; 
 
-//components
+//Components Manual 
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Manual from './components/layouts/Manual.js';
@@ -16,7 +16,8 @@ import Footer from './components/layouts/Footer'
 // import HomeFeatures from './components/Home/HomeFeatures.js';
 import IntroHtml from './components/Manual/Html/Html';
 
-// import IntroHtml from './components/Manual/Html/Html.js'
+// Components CheapSheet
+import RefHtml from './components/CheapSheet/refHtml';
 
 function App() {
   return (
@@ -29,8 +30,10 @@ function App() {
         <Route path="/Videos" component={Videos} />
         <Route path="/About" component={About} />
         <Route path="/Explora" component={Explora} />
+        {/* Routes Manual */}
         <Route path="/IntroHtml" component={IntroHtml} />
-        {/* <Route path="" component={IntroHtml}/> */}
+        {/* Routes CheapSheet */}
+        <Route path="/RefHtml" component={RefHtml} />
         <Footer />
       </Fragment>
 

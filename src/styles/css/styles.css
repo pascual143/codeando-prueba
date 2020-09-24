@@ -132,3 +132,38 @@ p {
         margin-top: 0;
     }
 }
+
+/* CheatSheet */
+/* RefHtml */
+.refHtml__body {
+    margin-left: 190px;
+    background-color: var(--blanco);
+    /* margin-top: 100px; */
+}
+
+._1frstcate {
+    width: 100%;
+    margin: 30px;
+}
+
+.cate_option li:last-child {
+    padding-bottom: 0;
+}
+
+.cate_option li {
+    padding-bottom: 10px;
+    display: block;
+}
+
+.cate_option li a {
+    font-size: 14px;
+    color: #686f7a;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 400;
+}
+
+.refTitles__h1 {
+    color: var(--rojo);
+    margin: 10px;
+}
