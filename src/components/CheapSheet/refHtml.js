@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import '../../styles/css/styles.css';
 
@@ -27,14 +28,14 @@ export default class RefHtml extends Component {
 										<div className="col-lg-3 col-md-4">
 											<h4>Empezando con Html</h4>
 											<ul className="cate_option">
-												<li><a href='/RefDoctype'><code>&lt;DOCTYPE!&gt;</code></a></li>
-												<li><a href="/"><code>&lt;html&gt;</code></a></li>
-												<li><a href="/"><code>&lt;head&gt;</code></a></li>
-												<li><a href="/"><code>&lt;meta&gt;</code></a></li>
-												<li><a href="/"><code>&lt;title&gt;</code></a></li>
-												<li><a href="/"><code>&lt;body&gt;</code></a></li>
-												<li><a href="/"><code>&lt;h1&gt;</code></a></li>
-												<li><a href="/"><code>&lt;p&gt;</code></a></li>
+												<li><Link to='/CheapSheet/Doctype'><code>&lt;DOCTYPE!&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/Html"><code>&lt;html&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/Head"><code>&lt;head&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/Meta"><code>&lt;meta&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/Title"><code>&lt;title&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/Body"><code>&lt;body&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/h1"><code>&lt;h1&gt;</code></Link></li>
+												<li><Link to="/CheapSheet/p"><code>&lt;p&gt;</code></Link></li>
 											</ul>
 										</div>
                                         <div className="col-lg-3 col-md-4">

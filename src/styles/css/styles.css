@@ -138,6 +138,8 @@ p {
 .refHtml__body {
     margin-left: 190px;
     background-color: var(--blanco);
+    padding: 40px;
+    padding-top: 90px;
     /* margin-top: 100px; */
 }
 
@@ -166,4 +168,14 @@ p {
 .refTitles__h1 {
     color: var(--rojo);
     margin: 10px;
+}
+
+.refTitles__h2 {
+    color: var(--rojo);
+    margin: 30px;
+}
+
+.button__refHtml {
+    background-color: var(--rojo);
+    cursor: pointer; 
 }

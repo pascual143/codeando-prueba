@@ -6,7 +6,7 @@ import 'react-dropdown/style.css';
 import './stylesLayouts.css';
 
 
-export default class Manual extends Component {
+export default class CheapSheet extends Component {
 	constructor() {
 		super();
 
@@ -60,7 +60,7 @@ export default class Manual extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li asclassName="menu--link"><Link to={"/RefHtml"} className="menuDropdown">HTML</Link></li>
+								<li asclassName="menu--link"><Link to={"/CheapSheet"} className="menuDropdown">HTML</Link></li>
 								<li className="menu--link"><Link to={"/Css"}className="menuDropdown">CSS</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> JavaScript</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> jQuery</Link></li>

@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-import '../../styles/css/styles.css';
+import '../../../styles/css/styles.css';
 
 import doctype from '../../../styles/img/capitulosPics/doctype.jpg';
 
@@ -16,11 +17,11 @@ export default class RefDoctype extends Component {
 					</Helmet>
 				</div>
 				<div className="refHtml__body wrapper">
-					<h1>
+					<h1 className="refTitles__h2">
 						<code>&lt;DOCTYPE!&gt;</code>
 					</h1>
 					<p>Define la version usada en el documento. En este caso es HTML5</p>
-					<p />
+					<br />
 					<div style={{ margin: 'auto', width: '50%' }}>
 						<img
 							className="materialboxed"
@@ -31,6 +32,7 @@ export default class RefDoctype extends Component {
 							src={doctype}
 						/>
 					</div>
+                    <Link to='/CheapSheet'><button className="button__refHtml">Back</button></Link>
 				</div>
 			</Fragment>
 		);

@@ -18,6 +18,8 @@ import IntroHtml from './components/Manual/Html/Html';
 
 // Components CheapSheet
 import RefHtml from './components/CheapSheet/refHtml';
+import RefDoctype from './components/CheapSheet/RefHtml/refDoctype';
+import RefHtml2 from './components/CheapSheet/RefHtml/refHtml2';
 
 function App() {
   return (
@@ -26,14 +28,18 @@ function App() {
         <Header />
         <Nav />
         <Route exact path="/" component={Home} />
-        <Route path="/Manual" component={Manual} />
-        <Route path="/Videos" component={Videos} />
-        <Route path="/About" component={About} />
-        <Route path="/Explora" component={Explora} />
+        <Route exact path="/Manual" component={Manual} />
+        <Route exact path="/Videos" component={Videos} />
+        <Route exact path="/About" component={About} />
+        <Route exact path="/Explora" component={Explora} />
         {/* Routes Manual */}
-        <Route path="/IntroHtml" component={IntroHtml} />
+        <Route exact path="/IntroHtml" component={IntroHtml} />
         {/* Routes CheapSheet */}
-        <Route path="/RefHtml" component={RefHtml} />
+        <Route exact path="/CheapSheet" component={RefHtml} />
+        <Route path="/CheapSheet/Doctype" component={RefDoctype} />
+        <Route path="/CheapSheet/html" component={RefHtml2} />
+
+
         <Footer />
       </Fragment>
 
