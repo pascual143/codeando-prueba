@@ -1,9 +1,14 @@
 import React, { Fragment, Component } from 'react';
-import './../styles.css';
+import './styles.css';
 
 // Capitulos
 import QueEsCss from './CapitulosCss/queEsCss';
 // import AnatomiaHtml from './CapitulosHtml/anatomiaHtml.js';
+
+
+
+import HomeFeatures from '../../Home/HomeFeatures.js';
+
 
 // bootstrap
 import Card from 'react-bootstrap/Card';
@@ -55,36 +60,40 @@ export default class IntroCss extends Component {
 		// }
 		return (
 			<Fragment>
+				<div className="homeFeatures">
+					<HomeFeatures />
+				</div>
 				<div className="divBody">
-					<div style={{ textAlign: 'center' }}>
+					{/* <div style={{ textAlign: 'center' }}>
 						<Button className="buttonCapitulos" onClick={this.previous}>
 							Previous
 						</Button>
 						<Button className="buttonCapitulos" onClick={this.next}>
 							Next
 						</Button>
-					</div>
+					</div> */}
 
 					<Slider
 						ref={(c) => (this.slider = c)}
 						{...settings}
-						className="cardHtml z-depth-5" style={{margin: '30px'}}
-					>
+						className="z-depth-5" 
+						style={{ margin: '30px', marginTop: '-150px' }}
+						>
 						<div>
-							<div>
+							<div className="divBody2" style={{}}>
 								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span>Prev</span>
+									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
 								</Button>
 								<Button className="buttonNext float-right" onClick={this.next}>
-									<span>Next</span>
+									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
 								</Button>
-								<Card className="cardHtmlInside" style={{ width: '86%' }}>
+								<Card className="cardHtmlInside">
 									<QueEsCss />
 								</Card>
 							</div>
 						</div>
 						<div>
-                            <div className="divBody">
+                            <div className="divBody2">
 							    <Button className="buttonPrev float-left" onClick={this.previous}>
 							    	Previous
 							    </Button>

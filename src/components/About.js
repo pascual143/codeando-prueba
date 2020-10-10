@@ -9,6 +9,9 @@ export default class About extends Component {
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
+							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
+    						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
+							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
 							<title>About</title>
 						</Helmet>

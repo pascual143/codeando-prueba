@@ -6,13 +6,15 @@ class LongitudTexto45 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div>
+				<div className="body__Capitulos">
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
+							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
+    						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
+							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
 							<title>Comprobacion de Longitud del Texto</title>
-							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>
 					</div>
 					<div>

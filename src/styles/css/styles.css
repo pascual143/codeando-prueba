@@ -64,6 +64,9 @@ p {
     padding: 0;
 }
 
+.body__Capitulos {
+    margin: 60px;
+}
 /* Card Technologias */
 .cardHtml2 {
     width: 55rem;
@@ -87,22 +90,23 @@ p {
 }
 
 .buttonPrev {
-    margin: 20px;
-    width: 15px;
-    height: 80em;
+    /* margin: 20px; */
+    
     border: none;
     border-radius: 100px;
+    width: 20px;
+    height: 80em;
     float: left;
     background-image: linear-gradient(to left, var(--rojo), var(--naranja));
     background-color: var(--rojo);
 }
 
 .buttonNext {
-    margin: 20px;
-    width: 15px;
-    height: 80em;
+    /* margin: 20px; */
     border: none;
     border-radius: 100px;
+    width: 20px;
+    height: 80em;
     float: right;
     background-image: linear-gradient(to right, var(--rojo), var(--naranja));
     background-color: var(--rojo);
@@ -175,7 +179,11 @@ p {
     margin: 30px;
 }
 
-.button__refHtml {
-    background-color: var(--rojo);
+.buttonBack {
+    position: absolute;
+    right: 20%;
+    background-color: var(--negro);
+    color: white;
+    width: 70px;
     cursor: pointer; 
 }

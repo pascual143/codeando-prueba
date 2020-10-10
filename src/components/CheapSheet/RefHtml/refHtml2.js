@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import '../../../styles/css/styles.css';
+import ButtonBack from '../buttonBack';
 
 // import doctype from '../../../styles/img/capitulosPics/doctype.jpg';
 
@@ -35,7 +36,7 @@ export default class RefHtml2 extends Component {
 							src={doctype}
 						/>
 					</div> */}
-                    <Link to='/CheapSheet'><button className="button__refHtml">Back</button></Link>
+                    <ButtonBack />
 				</div>
 			</Fragment>
 		);

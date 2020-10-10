@@ -10,6 +10,8 @@ class AgregarEtiqueta33 extends Component {
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
+							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
+    						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
 							<title>Agregar Etiqueta</title>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>

@@ -8,6 +8,9 @@ export default class Header extends Component {
                 <div>
 					<Helmet>
 						<meta charSet="utf-8" />
+						<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
+    					<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
+						{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						<title>Codeando</title>
 						<title>Aprender a programar con codeando</title>
 					</Helmet>

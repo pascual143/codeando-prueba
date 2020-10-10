@@ -42,8 +42,9 @@ export default class Nav extends Component {
 											</a>
 										</li> */}
 										<Link to={"/Manual"}><Manual href="Manual"/></Link>
-										<Link to={"/Videos"}><Videos /></Link>
 										<Link to={"/CheapSheet"}><CheapSheet /></Link>
+										<Link to={"/Videos"}><Videos /></Link>
+
 
 										{/* <li className="menu--item">
 											<a href="saved_courses.html" className="menu--link" title="Saved Courses">

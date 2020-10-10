@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Helmet from 'react-helmet';
 import '../../styles/css/styles.css';
 
-
 // refHtml Components
 // import RefDoctype from './RefHtml/refDoctype';
 
@@ -14,6 +13,8 @@ export default class RefHtml extends Component {
 				<div>
 					<Helmet>
 						<meta charSet="utf-8" />
+						<meta name="description" content="ccheapSheet para recordar todos los parametros de html" />
+						<meta name="keywords" content="Html, cheapsheet, chuleta, codeando, head, headings, body, tag, doctype, p, h1" />
 						<title>Codeando</title>
 						<title>CheapSheet</title>
 					</Helmet>

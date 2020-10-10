@@ -19,7 +19,7 @@ export default class HomeFeatures extends Component {
 							<a href="Css" className="slide">
 								<div className="content">
 									<h2>CSS</h2>
-									<p>APRENDE CSS CON NUETRO CON CURSO Y CON NUESTRO MANUAL .</p>
+									<p>APRENDE CSS CON NUETRO CON CURSO Y CON NUESTRO MANUAL.</p>
 								</div>
 							</a>
 							<a href="/" className="slide">

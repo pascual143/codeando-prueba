@@ -60,7 +60,7 @@ export default class CheapSheet extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li asclassName="menu--link"><Link to={"/CheapSheet"} className="menuDropdown">HTML</Link></li>
+								<li className="menu--link"><Link to={"/CheapSheet"} className="menuDropdown">HTML</Link></li>
 								<li className="menu--link"><Link to={"/Css"}className="menuDropdown">CSS</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> JavaScript</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> jQuery</Link></li>

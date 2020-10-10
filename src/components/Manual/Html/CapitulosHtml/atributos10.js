@@ -6,13 +6,15 @@ class Atributos extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div style={{ margin: '60px' }}>
+				<div className="body__Capitulos">
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
+							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
+    						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
+							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Duddle</title>
 							<title>Atributos (id y classes)</title>
-							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>
 					</div>
 					<div>
