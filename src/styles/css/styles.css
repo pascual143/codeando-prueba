@@ -38,7 +38,7 @@ p {
     font-size: 1.6rem;
     font-family: var(--fontTexto);
     height: 100%;
-    margin: 210px 0px 10px 190px;
+    padding: 150px 30px 30px 210px;
 };
 
 .divBody2 {
@@ -50,7 +50,7 @@ p {
     padding: 0;
 }
 .cardHtml {
-    width: 75rem;
+    width: 45rem;
     float: none;
     margin: 0 auto;
     padding: 0;
@@ -60,12 +60,19 @@ p {
     width: 100%;
     float: none;
     margin: 0 auto;
-    margin-top: 0;
+    margin-top: 150px;
+    /* margin-right: 250px !important; */
     padding: 0;
 }
 
 .body__Capitulos {
-    margin: 60px;
+    margin-left: 150px;
+    padding: 60px;     
+}
+
+.body__Capitulos_2 {
+    width: 100% !important;
+    padding-right: 150px !important;
 }
 /* Card Technologias */
 .cardHtml2 {
@@ -90,23 +97,22 @@ p {
 }
 
 .buttonPrev {
-    /* margin: 20px; */
-    
+    margin: 20px;
     border: none;
     border-radius: 100px;
-    width: 20px;
-    height: 80em;
+    width: 20px !important;
+    height: 100em !important;
     float: left;
     background-image: linear-gradient(to left, var(--rojo), var(--naranja));
     background-color: var(--rojo);
 }
 
 .buttonNext {
-    /* margin: 20px; */
+    margin: 20px;
     border: none;
     border-radius: 100px;
-    width: 20px;
-    height: 80em;
+    width: 20px !important;
+    height: 100em !important;
     float: right;
     background-image: linear-gradient(to right, var(--rojo), var(--naranja));
     background-color: var(--rojo);
@@ -124,16 +130,13 @@ p {
 /* Responsive */
 @media (max-width: 600px){
 .divBody {
-        margin: 230px 20px 10px 190px;
+        margin: 150px 20px 10px 190px;
         width: 500px;
     }
 .homeFeatures {
         width: 10px;
         height: 10px;
         visibility: hidden;
-    }
-.divBody {
-        margin-top: 0;
     }
 }
 
@@ -186,4 +189,15 @@ p {
     color: white;
     width: 70px;
     cursor: pointer; 
+}
+
+/* <-------------- top nav  ---------------> */
+
+ .topNav__Home {
+     width: 100px;
+     background-color: blanchedalmond;
+ }
+
+ .topNav__Tutorial {
+    background-color: blanchedalmond !important;
 }

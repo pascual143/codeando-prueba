@@ -1,5 +1,12 @@
 import React, { Component, Fragment } from 'react';
 import Helmet from 'react-helmet';
+import {Link} from 'react-router-dom';
+
+import Videos from './layouts/Videos';
+import Tutorial from './layouts/Tutorial';
+import CheapSheet from './layouts/CheapSheet';
+import Services from './layouts/Services';
+// import MenuTutorialHtml from './MenusTutorial/Html/menuTutorialHtml';
 
 export default class Header extends Component {
     render() {
@@ -18,13 +25,13 @@ export default class Header extends Component {
                 <div>
                     {/* <!-- Header Start --> */}
 						<header className="header clearfix">
-							<button type="button" id="toggleMenu" className="toggle_menu">
+							{/* <button type="button" id="toggleMenu" className="toggle_menu">
 								<i className="uil uil-bars" />
 							</button>
 							<button id="collapse_menu" className="collapse_menu">
 								<i className="uil uil-bars collapse_menu--icon " />
 								<span className="collapse_menu--label" />
-							</button>
+							</button> */}
 							<div className="main_logo" id="logo">
 								<a href="/">
 									<img src="images/logo.svg" alt="logo" />
@@ -33,36 +40,25 @@ export default class Header extends Component {
 									<img className="logo-inverse" src="images/ct_logo.svg" alt="logo" />
 								</a>
 							</div>
-							{/* <div className="top-category">
-								<div className="ui compact menu cate-dpdwn">
-									<div className="ui simple dropdown item">
-										<a href="/" className="option_links p-0" title="categories">
-											<i className="uil uil-apps" />
-										</a>
-										<div className="menu dropdown_category5">
-											<a href="/" className="item channel_item">
-												Html
-											</a>
-											<a href="/" className="item channel_item">
-												Css
-											</a>
-											<a href="/" className="item channel_item">
-												JavaScript
-											</a>
-											<a href="/" className="item channel_item">
-												Jquery
-											</a>
-											<a href="/" className="item channel_item">
-												Bootstrap
-											</a>
-											<a href="/" className="item channel_item">
-												React
-											</a>
-										</div>
-									</div>
+								<div className="topNav__Home">
+									<a href="/" className="menu--link active" title="Home">
+										<i className="uil uil-home-alt menu--icon" />
+										<span className="menu--label">Home</span>
+									</a>
 								</div>
-							</div> */}
-							<div className="search120">
+								<div className="topNav__Tutorial">
+									<Link to={"/Tutorial"}><Tutorial href="Tutorial" to={"/menuTurorialHtml"}/></Link>
+								</div>
+								<div className="topNav__CheapSheet">
+									<Link to={"/CheapSheet"}><CheapSheet href="CheapSheet" to={"/menuTurorialCss"}/></Link>
+								</div>
+								<div className="topNav__Videos">
+									<Link to={"/Videos"}><Videos /></Link>
+								</div>
+								<div className="topNav__Videos">
+									<Link to={"/Services"}><Services /></Link>
+								</div>
+							{/* <div className="search120">
 								<div className="ui search">
 									<div className="ui left icon input swdh10">
 										<input
@@ -73,7 +69,7 @@ export default class Header extends Component {
 										<i className="uil uil-search-alt icon icon1" />
 									</div>
 								</div>
-							</div>
+							</div> */}
 							
 						</header>
 						{/* <!-- Header End --> */}

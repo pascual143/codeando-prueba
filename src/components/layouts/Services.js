@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // import Dropdown from 'react-dropdown';
 import Helmet from 'react-helmet';
 import 'react-dropdown/style.css';
+import './stylesLayouts.css';
+// import HomeFeatures from '../Home/HomeFeatures.js';
 
-import Html from '../Tutorial/Html/Html.js';
+// import IntroHtml from '../Manual/Html/Html.js'
 
-// const options = [ 'Cursos', 'Html', 'Css', 'JavaScript', 'jQuery', 'Bootstrap', 'React' ];
+// const options = [ 'Manual', 'Html', 'Css', 'JavaScript', 'jQuery', 'Bootstrap', 'React' ];
 // const defaultOption = options[0];
 
-export default class Videos extends Component {
+export default class Manual extends Component {
 	constructor() {
 		super();
 
@@ -43,15 +46,15 @@ export default class Videos extends Component {
 					<Helmet>
 						<meta charSet="utf-8" />
 						<title>Codeando</title>
-						<title>Videos Menu Navegacion</title>
+						<title>Categorias Menu Navegacion</title>
 					</Helmet>
 				</div>
 				<div className="">
 				<li className="menu--link fontMainButtons">
-				<i class='uil-layers menu--icon'></i>
-
-						<button className="fontMainButtons menu--item menu--item__has_sub_menu" onClick={this.showMenu}>Videos</button>
-
+				<i className='uil-clipboard-alt menu--icon'></i>
+						<Link to={"/HomeFeatures"}>
+						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}> Services</button>
+						</Link>
 						{this.state.showMenu ? (
 							<div
 							className=""
@@ -62,14 +65,11 @@ export default class Videos extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li className="menu--link"><link href={<Html />} className="menuDropdown"> HTML</link></li>
-								<li className="menu--link"><button className="menuDropdown"> CSS</button></li>
-								<li className="menu--link"><button className="menuDropdown"> JavaScript</button></li>
-								<li className="menu--link"><button className="menuDropdown"> jQuery</button></li>
-								<li className="menu--link"><button className="menuDropdown"> Bootstrap</button></li>
-								<li className="menu--link"><button className="menuDropdown"> React</button></li>
-								<li className="menu--link"><button className="menuDropdown"> Git</button></li>
-								<li className="menu--link"><button className="menuDropdown"> More...</button></li>
+								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown">Brand Identity</Link></li>
+								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown">Web Design</Link></li>
+								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown"> Web Development</Link></li>
+								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown"> Digital Marketing</Link></li>
+								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown"> Social Media</Link></li>
 							</div>
 							</div>
 
