@@ -1,11 +1,12 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class SemanticoHtml47 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -13,10 +14,17 @@ class SemanticoHtml47 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Introduccion al Html Semantico</title>
+							<title>Introduccion al Html Semantico - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Introduccion al Html Semantico</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al crear páginas web, utilizamos una combinación de HTML

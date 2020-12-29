@@ -35,7 +35,7 @@ class EstructuraHtml extends Component {
                             Se completa asi, la estructura basica de una pagina web
 						</p>
 						<br />
-                        <div style={{ margin: 'auto', width: '90%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"

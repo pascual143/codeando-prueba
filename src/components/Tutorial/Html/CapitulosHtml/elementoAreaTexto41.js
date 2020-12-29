@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import elementoAreaTexto41 from '../../../../styles/img/capitulosPics/elementoAreaTexto41.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class ElementoAreaTexto41 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class ElementoAreaTexto41 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Elementode Area de Texto</title>
+							<title>Elementode Area de Texto - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Elemento de Area de Texto</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Un elemento <code>&lt;input&gt;</code> con type = "text" crea un campo de entrada de una sola fila para que los usuarios escriban información. Sin embargo, hay casos en los que los usuarios necesitan escribir más información, como una publicación de blog. En tales casos, en lugar de usar un <code>&lt;input&gt;</code>, podríamos usar <code>&lt;textarea&gt;</code>.
@@ -26,7 +34,7 @@ class ElementoAreaTexto41 extends Component {
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento <code>&lt;textarea&gt;</code> se usa para crear un campo de texto más grande para que los usuarios escriban más texto. Podemos agregar los atributos filas y columnas para determinar la cantidad de filas y columnas para el <code>&lt;textarea&gt;</code>. Echar un vistazo:
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="600"

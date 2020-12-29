@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import headings9 from '../../../../styles/img/capitulosPics/headings9.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class Headings extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -18,8 +19,16 @@ class Headings extends Component {
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>
 					</div>
-					<div>
-						<h1 className="h1__tituloCapitulos">Encabezados o "Headings" (h1, h2, h3, h4, h5, h6)</h1>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
+						<h1 className="h1__tituloCapitulos">Encabezados o "Headings" </h1>
+						<h1 className="h1__tituloCapitulos">(h1, h2, h3, h4, h5, h6)</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los encabezados en HTML son similares
 							a los encabezados en otros tipos de medios. Por ejemplo, en los periódicos, los encabezados
@@ -45,7 +54,7 @@ class Headings extends Component {
 							programación pero no tiene lógica, por lo que es un lenguaje de marcado.{' '}
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								width={550}
 								height={400}

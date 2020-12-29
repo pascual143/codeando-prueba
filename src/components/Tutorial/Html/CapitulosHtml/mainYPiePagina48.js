@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import mainYPiePagina48 from '../../../../styles/img/capitulosPics/mainYPiePagina48.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class MainYPiePagina48 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,11 +15,18 @@ class MainYPiePagina48 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Hacer coincidir un Patron</title>
+							<title>Pie de Pagina y Principa - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
-						<h1 className="h1__tituloCapitulos">Hacer coincidir un Patron</h1>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
+						<h1 className="h1__tituloCapitulos">Pie de pagina y Principal</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dos elementos estructurales más son{' '}
 							<code>&lt;main&gt;</code> y <code>&lt;footer&gt;</code>. Estos elementos junto con{' '}
@@ -40,7 +48,7 @@ class MainYPiePagina48 extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entonces, ¿cómo se ve <code>&lt;main&gt;</code> cuando
 							se incorpora a nuestro código? Esa es una gran pregunta.
 						</p>
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '30px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

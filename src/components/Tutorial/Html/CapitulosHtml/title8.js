@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import title8 from '../../../../styles/img/capitulosPics/title8.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class Title extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class Title extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Titulo de la pagina o title</title>
+							<title>Titulo de la pagina o title. Aprende codigo con Codeando Html Css JavaScript Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">"Title" - Titulo de la pagina</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El título se ordena dentro de nuestro HEAD. Aunque no es
@@ -30,7 +38,7 @@ class Title extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es útil en los bookmarks donde salvamos
 							nuestras páginas favoritas y nos aparece el titulo que pongamos a nuestra pagina.
 						</p>
-						<div style={{ margin: 'auto', width: '70%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

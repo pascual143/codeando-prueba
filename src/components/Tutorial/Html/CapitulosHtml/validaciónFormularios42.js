@@ -1,11 +1,12 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class ValidacionFormularios42 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -13,10 +14,17 @@ class ValidacionFormularios42 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Introduccion a la Valizacion de Formularios de Html</title>
+							<title>Introduccion a la Valizacion de Formularios de Html - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Introduccion a la Valizacion de Formularios de Html</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¿Alguna vez se preguntó cómo funciona realmente una

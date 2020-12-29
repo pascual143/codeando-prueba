@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import rangoEntrada36 from '../../../../styles/img/capitulosPics/rangoEntrada36.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class RangoEntrada36 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class RangoEntrada36 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>codeando</title>
-							<title>Rango de Entrada</title>
+							<title>Rango de Entrada - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Rango de Entrada o input "rango"</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Usar un <code>&lt;</code>input type = "number"<code>&gt;</code>{' '}
@@ -37,7 +45,7 @@ class RangoEntrada36 extends Component {
 							deslizante:
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '70%' }}>
+						<div style={{ margin: '1px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="700"

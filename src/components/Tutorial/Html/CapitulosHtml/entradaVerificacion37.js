@@ -1,22 +1,30 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import entradaVerificacion37 from '../../../../styles/img/capitulosPics/entradaVerificacion37.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class EntradaVerificacion37 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
 							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
-							<title>Entrada de la casilla de Verificacion o checkbox entry</title>
+							<title>Entrada de la casilla de Verificacion o checkbox entry - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">
 							Entrada de la casilla de verificacion o casilla checkbox{' '}
 						</h1>
@@ -29,7 +37,7 @@ class EntradaVerificacion37 extends Component {
 						<br />
 						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 						<br />
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '10px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="600"

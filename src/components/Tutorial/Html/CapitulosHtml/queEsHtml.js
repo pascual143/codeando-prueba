@@ -54,7 +54,7 @@ class queEsHtml extends Component {
 							programación pero no tiene lógica, por lo que es un lenguaje de marcado.{' '}
 						</p>
 						<br />						
-						<div style={{margin: "auto", width: "50%"}}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img width={400} height={300} alt="La estructura basica en html consta de elementos divisores" data-caption="La estructura basica en html consta de elementos divisores" src={htmlStructure} />
 						</div>
 						<div>

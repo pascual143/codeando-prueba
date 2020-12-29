@@ -37,7 +37,7 @@ class NormasStandar extends Component {
 							que está utilizando HTML comenzando su documento con una declaración de tipo de documento.
 						</p>
 						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta declaración se ve así:</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="350"

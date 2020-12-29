@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import enlaceOtra21 from '../../../../styles/img/capitulosPics/enlaceOtra21.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class EnlaceOtra extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class EnlaceOtra extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Abrir enlaces en una nueva ventana</title>
+							<title>Abrir enlaces en una nueva ventana - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Abrir enlaces en una nueva ventana</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;¿Alguna vez habeis hecho clic en un enlace y habeis
@@ -39,11 +47,11 @@ class EnlaceOtra extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para que un enlace se abra en una nueva ventana, el
 							atributo de destino requiere un valor de _blank.
 						</p>
-						<div style={{ margin: 'auto', width: '65%'}}>
+						<div style={{ margin: '1px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="700"
-								height="140"
+								height="120"
 								alt="Enlaces a otra pagina web"
 								data-caption="Enlaces a otra pagina web"
 								src={enlaceOtra21}

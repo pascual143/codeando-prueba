@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import establecerMinMax44 from '../../../../styles/img/capitulosPics/establecerMinMax44.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class EstablecerMinMax44 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class EstablecerMinMax44 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Establecer un minimo y un maximo numerico</title>
+							<title>Establecer un minimo y un maximo numerico - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Establecer un Mínimo y un Máximo</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Otra validación integrada que podemos usar es asignar un
@@ -27,7 +35,7 @@ class EstablecerMinMax44 extends Component {
 							valor máximo aceptable, asignamos un valor al atributo max. Veamos esto en el código:
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

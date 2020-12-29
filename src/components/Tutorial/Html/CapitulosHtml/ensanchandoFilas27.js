@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import ensanchandoFilas27 from '../../../../styles/img/capitulosPics/ensanchandoFilas27.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class EnsanchandoFilas27 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class EnsanchandoFilas27 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Ensanchando Filas</title>
+							<title>Ensanchando Filas - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Ensanchando Filas</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los datos también pueden abarcar varias filas utilizando
@@ -30,7 +38,7 @@ class EnsanchandoFilas27 extends Component {
 							número entero (mayor o igual a 1) para denotar el número de filas que atraviesa.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="500"

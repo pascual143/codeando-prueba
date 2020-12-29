@@ -1,22 +1,30 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import entradaRadio38 from '../../../../styles/img/capitulosPics/entradaRadio38.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class EntradaRadio38 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
 							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
-							<title>Entrada de boton de radio</title>
+							<title>Entrada de boton de radio - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Entrada de Radio o Radio Input</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las casillas de verificación funcionan bien si queremos
@@ -28,7 +36,7 @@ class EntradaRadio38 extends Component {
 						<br />
 						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 						<br />
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '10px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="600"

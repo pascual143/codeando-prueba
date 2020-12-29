@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import longitudTexto45 from '../../../../styles/img/capitulosPics/longitudTexto45.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class LongitudTexto45 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class LongitudTexto45 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Comprobacion de Longitud del Texto</title>
+							<title>Comprobacion de Longitud del Texto - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Comprobacion de Longitud del Texo</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el ejercicio anterior, pudimos usar min y max para
@@ -35,7 +43,7 @@ class LongitudTexto45 extends Component {
 							texto, utilizamos el atributo maxlength y establecemos un valor máximo. Echemos un vistazo a
 							estos atributos en el código:
 						</p>
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

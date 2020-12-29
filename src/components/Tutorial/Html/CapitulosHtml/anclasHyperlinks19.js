@@ -2,13 +2,14 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import anclasHyperlinks19 from '../../../../styles/img/capitulosPics/anclasHyperlinks19.jpg';
 import anclasHyperlinks19b from '../../../../styles/img/capitulosPics/anclasHyperlinks19b.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 
 class AnclasHyperlinks extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -16,11 +17,18 @@ class AnclasHyperlinks extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Anclas e Hyperlinks</title>
+							<title>Anclas e Hyperlinks - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Anclas e Hyperlinks</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las etiquetas de anclaje se usan comunicar páginas web
@@ -37,7 +45,7 @@ class AnclasHyperlinks extends Component {
 							se usa para "vincular" otros recursos al documento. El uso más común es buscar hojas de
 							estilo o scripts. El ancla solo se puede utilizar en el body.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"
@@ -78,7 +86,7 @@ class AnclasHyperlinks extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Especifica dónde abrir el enlace, si en una
 							nueva pestaña o ventana. Los valores posibles son _blank, _self, _parent, _top
 						</p>
-                        <div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"

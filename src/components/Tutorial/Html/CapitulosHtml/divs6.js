@@ -47,7 +47,7 @@ class Divs extends Component {
 							documento como escrita en un idioma diferente (usando el atributo lang), y así
 							sucesivamente.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="450"

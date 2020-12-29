@@ -1,12 +1,14 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import entradaDatalist40 from '../../../../styles/img/capitulosPics/entradaDatalist40.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
-class ListaDesplegable39 extends Component {
+
+class EntradaDataList40 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +16,17 @@ class ListaDesplegable39 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Entrada de Lista de Datos o Input Data-List</title>
+							<title>Entrada de Lista de Datos o Input Data-List - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Entrada de Lista de Datos o Input Data-List</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incluso si tenemos una lista desplegable organizada, si
@@ -32,7 +41,7 @@ class ListaDesplegable39 extends Component {
 							campo de texto en el que los usuarios pueden escribir y filtrar opciones desde el{' '}
 							<code>&lt;datalist&gt;</code>. Veamos un ejemplo concreto:
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '10px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"
@@ -76,4 +85,4 @@ class ListaDesplegable39 extends Component {
 	}
 }
 
-export default ListaDesplegable39;
+export default EntradaDataList40;

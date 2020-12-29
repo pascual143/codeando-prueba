@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import introduccionFormularios31 from '../../../../styles/img/capitulosPics/introduccionFormularios31.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class IntroduccionFormularios31 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class IntroduccionFormularios31 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Introduccion a los Formularios HTML</title>
+							<title>Introduccion a los Formularios HTML - Aprende codigo con Codeando Html Css bootstrap JavaScript jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Introduccion a los formularios Html</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuando usamos un formulario física en la vida real,
@@ -68,7 +76,7 @@ class IntroduccionFormularios31 extends Component {
 							puede usarse cuando falla el método GET.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"

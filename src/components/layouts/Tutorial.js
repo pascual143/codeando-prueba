@@ -48,7 +48,7 @@ export default class Manual extends Component {
 					<Helmet>
 						<meta charSet="utf-8" />
 						<title>Codeando</title>
-						<title>Categorias Menu Navegacion</title>
+						<title>Categorias Menu Navegacion -Aprende codigo con Codeando Html Css Bootstrap JavaScript</title>
 					</Helmet>
 				</div>
 				<div className="">
@@ -59,7 +59,7 @@ export default class Manual extends Component {
 						</Link>
 						{this.state.showMenu ? (
 							<div
-							className=""
+							// className=""
 							style={{minWidth: "100px"}}
 							ref={(element) => {
 									this.dropdownMenu = element;
@@ -67,7 +67,7 @@ export default class Manual extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li className="menu--link"><Link to={"/Html"} className="menuDropdown">HTML</Link></li>
+								<li className="menu--link"><Link to={"/Html"}className="menuDropdown">HTML</Link></li>
 								<li className="menu--link"><Link to={"/Css"}className="menuDropdown">CSS</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> JavaScript</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> jQuery</Link></li>

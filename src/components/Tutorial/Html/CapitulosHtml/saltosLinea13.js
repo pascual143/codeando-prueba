@@ -2,12 +2,13 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import saltosLinea13 from '../../../../styles/img/capitulosPics/saltosLinea13.jpg';
 import comentarios13 from '../../../../styles/img/capitulosPics/comentarios13.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class SaltosLinea extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -15,10 +16,17 @@ class SaltosLinea extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Saltos de Linea</title>
+							<title>Saltos de Linea - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Saltos de Linea</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El espacio entre el código en un archivo HTML no afecta
@@ -37,11 +45,11 @@ class SaltosLinea extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puede usarlo en cualquier lugar dentro de su
 							código HTML.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
-								width="750"
-								height="450"
+								width="650"
+								height="350"
 								alt="Saltos de pagina"
 								data-caption="Saltos de pagina"
 								src={saltosLinea13}
@@ -72,11 +80,11 @@ class SaltosLinea extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Le permiten experimentar con código
 							nuevo, sin tener que eliminar el código antiguo.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="450"
-								height="350"
+								height="400"
 								alt="Los comentarios son utiles para guardar informacion que luego no se vera en el navegador"
 								data-caption="Los comentarios nos sirven para organizar mejor nuestro codigo"
 								src={comentarios13}

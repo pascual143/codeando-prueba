@@ -2,13 +2,14 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import listasNoOrdenadas14 from '../../../../styles/img/capitulosPics/listasNoOrdenadas14.jpg';
 import listasNoOrdenadas14b from '../../../../styles/img/capitulosPics/listasNoOrdenadas14b.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 
 class ListasNoOrdenadas extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -16,10 +17,17 @@ class ListasNoOrdenadas extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Listas sin orden or unorderer list</title>
+							<title>Listas sin orden or unorderer list- Aprende a programar con Codeando Html Css JavaScript bootstrap jquery cursos</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Listas sin orden or Unorderer list</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Además de organizar el texto en forma de párrafo, también puede mostrar el contenido en una lista fácil de leer.
@@ -32,7 +40,7 @@ class ListasNoOrdenadas extends Component {
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento <code>&lt;ul&gt;</code> no debe contener texto sin formato y no formateará automáticamente el texto sin formato en una lista desordenada de elementos. Los elementos de la lista individual deben agregarse a la lista desordenada utilizando la etiqueta <code>&lt;li&gt;</code>. La etiqueta <code>&lt;li&gt;</code> o elemento de lista se utiliza para describir un elemento en una lista.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="450"
@@ -49,7 +57,7 @@ class ListasNoOrdenadas extends Component {
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La salida se verá así:
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="350"

@@ -1,12 +1,14 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import videos17 from '../../../../styles/img/capitulosPics/videos17.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
-class Videos extends Component {
+
+class VideosHtml extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +16,17 @@ class Videos extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery, programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Los videos</title>
+							<title>Los videos- Aprende a programar con Codeando Html Css JavaScript bootstrap jquery cursos</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Video</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Además de las imágenes, HTML también admite la
@@ -33,10 +42,10 @@ class Videos extends Component {
 						</p>
 						<br />
 
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '1px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
-								width="750"
+								width="700"
 								height="100"
 								alt="Las videos son una parte fundamental de la web"
 								data-caption="Las videos son una parte fundamental la pagina web"
@@ -78,4 +87,4 @@ class Videos extends Component {
 	}
 }
 
-export default Videos;
+export default VideosHtml;

@@ -1,12 +1,14 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import listasOrdenadas15 from '../../../../styles/img/capitulosPics/listasOrdenadas15.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
+
 
 class ListasOrdenadas15 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +16,17 @@ class ListasOrdenadas15 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Listas Ordenadas Ordered List</title>
+							<title>Listas Ordenadas Ordered List - Aprende a programar con Codeando Html Css JavaScript bootstrap jquery cursos</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Listas Ordenadas - (Ordered List)</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las listas ordenadas (<code>&lt;ol&gt;</code>) son como
@@ -31,7 +40,7 @@ class ListasOrdenadas15 extends Component {
 							etiquetas <code>&lt;li&gt;</code>.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

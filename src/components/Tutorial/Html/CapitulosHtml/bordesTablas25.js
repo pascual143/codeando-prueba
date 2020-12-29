@@ -2,12 +2,13 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import bordesTablas25 from '../../../../styles/img/capitulosPics/bordesTablas25.jpg';
 import bordesTablas25b from '../../../../styles/img/capitulosPics/bordesTablas25b.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class BordesTablas25 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -15,10 +16,17 @@ class BordesTablas25 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Bordes de las Tablas</title>
+							<title>Bordes de las Tablas - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Los Bordes de las Tablas</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hasta ahora, las tablas que ha creado han sido un poco
@@ -31,7 +39,7 @@ class BordesTablas25 extends Component {
 							entero representaría el grosor del borde.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="500"
@@ -54,7 +62,7 @@ class BordesTablas25 extends Component {
 							atributo. En cambio, puede lograr el mismo efecto usando CSS.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="450"

@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import figureFigcaption51 from '../../../../styles/img/capitulosPics/figureFigcaption51.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class FigureFigcaption51 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class FigureFigcaption51 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Figure y Figcaption</title>
+							<title>Figure y Figcaption - Article and Section - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Figure y Figcaption</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Con <code>&lt;aside&gt;</code>, aprendimos que podemos
@@ -67,7 +75,7 @@ class FigureFigcaption51 extends Component {
 						</p>
 						<br />
 
-						<div style={{ margin: 'auto', width: '70%' }}>
+						<div style={{ margin: '2px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="750"

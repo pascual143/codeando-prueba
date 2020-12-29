@@ -2,12 +2,13 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import estilosTexto12 from '../../../../styles/img/capitulosPics/estilosTexto12.jpg';
 import estilosTexto12b from '../../../../styles/img/capitulosPics/estilosTexto12b.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class EstilosTexto extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -15,10 +16,17 @@ class EstilosTexto extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Estilos de Texto</title>
+							<title>Estilos de Texto - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Estilos de Texto</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;También puede aplicar estilo al texto con etiquetas
@@ -45,7 +53,7 @@ class EstilosTexto extends Component {
 							generalmente se mostrará como énfasis en negrita. Echa un vistazo a cada estilo en acción:
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"
@@ -74,21 +82,21 @@ class EstilosTexto extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;del&gt;</code> - Texto borrado
 						</p>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;ins&gt;</code> - Texto insertado
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;ins&gt;</code> - Texto insertado
 						</p>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;sub&gt;</code> - Texto subscripto
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;sub&gt;</code> - Texto subscripto
 						</p>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;sup&gt;</code> - Teto sobreescrito
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>&lt;sup&gt;</code> - Teto sobreescrito
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"
 								height="350"
 								alt="Estilos de texto"
-								data-caption="Ejamplos del resto de los estilos de texto"
+								data-caption="Ejemplos del resto de los estilos de texto"
 								src={estilosTexto12b}
 							/>
 						</div>

@@ -2,12 +2,14 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import imagenes16 from '../../../../styles/img/capitulosPics/imagenes16.jpg';
 import imagenesAlt16 from '../../../../styles/img/capitulosPics/imagenesAlt16.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
+
 
 class Imagenes extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -15,10 +17,17 @@ class Imagenes extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Las imagenes</title>
+							<title>Las imagenes - Aprende a programar con Codeando Html Css JavaScript bootstrap jquery cursos</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Las imágenes</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Todos los elementos que ha aprendido hasta ahora
@@ -39,7 +48,7 @@ class Imagenes extends Component {
 							diagonal /. Las etiquetas de cierre automático pueden incluir u omitir la barra diagonal
 							final; ambas se mostrarán correctamente.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"
@@ -70,7 +79,7 @@ class Imagenes extends Component {
 							etiqueta de imagen al igual que el atributo de srcat. El valor de alt debe ser una
 							descripción de la imagen.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

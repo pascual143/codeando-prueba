@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import listaDesplegable39 from '../../../../styles/img/capitulosPics/listaDesplegable39.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class ListaDesplegable39 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class ListaDesplegable39 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQueryprogramacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>La lista desplegable</title>
+							<title>La lista desplegable - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">La Lista Despeglable</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los botones de opción son geniales si queremos que nuestros usuarios elijan una opción entre algunas opciones visibles, ¡pero imagínense si tenemos una lista completa de opciones! Esta situación podría conducir rápidamente a una gran cantidad de botones de radio para realizar un seguimiento.
@@ -26,7 +34,7 @@ class ListaDesplegable39 extends Component {
                         <p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Una solución alternativa es usar una lista desplegable para permitir a nuestros usuarios elegir una opción de una lista organizada. Aquí está el código para crear un menú desplegable:
 						</p>
-						<div style={{ margin: 'auto', width: '55%' }}>
+						<div style={{ margin: '10px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

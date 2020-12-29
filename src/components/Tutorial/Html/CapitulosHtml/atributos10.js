@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import atributos10 from '../../../../styles/img/capitulosPics/atributos10.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class Atributos extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class Atributos extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Duddle</title>
-							<title>Atributos (id y classes)</title>
+							<title>Atributos (id y classes) - Aprende Codigo con Codeando Html Css Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Atributos (id y classes)</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los atributos son contenido agregado a
@@ -46,10 +54,10 @@ class Atributos extends Component {
 							decir que los id son nombres y las clases son los apellidos. Podras poner un solo nombre
 							pero tantos apellidos como quieras.
 						</p>
-						<div style={{ margin: 'auto', width: '50%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
-								width={650}
-								height={400}
+								width={700}
+								height={350}
 								alt="Los atributos se utilizan para referenciar elementos para poder ser editados"
 								data-caption="Atributos dan nombre a los elementos del contenido"
 								src={atributos10}

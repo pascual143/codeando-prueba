@@ -40,7 +40,7 @@ class EtiquetaHtml extends Component {
 							<code>&lt;!DOCTYPE html&gt;</code>:
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '80%' }}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="450"

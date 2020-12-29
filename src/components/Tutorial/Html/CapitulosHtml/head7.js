@@ -76,7 +76,7 @@ class Head extends Component {
 							cierre generalmente aparecen como el primer elemento después de su primera etiqueta HTML:
 						</p>
                         <br />
-						<div style={{ margin: 'auto', width: '100%' }}>
+						<div style={{ margin: '2px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="700"

@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import imagenesHyperlinks22 from '../../../../styles/img/capitulosPics/imagenesHyperlinks22.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class ImagenesHyperlink extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class ImagenesHyperlink extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Imagenes como Hyperlinks</title>
+							<title>Imagenes como Hyperlinks - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Imagenes como Hyperlinks</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Habras visto tal vez sitios donde todo es texto y la
@@ -42,11 +50,11 @@ class ImagenesHyperlink extends Component {
 							<code>&lt;img&gt;</code> con un elemento <code>&lt;a&gt;</code>.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '70%' }}>
+						<div style={{ margin: '1px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
-								width="900"
-								height="150"
+								width="700"
+								height="120"
 								alt="Imagenes como hyperlinks son utilizados muy a menudo y dan un resultado llamativo"
 								data-caption="Imagenes como hyperlinks son utilizados muy a menudo y dan un resultado llamativo"
 								src={imagenesHyperlinks22}

@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import articuloYSeccion49 from '../../../../styles/img/capitulosPics/articuloYSeccion49.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class ArticuloYSeccion49 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class ArticuloYSeccion49 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Articulos y Secciones - Article and Section</title>
+							<title>Articulos y Secciones - Article and Section - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Articulos y Secciones</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ahora que cubrimos el cuerpo del HTML semántico, centrémonos en lo que puede ir en el cuerpo. Los dos elementos en los que nos vamos a centrar ahora son <code>&lt;seccion&gt;</code> y <code>&lt;article&gt;</code>.
@@ -48,13 +56,13 @@ class ArticuloYSeccion49 extends Component {
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aquí hay un ejemplo de cómo usar <code>&lt;article&gt;</code>:
 						</p>
-                        <div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"
 								height="250"
-								alt="Articulo y seccion"
-								data-caption="Articulo y seccion"
+								alt="Articulo y seccion. Article and Section"
+								data-caption="Articulo y seccion. Article and Section"
 								src={articuloYSeccion49}
 							/>
 						</div>

@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import tabla23 from '../../../../styles/img/capitulosPics/tabla23.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class Tabla extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class Tabla extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Crear una tabla</title>
+							<title>Crear una tabla - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Crear una tabla y sus filas</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento HTML <code>&lg;table&gt;</code> permite a los autores web mostrar datos tabulares (como texto, imágenes, enlaces, otras tablas,
@@ -43,7 +51,7 @@ class Tabla extends Component {
                         <p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El primer paso para ingresar datos en la tabla es agregar filas usando el elemento de fila de la tabla: <code>&lg;tr&gt;</code>.
 						</p>
-						<div style={{ margin: 'auto', width: '70%' }}>
+						<div style={{ margin: '10px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="450"

@@ -2,13 +2,14 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import tablasEncabezados24 from '../../../../styles/img/capitulosPics/tablasEncabezados24.jpg';
 import tablasEncabezados24b from '../../../../styles/img/capitulosPics/tablasEncabezados24b.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 
 class TablasEncabezados24 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -16,10 +17,17 @@ class TablasEncabezados24 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Encabezado de Tablas</title>
+							<title>Encabezado de Tablas - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Encabezado de Tablas</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los datos de la tabla no tienen mucho sentido sin títulos para describir lo que representan los datos. Para ello vamos a  usar el elemento de encabezado de tabla: <code>&lg;th&gt;</code>.
@@ -33,7 +41,7 @@ class TablasEncabezados24 extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Al principio, el código HTML para tablas puede parecer un poco extraño, pero analizarlo pieza por pieza ayuda a que el código sea más comprensible.
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"
@@ -65,7 +73,7 @@ class TablasEncabezados24 extends Component {
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- col: este valor deja en claro que el encabezado es para una columna.
                         </p>
                         <br />
-                        <div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="550"

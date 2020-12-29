@@ -1,6 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import agregarEtiqueta33 from '../../../../styles/img/capitulosPics/agregarEtiqueta33.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class AgregarEtiqueta33 extends Component {
 	render() {
@@ -12,11 +13,18 @@ class AgregarEtiqueta33 extends Component {
 							<meta charSet="utf-8" />
 							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
-							<title>Agregar Etiqueta</title>
+							<title>Agregar Etiqueta - Aprender codigo con Codeando Html Css JavaScript bootstrap jQuery</title>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Agregar Etiqueta</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En el ejercicio anterior creamos un elemento <code>&lt;input&gt;</code> pero no incluimos nada para explicar para qué se utiliza <code>&lt;input&gt;</code>. Para que un usuario identifique correctamente un <code>&lt;input&gt;</code> usamos el elemento <code>&lt;label&gt;</code> apropiadamente nombrado.
@@ -26,7 +34,7 @@ class AgregarEtiqueta33 extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento <code>&lt;label&gt;</code> tiene una etiqueta de apertura y cierre y muestra el texto escrito entre las etiquetas de apertura y cierre. Para asociar un <code>&lt;label&gt;</code> y un <code>&lt;input&gt;</code>, el <code>&lt;input&gt;</code> necesita un atributo id. Luego asignamos el atributo for del elemento <code>&lt;label&gt;</code> con el valor del atributo id de <code>&lt;input&gt;</code>, así:
 						</p>
                         <br />
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="600"

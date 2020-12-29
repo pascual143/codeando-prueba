@@ -1,12 +1,13 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import aside50 from '../../../../styles/img/capitulosPics/aside50.jpg';
+import MenuTutorialHtml from '../../../MenusTutorial/Html/menuTutorialHtml';
 
 class Aside50 extends Component {
 	render() {
 		return (
 			<Fragment>
-				<div className="body__Capitulos">
+				<div>
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
@@ -14,10 +15,17 @@ class Aside50 extends Component {
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Elemento Aside</title>
+							<title>Elemento Aside - Article and Section - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
 						</Helmet>
 					</div>
-					<div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialHtml />
+						</div>
+					</div>
+					</nav>
+					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Elemento Aside</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El elemento <code>&lt;aside&gt;</code> se usa para marcar información adicional que puede mejorar otro elemento, pero no es necesario para comprender el contenido principal. Este elemento se puede usar junto con otros elementos como <code>&lt;article&gt;</code> o <code>&lt;section&gt;</code>. Algunos usos comunes del elemento <code>&lt;aside&gt;</code> son para:
@@ -37,7 +45,7 @@ class Aside50 extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aquí hay un ejemplo de <code>&lt;aside&gt;</code> que se usa junto con <code>&lt;article&gt;</code>:
 						</p>
 						<br />
-						<div style={{ margin: 'auto', width: '60%' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="650"

@@ -101,7 +101,7 @@ p {
     border: none;
     border-radius: 100px;
     width: 20px !important;
-    height: 100em !important;
+    height: 130em !important;
     float: left;
     background-image: linear-gradient(to left, var(--rojo), var(--naranja));
     background-color: var(--rojo);
@@ -112,7 +112,7 @@ p {
     border: none;
     border-radius: 100px;
     width: 20px !important;
-    height: 100em !important;
+    height: 130em !important;
     float: right;
     background-image: linear-gradient(to right, var(--rojo), var(--naranja));
     background-color: var(--rojo);

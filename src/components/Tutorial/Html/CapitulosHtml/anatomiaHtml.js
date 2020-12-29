@@ -36,7 +36,7 @@ class AnatomiaHtml extends Component {
 							intermedio:
 						</p>
 						<br />
-                        	<img width="450" height="110" alt="elementos" data-caption="elementos" src={element} style={{margin: "auto", width: "60%"}}/>
+                        	<img width="450" height="110" alt="elementos" data-caption="elementos" src={element} style={{margin: "50px", textAlign: "center"}}/>
 						<br />
 						<p>
 							{/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hay algunos elementos HTML que no tienen una etiqueta de cierre ni ningún contenido. Estos se llaman elementos vacíos. Estos son algunos <img>, <meta>, <link> e <input>. */}
@@ -54,7 +54,7 @@ class AnatomiaHtml extends Component {
 							pantalla.)
 						</p>
 						<br />
-						<div style={{margin:"auto", width: "100%"}}>
+						<div style={{ margin: '50px', textAlign: 'center' }}>
                             <img className="materialboxed" width="550" height="350" alt="Anatomia Html" data-caption="La estructura basica en html consta de elementos divisores" src={InspectorDeGoogle}></img>
 						</div>
 					</div>
