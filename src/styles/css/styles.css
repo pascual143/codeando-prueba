@@ -19,6 +19,27 @@ h1 {
     padding: 20px;
 }
 
+.h1_hero {
+    text-align: center;
+
+    font-size: 1.625em;
+	/* 1.125x body copy size = 18px */
+    line-height: 1.11111111;
+    color: var(--azul);
+}
+
+.h1_hero_p {
+    text-align: center;
+    font-size: 1.225em;
+	/* 1.125x body copy size = 18px */
+    line-height: 2.41111111;
+    color: var(--azul);
+}
+
+.h1_hero_div {
+    width: 65%;
+}
+
 .h2__tituloCapitulos {
     text-align: left;
     margin-left: 150px;
@@ -127,17 +148,34 @@ p {
     padding: 60px 20px 30px 140px;
 }
 
+.hero {
+    width: 1200px;
+}
+
+
 /* Responsive */
 @media (max-width: 600px){
-.divBody {
+    .divBody {
         margin: 150px 20px 10px 190px;
         width: 500px;
     }
-.homeFeatures {
+    .homeFeatures {
         width: 10px;
         height: 10px;
         visibility: hidden;
     }
+    .hero {
+        width: 500px;
+    }
+    .footer {
+        visibility: hidden;
+        /* width: 600px !important;
+        margin-left: -190px; */
+    }
+    .header {
+        display: table-column;
+    }
+
 }
 
 /* CheatSheet */
@@ -195,9 +233,10 @@ p {
 
  .topNav__Home {
      width: 100px;
-     background-color: blanchedalmond;
+     /* background-color: blanchedalmond; */
  }
 
  .topNav__Tutorial {
-    background-color: blanchedalmond !important;
+    /* background-color: blanchedalmond !important; */
 }
+

@@ -44,7 +44,7 @@ export default class CheapSheet extends Component {
 						<title>CheapSheet Manual Desarrollador programador web</title>
 					</Helmet>
 				</div>
-				<div className="">
+				<div>
 				<li className="menu--link fontMainButtons">
 				<i className='uil-clipboard-alt menu--icon'></i>
 						<Link to={"/HomeFeatures"}>
@@ -52,7 +52,7 @@ export default class CheapSheet extends Component {
 						</Link>
 						{this.state.showMenu ? (
 							<div
-							className=""
+							// className=""
 							style={{minWidth: "100px"}}
 							ref={(element) => {
 									this.dropdownMenu = element;

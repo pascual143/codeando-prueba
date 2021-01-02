@@ -19,7 +19,7 @@ export default class Header extends Component {
     					<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
 						{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						<title>Codeando</title>
-						<title>Aprender a programar con codeando</title>
+						<title>Aprender a programar con TandGo Html Css JavaScript jQuery Bootstrap</title>
 					</Helmet>
 				</div>
                 <div>
@@ -33,11 +33,16 @@ export default class Header extends Component {
 								<span className="collapse_menu--label" />
 							</button> */}
 							<div className="main_logo" id="logo">
+							<Link to="/">
+									<img 
+										src="images/pugBeis.jpg" 
+										alt="logo" 
+										width= "200px"
+										height="50px"
+										/>
+								</Link>
 								<a href="/">
-									<img src="images/logo.svg" alt="logo" />
-								</a>
-								<a href="/">
-									<img className="logo-inverse" src="images/ct_logo.svg" alt="logo" />
+									<img className="logo-inverse" src="images/pugBeis.jpg" alt="logo" />
 								</a>
 							</div>
 								<div className="topNav__Home">

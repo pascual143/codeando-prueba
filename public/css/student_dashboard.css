@@ -325,11 +325,11 @@ input[type=text] {
   }
 
   .wrapper {
-    margin-left: 240px;
+    /* margin-left: 240px; */
   }
 
   .wrapper__minify {
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 
 }

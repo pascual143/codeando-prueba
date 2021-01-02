@@ -9,7 +9,7 @@ import Home from './components/Home.js';
 import About from './components/About.js';
 import Tutorial from './components/layouts/Tutorial.js';
 import Videos from './components/layouts/Videos.js';
-import Nav from './components/layouts/Nav.js';
+// import Nav from './components/layouts/Nav.js';
 import Explora from './components/layouts/Explora.js';
 import Header from './components/Header';
 import Footer from './components/layouts/Footer'
@@ -84,7 +84,7 @@ function App() {
     <Router>
       <Fragment>
         <Header />
-        <Nav />
+        {/* <Nav /> */}
         <Route exact path="/" component={Home} />
         <Route exact path="/Tutorial" component={Tutorial} />
         <Route exact path="/Videos" component={Videos} />

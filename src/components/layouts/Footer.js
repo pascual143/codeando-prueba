@@ -64,42 +64,44 @@ export default class Footer extends Component {
 											<div className="">
 												<ul className="fotb_left">
 													<li>
-														<a href="index.html">
+														<a href="/">
 															<div className="footer_logo">
-																<img src="images/logo1.svg" alt="logo1" />
+																<img 
+																	src="images/pugFooter.jpg" 
+																	alt="logo TandGo Footer" 
+																	width= "200px"
+																	height="50px"
+																/>
 															</div>
 														</a>
 													</li>
 													<li>
 														<p>
-															© 2020 <strong>Codeando</strong>. All Rights Reserved.
+															© 2021 <strong>TandGo</strong>. All Rights Reserved.
 														</p>
 													</li>
 												</ul>
 											</div>
-											<div className="" style={{ }}>
+											<div>
 												<div className="edu_social_links">
-													<a href="/">
+													<a href="https://www.facebook.com/TandGoAgency/?view_public_for=101655021757487">
 														<i className="fab fa-facebook-f" />
 													</a>
-													<a href="/">
-														<i className="fab fa-twitter" />
-													</a>
-													<a href="/">
+													<a href="https://www.google.com/search?safe=active&rlz=1C5CHFA_enGB832GB832&sxsrf=ALeKk01W8YNB4nGKHkHmgu5AwZPfAKDe9g%3A1609584796476&ei=nFDwX5HKHNuDhbIP66ufmAI&q=tandgo&oq=tandgo&gs_lcp=CgZwc3ktYWIQAzIHCAAQyQMQQzIECAAQCjIECAAQCjIECAAQCjIECAAQCjICCAAyBAgAEAoyBAgAEAoyBAgAEAoyBwgAEAoQywE6BAgAEEc6BAgjECc6CggAELEDEIMBEEM6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToICC4QxwEQowI6BAgAEEM6CAgAELEDEIMBOgoILhDHARCjAhBDOgcIABAUEIcCOg0ILhCxAxDJAxBDEJMCOgcILhCxAxBDOgcIABCxAxBDOgoILhCxAxCDARBDOgQILhBDOgoIABCxAxDJAxBDOggILhDHARCvAToLCC4QsQMQxwEQowI6DgguELEDEIMBEMcBEK8BOgUIABDJAzoKCC4QxwEQrwEQClCMI1jpNWD-QWgBcAR4AIAB2wGIAc0IkgEFMC42LjGYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwiRiJ7Qiv3tAhXbQUEAHevVByMQ4dUDCA0&uact=5">
 														<i className="fab fa-google-plus-g" />
 													</a>
-													<a href="/">
+													<a href="https://www.linkedin.com/company/tandgo/?viewAsMember=true">
 														<i className="fab fa-linkedin-in" />
 													</a>
-													<a href="/">
+													<a href="https://www.instagram.com/tandgo_web/">
 														<i className="fab fa-instagram" />
 													</a>
 													<a href="/">
 														<i className="fab fa-youtube" />
 													</a>
-													<a href="/">
+													{/* <a href="/">
 														<i className="fab fa-pinterest-p" />
-													</a>
+													</a> */}
 												</div>
 											</div>
 										</div>

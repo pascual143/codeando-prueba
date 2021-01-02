@@ -1,11 +1,11 @@
 * {
-	margin: 10px;
+	/* margin: 5px; */
 	padding: 0;
 	box-sizing: border-box;
 }
 section {
 	position: absolute;
-	height: 155rem;
+	height: 25rem;
 	display: flex;
 }
 section .slide {
@@ -18,30 +18,35 @@ section .slide {
 	transition: 0.5s ease-in-out;
 }
 section .slide:nth-child(1) {
+	height: 400px;
 	background: url(../../styles/img/homeFeaturesPics/htmlpic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(2) {
+	height: 400px;
 	background: url(../../styles/img/homeFeaturesPics/csspic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(3) {
+	height: 400px;
 	background: url(../../styles/img/homeFeaturesPics/javascriptpic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(4) {
+	height: 400px;
 	background: url(../../styles/img/homeFeaturesPics/jquerypic.jpg);
 	background-position: center center;
 	background-size: 60rem;
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(5) {
+	height: 400px;
 	background: url(../../styles/img/homeFeaturesPics/bootstrappic.jpg);
 	width: 100%;
 	background-position: center center;
@@ -49,6 +54,7 @@ section .slide:nth-child(5) {
 	background-repeat: no-repeat;
 }
 section .slide:nth-child(6) {
+	height: 400px;
 	background: url(../../styles/img/homeFeaturesPics/reactpic.jpg);
 	width: 100%;
 	background-position: center center;
@@ -63,7 +69,7 @@ section .slide:hover {
 	flex-grow: 5;
 }
 section .slide .content {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	margin: 40px;
 	padding: 30px;
@@ -83,16 +89,22 @@ section .slide:hover .content {
 }
 
 .pug {
-	/* background: url(); */
+	margin-bottom: 15px;
+	padding-top: 20px;
+	border-radius: 10px;
 	background-color: #fff;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 200PX;
+	height: 450PX;
 }
 
 .video {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: 0;
+    /* z-index: 0; */
+}
+
+.HomeFeatures_p {
+	color: white;
 }

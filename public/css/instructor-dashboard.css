@@ -325,11 +325,11 @@ input[type=text] {
   }
 
   .wrapper {
-    margin-left: 240px;
+    /* margin-left: 240px; */
   }
 
   .wrapper__minify {
-    margin-left: 60px;
+    /* margin-left: 60px; */
   }
 
 }
@@ -816,7 +816,7 @@ i.icon1 {
 /*--- Index Homepage ---*/
 
 .wrapper {
-	padding: 90px 0 0;
+	/* padding: 90px 0 0; */
     transition: all 0.3s ease-out;
 }
 
