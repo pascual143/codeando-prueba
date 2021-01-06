@@ -48,7 +48,7 @@ export default class CheapSheet extends Component {
 				<li className="menu--link fontMainButtons">
 				<i className='uil-clipboard-alt menu--icon'></i>
 						<Link to={"/HomeFeatures"}>
-						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}> CheapSheet</button>
+						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}> Apuntes</button>
 						</Link>
 						{this.state.showMenu ? (
 							<div

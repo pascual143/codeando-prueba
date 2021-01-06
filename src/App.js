@@ -21,12 +21,17 @@ import IntroCss from './components/Tutorial/Css/Css';
 
 
 // Components CheapSheet
+import MenuTutorialHtml from './components/MenusTutorial/Html/menuTutorialHtml';
 import RefHtml from './components/CheapSheet/refHtml';
 import RefDoctype from './components/CheapSheet/RefHtml/refDoctype';
 import RefHtml2 from './components/CheapSheet/RefHtml/refHtml2';
 import RefHead from './components/CheapSheet/RefHtml/refHead';
 import RefMeta from './components/CheapSheet/RefHtml/refMeta';
-import MenuTutorialHtml from './components/MenusTutorial/Html/menuTutorialHtml';
+import RefTitle from './components/CheapSheet/RefHtml/refTitle';
+import RefBody from './components/CheapSheet/RefHtml/refBody';
+
+
+
 // import MenuTutorialCss from './components/MenusTutorial/Css/menuTutorialCss';
 import queEsHtml from './components/Tutorial/Html/CapitulosHtml/queEsHtml';
 import AnatomiaHtml from './components/Tutorial/Html/CapitulosHtml/anatomiaHtml';
@@ -101,6 +106,10 @@ function App() {
         <Route path="/CheapSheet/html" component={RefHtml2} />
         <Route path="/CheapSheet/head" component={RefHead} />
         <Route path="/CheapSheet/meta" component={RefMeta} />
+        <Route path="/CheapSheet/title" component={RefTitle} />
+        <Route path="/CheapSheet/body" component={RefBody} />
+
+
 
         {/* Routes Menus Left */}
         <Route exact path="/MenuTutorialHtml" component={MenuTutorialHtml}/>
@@ -154,6 +163,29 @@ function App() {
         <Route path="/articuloSeccion" component={ArticuloYSeccion49} />
         <Route path="/aside" component={Aside50} />
         <Route path="/figureFigcaption" component={FigureFigcaption51} />
+
+        {/* Servicios External Link */}
+        <Route path='/tandgo' component={() => { 
+                window.location.href = 'http://tandGo.org'; 
+            return null;
+          }}/>
+        <Route path='/tandgo/webDesign' component={() => { 
+                window.location.href = 'http://tandgo.org/webDesign.html'; 
+            return null;
+          }}/>
+        <Route path='/tandgo/webDeveloment' component={() => { 
+                window.location.href = 'http://tandgo.org/webDevelopment.html'; 
+            return null;
+          }}/>
+        <Route path='/tandgo/brandIdentity' component={() => { 
+                window.location.href = 'http://tandgo.org/brandIdentity.html'; 
+            return null;
+          }}/>
+        <Route path='/tandgo/digitalMarketing' component={() => { 
+                window.location.href = 'http://tandgo.org/digitalMarketing.html'; 
+            return null;
+          }}/>
+        
 
         <Footer />
       </Fragment>

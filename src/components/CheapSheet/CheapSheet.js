@@ -9,7 +9,7 @@ export default class Home extends Component {
 					<Helmet>
 						<meta charSet="utf-8" />
 						<title>Codeando</title>
-						<title>CheapSheet</title>
+						<title>Chuletas Aprende a desarrollar paginas web con TandGo Html Css JavaScript jQuery Php</title>
 					</Helmet>
 				</div>
 				<div>
@@ -21,68 +21,68 @@ export default class Home extends Component {
 										<div class="col-lg-3 col-md-4">
 											<h4>Web development</h4>
 											<ul class="cate_option">
-												<li><a href="#">Javascript</a></li>
-												<li><a href="#">Angular</a></li>
-												<li><a href="#">React</a></li>
-												<li><a href="#">CSS</a></li>
-												<li><a href="#">PHP</a></li>
-												<li><a href="#">Node.Js</a></li>
-												<li><a href="#">WordPress</a></li>
-												<li><a href="#">Vue JS</a></li>
+												<li><a href="/">Javascript</a></li>
+												<li><a href="/">Angular</a></li>
+												<li><a href="/">React</a></li>
+												<li><a href="/">CSS</a></li>
+												<li><a href="/">PHP</a></li>
+												<li><a href="/">Node.Js</a></li>
+												<li><a href="/">WordPress</a></li>
+												<li><a href="/">Vue JS</a></li>
 											</ul>
 										</div>
 										<div class="col-lg-3 col-md-4">
 											<h4>Data Science</h4>
 											<ul class="cate_option">
-												<li><a href="#">Machine Learning</a></li>
-												<li><a href="#">Python</a></li>
-												<li><a href="#">Deep Learning</a></li>
-												<li><a href="#">Data Analysis</a></li>
-												<li><a href="#">Artificial Intelligence</a></li>
-												<li><a href="#">TensorFlow</a></li>
-												<li><a href="#">Neural Networks</a></li>
+												<li><a href="/">Machine Learning</a></li>
+												<li><a href="/">Python</a></li>
+												<li><a href="/">Deep Learning</a></li>
+												<li><a href="/">Data Analysis</a></li>
+												<li><a href="/">Artificial Intelligence</a></li>
+												<li><a href="/">TensorFlow</a></li>
+												<li><a href="/">Neural Networks</a></li>
 											</ul>
 										</div>
 										<div class="col-lg-3 col-md-4">
 											<h4>Mobile Apps</h4>
 											<ul class="cate_option">
-												<li><a href="#">Android Development</a></li>
-												<li><a href="#">iOS Development</a></li>
-												<li><a href="#">Google Flutter</a></li>
-												<li><a href="#">Swift</a></li>
-												<li><a href="#">React Native</a></li>
-												<li><a href="#">Dart Programming Language</a></li>
-												<li><a href="#">Mobile Development</a></li>
-												<li><a href="#">Kotlin</a></li>
-												<li><a href="#">Redux Framework</a></li>
+												<li><a href="/">Android Development</a></li>
+												<li><a href="/">iOS Development</a></li>
+												<li><a href="/">Google Flutter</a></li>
+												<li><a href="/">Swift</a></li>
+												<li><a href="/">React Native</a></li>
+												<li><a href="/">Dart Programming Language</a></li>
+												<li><a href="/">Mobile Development</a></li>
+												<li><a href="/">Kotlin</a></li>
+												<li><a href="/">Redux Framework</a></li>
 											</ul>
 										</div>
 										<div class="col-lg-3 col-md-4">
 											<h4>Programming Languages</h4>
 											<ul class="cate_option">
-												<li><a href="#">Python</a></li>
-												<li><a href="#">Java</a></li>
-												<li><a href="#">C#</a></li>
-												<li><a href="#">JavaScript</a></li>
-												<li><a href="#">React</a></li>
-												<li><a href="#">C++</a></li>
-												<li><a href="#">Spring Framework</a></li>
-												<li><a href="#">Go Programming Language</a></li>
-												<li><a href="#">C</a></li>
+												<li><a href="/">Python</a></li>
+												<li><a href="/">Java</a></li>
+												<li><a href="/">C#</a></li>
+												<li><a href="/">JavaScript</a></li>
+												<li><a href="/">React</a></li>
+												<li><a href="/">C++</a></li>
+												<li><a href="/">Spring Framework</a></li>
+												<li><a href="/">Go Programming Language</a></li>
+												<li><a href="/">C</a></li>
 											</ul>
 										</div>
 										<div class="col-lg-3 col-md-4">
 											<h4>Game Development</h4>
 											<ul class="cate_option">
-												<li><a href="#">Unity</a></li>
-												<li><a href="#">C#</a></li>
-												<li><a href="#">Game Development Fundamentals</a></li>
-												<li><a href="#">Unreal Engine</a></li>
-												<li><a href="#">3D Game Development</a></li>
-												<li><a href="#">C++</a></li>
-												<li><a href="#">2D Game Development</a></li>
-												<li><a href="#">Unreal Engine Blueprints</a></li>
-												<li><a href="#">Mobile Game Development</a></li>
+												<li><a href="/">Unity</a></li>
+												<li><a href="/">C#</a></li>
+												<li><a href="/">Game Development Fundamentals</a></li>
+												<li><a href="/">Unreal Engine</a></li>
+												<li><a href="/">3D Game Development</a></li>
+												<li><a href="/">C++</a></li>
+												<li><a href="/">2D Game Development</a></li>
+												<li><a href="/">Unreal Engine Blueprints</a></li>
+												<li><a href="/">Mobile Game Development</a></li>
 											</ul>
 										</div>
 										<div class="col-lg-3 col-md-4">

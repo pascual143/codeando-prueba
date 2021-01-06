@@ -46,18 +46,18 @@ export default class Manual extends Component {
 					<Helmet>
 						<meta charSet="utf-8" />
 						<title>Codeando</title>
-						<title>Categorias Menu Navegacion</title>
+						<title>Categorias Menu Navegacion. Aprende programacion con TandGo Html Css JavaScript jQuery </title>
 					</Helmet>
 				</div>
 				<div className="">
 				<li className="menu--link fontMainButtons">
 				<i className='uil-clipboard-alt menu--icon'></i>
 						<Link to={"/HomeFeatures"}>
-						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}> Services</button>
+						<button className="menu--item menu--item__has_sub_menu fontMainButtons" onClick={this.showMenu}> Servicios</button>
 						</Link>
 						{this.state.showMenu ? (
 							<div
-							className=""
+							// className=""
 							style={{minWidth: "100px"}}
 							ref={(element) => {
 									this.dropdownMenu = element;
@@ -65,11 +65,12 @@ export default class Manual extends Component {
 							>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown">Brand Identity</Link></li>
-								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown">Web Design</Link></li>
-								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown"> Web Development</Link></li>
-								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown"> Digital Marketing</Link></li>
-								<li className="menu--link"><Link to={"www.tandgo.org"}className="menuDropdown"> Social Media</Link></li>
+								<li className="menu--link"><Link to="/tandgo" className="menuDropdown">Home</Link></li>
+								{/* <li className="menu--link"><Link to="/tandgo/brandIdentity" className="menuDropdown">Brand Identity</Link></li> */}
+								<li className="menu--link"><Link to="/tandgo/webDesign" className="menuDropdown">Web Design</Link></li>
+								<li className="menu--link"><Link to="/tandgo/webDevelopment" className="menuDropdown"> Web Development</Link></li>
+								<li className="menu--link"><Link to="/tandgo/digitalMarketing" className="menuDropdown"> Digital Marketing</Link></li>
+								{/* <li className="menu--link"><Link to="/" className="menuDropdown"> Social Media</Link></li> */}
 							</div>
 							</div>
 
