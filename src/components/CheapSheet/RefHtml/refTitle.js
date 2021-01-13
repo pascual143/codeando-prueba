@@ -2,7 +2,7 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import title8 from './../../../styles/img/capitulosPics/title8.jpg';
 import ButtonBack from '../buttonBack';
-
+import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
 
 class Title extends Component {
 	render() {
@@ -12,14 +12,24 @@ class Title extends Component {
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
-							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
-    						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
+							<meta name="description" content="Codeando, aprender lenguages de programacion" />
+							<meta
+								name="keywords"
+								content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender"
+							/>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Titulo de la pagina o title. Aprende codigo con Codeando Html Css JavaScript Bootstrap</title>
+							<title>
+								Titulo de la pagina o title. Aprende codigo con Codeando Html Css JavaScript Bootstrap
+							</title>
 						</Helmet>
 					</div>
 					<nav className="vertical_nav">
+						<div className="left_section menu_left" id="">
+							<div className="left_section">
+								<MenuApuntesHtml />
+							</div>
+						</div>
 					</nav>
 					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">"Title" - Titulo de la pagina</h1>
@@ -61,7 +71,7 @@ class Title extends Component {
 							nuestra página mejora con un título, ya que suelen exigirlo.
 						</p>
 					</div>
-                    <ButtonBack />
+					<ButtonBack />
 				</div>
 			</Fragment>
 		);

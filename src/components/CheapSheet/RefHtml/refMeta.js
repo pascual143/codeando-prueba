@@ -2,6 +2,8 @@ import React, { Component, Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../../styles/css/styles.css';
 import ButtonBack from '../buttonBack';
+import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
+
 
 // import head7 from '../../../styles/img/capitulosPics/head7.jpg';
 
@@ -16,6 +18,13 @@ export default class RefMeta extends Component {
 						<title>Meta</title>
 					</Helmet>
 				</div>
+				<nav className="vertical_nav">
+					<div className="left_section menu_left" id="">
+						<div className="left_section">
+							<MenuApuntesHtml />
+						</div>
+					</div>
+				</nav>
 				<div className="refHtml__body wrapper">
 					<h1 className="refTitles__h2">
 						<code>&lt;Meta&gt;</code>

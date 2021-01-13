@@ -2,6 +2,7 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import bodyApuntes from './../../../styles/img/apuntesPic/bodyApuntes.jpg';
 import ButtonBack from '../buttonBack';
+import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
 
 class RefBody extends Component {
 	render() {
@@ -24,9 +25,15 @@ class RefBody extends Component {
 							</title>
 						</Helmet>
 					</div>
-					<nav className="vertical_nav" />
-					<div className="body__Capitulos">
-						<h1 className="h1__tituloCapitulos">"Body" - Cuerpo de la pagina</h1>
+					<nav className="vertical_nav">
+						<div className="left_section menu_left">
+							<div className="left_section">
+								<MenuApuntesHtml />
+							</div>
+						</div>
+					</nav>
+					<div className="refHtml__body wrapper">
+						<h1 className="refTitles__h2">"Body" - Cuerpo de la pagina</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La <code>&lt;body&gt;</code> etiqueta define el cuerpo
 							del documento.

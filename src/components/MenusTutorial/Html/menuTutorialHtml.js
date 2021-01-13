@@ -21,56 +21,56 @@ export default class MenuTutorialHtml extends Component {
 				<i className=''></i>
 								<div className="font" style={{minHeight:"250px"}}>
 
-								<li className="menu--link"><Link to={"/queEsHtml"} className="menuDropdown">Que es Html</Link></li>
-								<li className="menu--link"><Link to={"/anatomiaHtml"} className="menuDropdown">Anatomia Standard</Link></li>
-								<li className="menu--link"><Link to={"/normasStandard"} className="menuDropdown">Normas Standard</Link></li>
-								<li className="menu--link"><Link to={"/etiquetaHtml"} className="menuDropdown">La etiqueta Html</Link></li>
-								<li className="menu--link"><Link to={"/estructuraHtml"} className="menuDropdown">Estructura Html</Link></li>
-								<li className="menu--link"><Link to={"/divs"} className="menuDropdown">Divs</Link></li>
-								<li className="menu--link"><Link to={"/head"} className="menuDropdown">Head</Link></li>
-								<li className="menu--link"><Link to={"/title"} className="menuDropdown">Title</Link></li>
-								<li className="menu--link"><Link to={"/headings"} className="menuDropdown">Headings</Link></li>
-								<li className="menu--link"><Link to={"/atributos"} className="menuDropdown">Atributos</Link></li>
-								<li className="menu--link"><Link to={"/texto"} className="menuDropdown">Texto</Link></li>
-								<li className="menu--link"><Link to={"/estilosTexto"} className="menuDropdown">Estilos Texto</Link></li>
-								<li className="menu--link"><Link to={"/saltosLinea"} className="menuDropdown">Saltos Linea</Link></li>
-								<li className="menu--link"><Link to={"/listasNoOrdenadas"} className="menuDropdown">Listas No Ordenadas</Link></li>
-								<li className="menu--link"><Link to={"/listasOrdenadas"} className="menuDropdown">Listas Ordenadas</Link></li>
-								<li className="menu--link"><Link to={"/imagenes"} className="menuDropdown">Imagenes</Link></li>
-								<li className="menu--link"><Link to={"/videos"} className="menuDropdown">Videos</Link></li>
-								<li className="menu--link"><Link to={"/anclasHyperlinks"} className="menuDropdown">Anclas e Hyperlinks</Link></li>
-								<li className="menu--link"><Link to={"/enlacePagina"} className="menuDropdown">Enlace a Pagina</Link></li>
-								<li className="menu--link"><Link to={"/enlaceOtra"} className="menuDropdown">Enlace Externo</Link></li>
-								<li className="menu--link"><Link to={"/imagenesHyperlink"} className="menuDropdown">Imagenes Hyperlink</Link></li>
-								<li className="menu--link"><Link to={"/tabla"} className="menuDropdown">Tablas</Link></li>
-								<li className="menu--link"><Link to={"/encabezadoTabla"} className="menuDropdown">Encabezado Tabla</Link></li>
-								<li className="menu--link"><Link to={"/bordesTabla"} className="menuDropdown">Borde Tabla</Link></li>
-								<li className="menu--link"><Link to={"/expandiendoColumnas"} className="menuDropdown">Expandir Columnas</Link></li>
-								<li className="menu--link"><Link to={"/ensanchandoFilas"} className="menuDropdown">Ensanchando Filas</Link></li>
-								<li className="menu--link"><Link to={"/cuerpoTabla"} className="menuDropdown">Cuerpo Tabla</Link></li>
-								<li className="menu--link"><Link to={"/cabezaTabla"} className="menuDropdown">Cabeza Tabla</Link></li>
-								<li className="menu--link"><Link to={"/footerTabla"} className="menuDropdown">Pie de Tabla</Link></li>
-								<li className="menu--link"><Link to={"/introduccionFormularios"} className="menuDropdown">Intro Formularios</Link></li>
-								<li className="menu--link"><Link to={"/entradaTexto"} className="menuDropdown">Entrada Texto</Link></li>
-								<li className="menu--link"><Link to={"/agregarEtiqueta"} className="menuDropdown">Agregar Etiqueta</Link></li>
-								<li className="menu--link"><Link to={"/entradaContrasena"} className="menuDropdown">Entrada Contraseña</Link></li>
-								<li className="menu--link"><Link to={"/entradaNumeros"} className="menuDropdown">Entrada Numeros</Link></li>
-								<li className="menu--link"><Link to={"/rangoEntrada"} className="menuDropdown">Rango de Entrada</Link></li>
-								<li className="menu--link"><Link to={"/entradaVerificacion"} className="menuDropdown">Entrada Verificacion</Link></li>
-								<li className="menu--link"><Link to={"/entradaRadio"} className="menuDropdown">Entrada Radio</Link></li>
-								<li className="menu--link"><Link to={"/listaDesplegable"} className="menuDropdown">Lista Desplegable</Link></li>
-								<li className="menu--link"><Link to={"/entradaDataList"} className="menuDropdown">Entrada DataList</Link></li>
-								<li className="menu--link"><Link to={"/elementoAreaTexto"} className="menuDropdown">Area de Texto</Link></li>
-								<li className="menu--link"><Link to={"/validacionFormularios"} className="menuDropdown">Validacion Formularios</Link></li>
-								<li className="menu--link"><Link to={"/requerirEntrada"} className="menuDropdown">Requerir Entrada</Link></li>
-								<li className="menu--link"><Link to={"/establecerMinMax"} className="menuDropdown">Establecer Minimo y Maximo</Link></li>
-								<li className="menu--link"><Link to={"/longitudTexto"} className="menuDropdown">Longitud Texto</Link></li>
-								<li className="menu--link"><Link to={"/coincidirPatron"} className="menuDropdown">Coincidir Patron</Link></li>
-								<li className="menu--link"><Link to={"/semanticoHtml"} className="menuDropdown">Semantico Html</Link></li>
-								<li className="menu--link"><Link to={"/piePagina"} className="menuDropdown">Pie Pagina</Link></li>
-								<li className="menu--link"><Link to={"/articuloSeccion"} className="menuDropdown">Article Section</Link></li>
-								<li className="menu--link"><Link to={"/aside"} className="menuDropdown">Aside</Link></li>
-								<li className="menu--link"><Link to={"/figureFigcaption"} className="menuDropdown">Figure Figcaption</Link></li>
+								<Link to={"/queEsHtml"} className="menu--link menuDropdown">Que es Html</Link>
+								<Link to={"/anatomiaHtml"} className="menu--link menuDropdown">Anatomia Standard</Link>
+								<Link to={"/normasStandard"} className="menu--link menuDropdown">Normas Standard</Link>
+								<Link to={"/etiquetaHtml"} className="menu--link menuDropdown">La etiqueta Html</Link>
+								<Link to={"/estructuraHtml"} className="menu--link menuDropdown">Estructura Html</Link>
+								<Link to={"/divs"} className="menu--link menuDropdown">Divs</Link>
+								<Link to={"/head"} className="menu--link menuDropdown">Head</Link>
+								<Link to={"/title"} className="menu--link menuDropdown">Title</Link>
+								<Link to={"/headings"} className="menu--link menuDropdown">Headings</Link>
+								<Link to={"/atributos"} className="menu--link menuDropdown">Atributos</Link>
+								<Link to={"/texto"} className="menu--link menuDropdown">Texto</Link>
+								<Link to={"/estilosTexto"} className="menu--link menuDropdown">Estilos Texto</Link>
+								<Link to={"/saltosLinea"} className="menu--link menuDropdown">Saltos Linea</Link>
+								<Link to={"/listasNoOrdenadas"} className="menu--link menuDropdown">Listas No Ordenadas</Link>
+								<Link to={"/listasOrdenadas"} className="menu--link menuDropdown">Listas Ordenadas</Link>
+								<Link to={"/imagenes"} className="menu--link menuDropdown">Imagenes</Link>
+								<Link to={"/videos"} className="menu--link menuDropdown">Videos</Link>
+								<Link to={"/anclasHyperlinks"} className="menu--link menuDropdown">Anclas e Hyperlinks</Link>
+								<Link to={"/enlacePagina"} className="menu--link menuDropdown">Enlace a Pagina</Link>
+								<Link to={"/enlaceOtra"} className="menu--link menuDropdown">Enlace Externo</Link>
+								<Link to={"/imagenesHyperlink"} className="menu--link menuDropdown">Imagenes Hyperlink</Link>
+								<Link to={"/tabla"} className="menu--link menuDropdown">Tablas</Link>
+								<Link to={"/encabezadoTabla"} className="menu--link menuDropdown">Encabezado Tabla</Link>
+								<Link to={"/bordesTabla"} className="menu--link menuDropdown">Borde Tabla</Link>
+								<Link to={"/expandiendoColumnas"} className="menu--link menuDropdown">Expandir Columnas</Link>
+								<Link to={"/ensanchandoFilas"} className="menu--link menuDropdown">Ensanchando Filas</Link>
+								<Link to={"/cuerpoTabla"} className="menu--link menuDropdown">Cuerpo Tabla</Link>
+								<Link to={"/cabezaTabla"} className="menu--link menuDropdown">Cabeza Tabla</Link>
+								<Link to={"/footerTabla"} className="menu--link menuDropdown">Pie de Tabla</Link>
+								<Link to={"/introduccionFormularios"} className="menu--link menuDropdown">Intro Formularios</Link>
+								<Link to={"/entradaTexto"} className="menu--link menuDropdown">Entrada Texto</Link>
+								<Link to={"/agregarEtiqueta"} className="menu--link menuDropdown">Agregar Etiqueta</Link>
+								<Link to={"/entradaContrasena"} className="menu--link menuDropdown">Entrada Contraseña</Link>
+								<Link to={"/entradaNumeros"} className="menu--link menuDropdown">Entrada Numeros</Link>
+								<Link to={"/rangoEntrada"} className="menu--link menuDropdown">Rango de Entrada</Link>
+								<Link to={"/entradaVerificacion"} className="menu--link menuDropdown">Entrada Verificacion</Link>
+								<Link to={"/entradaRadio"} className="menu--link menuDropdown">Entrada Radio</Link>
+								<Link to={"/listaDesplegable"} className="menu--link menuDropdown">Lista Desplegable</Link>
+								<Link to={"/entradaDataList"} className="menu--link menuDropdown">Entrada DataList</Link>
+								<Link to={"/elementoAreaTexto"} className="menu--link menuDropdown">Area de Texto</Link>
+								<Link to={"/validacionFormularios"} className="menu--link menuDropdown">Validacion Formularios</Link>
+								<Link to={"/requerirEntrada"} className="menu--link menuDropdown">Requerir Entrada</Link>
+								<Link to={"/establecerMinMax"} className="menu--link menuDropdown">Establecer Minimo y Maximo</Link>
+								<Link to={"/longitudTexto"} className="menu--link menuDropdown">Longitud Texto</Link>
+								<Link to={"/coincidirPatron"} className="menu--link menuDropdown">Coincidir Patron</Link>
+								<Link to={"/semanticoHtml"} className="menu--link menuDropdown">Semantico Html</Link>
+								<Link to={"/piePagina"} className="menu--link menuDropdown">Pie Pagina</Link>
+								<Link to={"/articuloSeccion"} className="menu--link menuDropdown">Article Section</Link>
+								<Link to={"/aside"} className="menu--link menuDropdown">Aside</Link>
+								<Link to={"/figureFigcaption"} className="menu--link menuDropdown">Figure Figcaption</Link>
 
 							</div>
 					</li>

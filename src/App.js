@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import './styles/css/App.css';
 
 //Routing
-import { BrowserRouter as Router, Route } from 'react-router-dom'; 
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 //Components Manual
 import Home from './components/Home.js';
@@ -12,27 +12,15 @@ import Videos from './components/layouts/Videos.js';
 // import Nav from './components/layouts/Nav.js';
 import Explora from './components/layouts/Explora.js';
 import Header from './components/Header';
-import Footer from './components/layouts/Footer'
+import Footer from './components/layouts/Footer';
 // import HomeFeatures from './components/Home/HomeFeatures.js';
 
 //Components Manual
 import IntroHtml from './components/Tutorial/Html/Html';
 import IntroCss from './components/Tutorial/Css/Css';
 
-
-// Components CheapSheet
-import MenuTutorialHtml from './components/MenusTutorial/Html/menuTutorialHtml';
-import RefHtml from './components/CheapSheet/refHtml';
-import RefDoctype from './components/CheapSheet/RefHtml/refDoctype';
-import RefHtml2 from './components/CheapSheet/RefHtml/refHtml2';
-import RefHead from './components/CheapSheet/RefHtml/refHead';
-import RefMeta from './components/CheapSheet/RefHtml/refMeta';
-import RefTitle from './components/CheapSheet/RefHtml/refTitle';
-import RefBody from './components/CheapSheet/RefHtml/refBody';
-
-
-
 // import MenuTutorialCss from './components/MenusTutorial/Css/menuTutorialCss';
+import MenuTutorialHtml from './components/MenusTutorial/Html/menuTutorialHtml';
 import queEsHtml from './components/Tutorial/Html/CapitulosHtml/queEsHtml';
 import AnatomiaHtml from './components/Tutorial/Html/CapitulosHtml/anatomiaHtml';
 import NormasStandar from './components/Tutorial/Html/CapitulosHtml/normasStandard3';
@@ -84,114 +72,148 @@ import ArticuloYSeccion49 from './components/Tutorial/Html/CapitulosHtml/articul
 import Aside50 from './components/Tutorial/Html/CapitulosHtml/aside50';
 import FigureFigcaption51 from './components/Tutorial/Html/CapitulosHtml/figureFigcaption51';
 
+// Components CheapSheet
+import CheapSheet from './components/CheapSheet/CheapSheet';
+import MenuApuntesHtml from './components/CheapSheet/MenuApuntes/Html/menuApuntesHtml';
+import RefHtml from './components/CheapSheet/RefHtml/refHtml';
+import RefDoctype from './components/CheapSheet/RefHtml/refDoctype';
+import RefHead from './components/CheapSheet/RefHtml/refHead';
+import RefMeta from './components/CheapSheet/RefHtml/refMeta';
+import RefTitle from './components/CheapSheet/RefHtml/refTitle';
+import RefBody from './components/CheapSheet/RefHtml/refBody';
+
+
 function App() {
-  return (
-    <Router>
-      <Fragment>
-        <Header />
-        {/* <Nav /> */}
-        <Route exact path="/" component={Home} />
-        <Route exact path="/Tutorial" component={Tutorial} />
-        <Route exact path="/Videos" component={Videos} />
-        <Route exact path="/About" component={About} />
-        <Route exact path="/Explora" component={Explora} />
+	return (
+		<Router>
+			<Fragment>
+				<Header />
+				{/* <Nav /> */}
+				<Route exact path="/" component={Home} />
+				<Route exact path="/Tutorial" component={Tutorial} />
+				<Route exact path="/Videos" component={Videos} />
+				<Route exact path="/About" component={About} />
+				<Route exact path="/Explora" component={Explora} />
 
-        {/* Routes Manual */}
-        <Route exact path="/Html" component={IntroHtml} />
-        <Route exact path="/Css" component={IntroCss} />
+				{/* Routes Manual */}
+				<Route exact path="/Html" component={IntroHtml} />
+				<Route exact path="/Css" component={IntroCss} />
 
-        {/* Routes CheapSheet */}
-        <Route exact path="/CheapSheet" component={RefHtml} />
-        <Route path="/CheapSheet/Doctype" component={RefDoctype} />
-        <Route path="/CheapSheet/html" component={RefHtml2} />
-        <Route path="/CheapSheet/head" component={RefHead} />
-        <Route path="/CheapSheet/meta" component={RefMeta} />
-        <Route path="/CheapSheet/title" component={RefTitle} />
-        <Route path="/CheapSheet/body" component={RefBody} />
+				{/* Routes Menus Tutorial Left */}
+				<Route exact path="/MenuTutorialHtml" component={MenuTutorialHtml} />
+				<Route path="/queEsHtml" component={queEsHtml} />
+				<Route path="/anatomiaHtml" component={AnatomiaHtml} />
+				<Route path="/normasStandard" component={NormasStandar} />
+				<Route path="/etiquetaHtml" component={EtiquetaHtml} />
+				<Route path="/estructuraHtml" component={EstructuraHtml} />
+				<Route path="/divs" component={Divs} />
+				<Route path="/head" component={Head} />
+				<Route path="/title" component={Title} />
+				<Route path="/headings" component={Headings} />
+				<Route path="/atributos" component={Atributos} />
+				<Route path="/texto" component={Texto} />
+				<Route path="/estilosTexto" component={EstilosTexto} />
+				<Route path="/saltosLinea" component={SaltosLinea} />
+				<Route path="/listasNoOrdenadas" component={ListasNoOrdenadas} />
+				<Route path="/listasOrdenadas" component={ListasOrdenadas} />
+				<Route path="/imagenes" component={Imagenes} />
+				<Route path="/videos" component={VideosHtml} />
+				<Route path="/anclasHyperlinks" component={AnclasHyperlinks} />
+				<Route path="/enlacePagina" component={EnlacePagina} />
+				<Route path="/enlaceOtra" component={EnlaceOtra} />
+				<Route path="/imagenesHyperlink" component={ImagenesHyperlink} />
+				<Route path="/tabla" component={Tabla} />
+				<Route path="/encabezadoTabla" component={TablasEncabezados24} />
+				<Route path="/bordesTabla" component={BordesTablas25} />
+				<Route path="/expandiendoColumnas" component={ExpandiendoColumnas26} />
+				<Route path="/ensanchandoFilas" component={EnsanchandoFilas27} />
+				<Route path="/cuerpoTabla" component={CuerpoTabla28} />
+				<Route path="/cabezaTabla" component={CabezaTabla29} />
+				<Route path="/footerTabla" component={FooterTabla30} />
+				<Route path="/introduccionFormularios" component={IntroduccionFormularios31} />
+				<Route path="/entradaTexto" component={EntradaTexto32} />
+				<Route path="/agregarEquiteca" component={AgregarEtiqueta33} />
+				<Route path="/entradaContrasena" component={EntradaContrasena34} />
+				<Route path="/entradaNumeros" component={EntradaNumeros35} />
+				<Route path="/rangoEntrada" component={RangoEntrada36} />
+				<Route path="/entradaVerificacion" component={EntradaVerificacion37} />
+				<Route path="/entradaRadio" component={EntradaRadio38} />
+				<Route path="/listaDesplegable" component={ListaDesplegable39} />
+				<Route path="/entradaDataList" component={EntradaDataList} />
+				<Route path="/elementoAreaTexto" component={ElementoAreaTexto41} />
+				<Route path="/validacionFormularios" component={ValidacionFormularios42} />
+				<Route path="/requerirEntrada" component={RequerirEntrada43} />
+				<Route path="/establecerMinMax" component={EstablecerMinMax44} />
+				<Route path="/longitudTexto" component={LongitudTexto45} />
+				<Route path="/coincidirPatron" component={CoincidirPatron46} />
+				<Route path="/semanticoHtml" component={SemanticoHtml47} />
+				<Route path="/piePagina" component={MainYPiePagina48} />
+				<Route path="/articuloSeccion" component={ArticuloYSeccion49} />
+				<Route path="/aside" component={Aside50} />
+				<Route path="/figureFigcaption" component={FigureFigcaption51} />
+
+				{/* Routes CheapSheet */}
+				<Route exact path="/CheapSheet" component={CheapSheet} />
+				<Route path="/CheapSheet/Doctype" component={RefDoctype} />
+				<Route path="/CheapSheet/html" component={RefHtml} />
+				<Route path="/CheapSheet/head" component={RefHead} />
+				<Route path="/CheapSheet/meta" component={RefMeta} />
+				<Route path="/CheapSheet/title" component={RefTitle} />
+				<Route path="/CheapSheet/body" component={RefBody} />
+
+				{/* Menu Apuntes Html */}
+				<Route exact path="/MenuApuntesHtml" component={MenuApuntesHtml} />
+				<Route path="/queEsHtml" component={queEsHtml} />
 
 
+				{/* Servicios External Link */}
+				<Route
+					path="/tandgo" target="_blank"
+					component={() => {
+						window.location.href = 'http://tandGo.org';
+						return null;
+					}}
+				/>
+        		<Route
+					path="/tandgo/brandIdentity"
+					component={() => {
+						window.location.href = 'http://tandgo.org/digitalMarketing.html';
+						return null;
+					}}
+				/>
+				<Route
+					path="/tandgo/webDesign"
+					component={() => {
+						window.location.href = 'http://tandgo.org/webDesign.html';
+						return null;
+					}}
+				/>
+				<Route
+					path="/tandgo/webDeveloment"
+					component={() => {
+						window.location.href = 'http://tandgo.org/webDevelopment.html';
+						return null;
+					}}
+				/>
+				<Route
+					path="/tandgo/brandIdentity"
+					component={() => {
+						window.location.href = 'http://tandgo.org/digitalMarketing.html';
+						return null;
+					}}
+				/>
+				<Route
+					path="/tandgo/digitalMarketing"
+					component={() => {
+						window.location.href = 'http://tandgo.org/digitalMarketing.html';
+						return null;
+					}}
+				/>
 
-        {/* Routes Menus Left */}
-        <Route exact path="/MenuTutorialHtml" component={MenuTutorialHtml}/>
-        <Route path="/queEsHtml" component={queEsHtml}/>
-        <Route path="/anatomiaHtml" component={AnatomiaHtml} />
-        <Route path="/normasStandard" component={NormasStandar} />
-        <Route path="/etiquetaHtml" component={EtiquetaHtml} />
-        <Route path="/estructuraHtml" component={EstructuraHtml} />
-        <Route path="/divs" component={Divs} />
-        <Route path="/head" component={Head} />
-        <Route path="/title" component={Title} />
-        <Route path="/headings" component={Headings} />
-        <Route path="/atributos" component={Atributos} />
-        <Route path="/texto" component={Texto} />
-        <Route path="/estilosTexto" component={EstilosTexto} />
-        <Route path="/saltosLinea" component={SaltosLinea} />
-        <Route path="/listasNoOrdenadas" component={ListasNoOrdenadas} />
-        <Route path="/listasOrdenadas" component={ListasOrdenadas} />
-        <Route path="/imagenes" component={Imagenes} />
-        <Route path="/videos" component={VideosHtml} />
-        <Route path="/anclasHyperlinks" component={AnclasHyperlinks} />
-        <Route path="/enlacePagina" component={EnlacePagina} />
-        <Route path="/enlaceOtra" component={EnlaceOtra} />
-        <Route path="/imagenesHyperlink" component={ImagenesHyperlink} />
-        <Route path="/tabla" component={Tabla} />
-        <Route path="/encabezadoTabla" component={TablasEncabezados24} />
-        <Route path="/bordesTabla" component={BordesTablas25} />
-        <Route path="/expandiendoColumnas" component={ExpandiendoColumnas26} />
-        <Route path="/ensanchandoFilas" component={EnsanchandoFilas27} />
-        <Route path="/cuerpoTabla" component={CuerpoTabla28} />
-        <Route path="/cabezaTabla" component={CabezaTabla29} />
-        <Route path="/footerTabla" component={FooterTabla30} />
-        <Route path="/introduccionFormularios" component={IntroduccionFormularios31} />
-        <Route path="/entradaTexto" component={EntradaTexto32} />
-        <Route path="/agregarEquiteca" component={AgregarEtiqueta33} />
-        <Route path="/entradaContrasena" component={EntradaContrasena34} />
-        <Route path="/entradaNumeros" component={EntradaNumeros35} />
-        <Route path="/rangoEntrada" component={RangoEntrada36} />
-        <Route path="/entradaVerificacion" component={EntradaVerificacion37} />
-        <Route path="/entradaRadio" component={EntradaRadio38} />
-        <Route path="/listaDesplegable" component={ListaDesplegable39} />
-        <Route path="/entradaDataList" component={EntradaDataList} />
-        <Route path="/elementoAreaTexto" component={ElementoAreaTexto41} />
-        <Route path="/validacionFormularios" component={ValidacionFormularios42} />
-        <Route path="/requerirEntrada" component={RequerirEntrada43} />
-        <Route path="/establecerMinMax" component={EstablecerMinMax44} />
-        <Route path="/longitudTexto" component={LongitudTexto45} />
-        <Route path="/coincidirPatron" component={CoincidirPatron46} />
-        <Route path="/semanticoHtml" component={SemanticoHtml47} />
-        <Route path="/piePagina" component={MainYPiePagina48} />
-        <Route path="/articuloSeccion" component={ArticuloYSeccion49} />
-        <Route path="/aside" component={Aside50} />
-        <Route path="/figureFigcaption" component={FigureFigcaption51} />
-
-        {/* Servicios External Link */}
-        <Route path='/tandgo' component={() => { 
-                window.location.href = 'http://tandGo.org'; 
-            return null;
-          }}/>
-        <Route path='/tandgo/webDesign' component={() => { 
-                window.location.href = 'http://tandgo.org/webDesign.html'; 
-            return null;
-          }}/>
-        <Route path='/tandgo/webDeveloment' component={() => { 
-                window.location.href = 'http://tandgo.org/webDevelopment.html'; 
-            return null;
-          }}/>
-        <Route path='/tandgo/brandIdentity' component={() => { 
-                window.location.href = 'http://tandgo.org/brandIdentity.html'; 
-            return null;
-          }}/>
-        <Route path='/tandgo/digitalMarketing' component={() => { 
-                window.location.href = 'http://tandgo.org/digitalMarketing.html'; 
-            return null;
-          }}/>
-        
-
-        <Footer />
-      </Fragment>
-
-    </Router>
-  );
+				<Footer />
+			</Fragment>
+		</Router>
+	);
 }
 
 export default App;

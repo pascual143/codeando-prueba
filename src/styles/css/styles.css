@@ -52,7 +52,10 @@ p {
     word-spacing: 0.8rem;;
     color: black;
 }
+.li_row1 {
+    display: list-item;
 
+}
 /* Cards Capitulos */
 .divBody {
     background-color: var(--blanco);

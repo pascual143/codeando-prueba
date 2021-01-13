@@ -66,11 +66,12 @@ export default class Manual extends Component {
 								<div className="font" style={{minHeight:"250px"}}>
 
 								<li className="menu--link"><Link to="/tandgo" className="menuDropdown">Home</Link></li>
-								{/* <li className="menu--link"><Link to="/tandgo/brandIdentity" className="menuDropdown">Brand Identity</Link></li> */}
+								<li className="menu--link"><Link to="/tandgo/brandIdentity" className="menuDropdown">Brand Identity</Link></li>
 								<li className="menu--link"><Link to="/tandgo/webDesign" className="menuDropdown">Web Design</Link></li>
-								<li className="menu--link"><Link to="/tandgo/webDevelopment" className="menuDropdown"> Web Development</Link></li>
-								<li className="menu--link"><Link to="/tandgo/digitalMarketing" className="menuDropdown"> Digital Marketing</Link></li>
-								{/* <li className="menu--link"><Link to="/" className="menuDropdown"> Social Media</Link></li> */}
+								<li className="menu--link"><Link to="/tandgo/webDevelopment" className="menuDropdown">Web Development</Link></li>
+								<li className="menu--link"><Link to="/tandgo/digitalMarketing" className="menuDropdown">Digital Marketing</Link></li>
+								<li className="menu--link"><Link to="/tandgo/socialMedia" className="menuDropdown">Social Media</Link></li>
+								
 							</div>
 							</div>
 
