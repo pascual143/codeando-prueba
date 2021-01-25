@@ -1,5 +1,6 @@
 import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
+import MenuTutorialCss from '../../../MenusTutorial/Css/menuTutorialCss';
 
 class QueEsCss extends Component {
 	render() {
@@ -12,10 +13,17 @@ class QueEsCss extends Component {
 							<meta name="description" content="Codeando, aprender lenguages de programacion" />
 							<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
-							<title>Duddle</title>
-							<title>Introduccion. Que es Css?</title>
+							<title>TandGo</title>
+							<title>Introduccion. Que es Css? - TandGo - Aprende a programar con Html Css JavaScript jQuery</title>
 						</Helmet>
 					</div>
+					<nav className="vertical_nav">
+					<div className="left_section menu_left">
+						<div className="left_section" style={{margin: "10px"}}>
+							<MenuTutorialCss />
+						</div>
+					</div>
+					</nav>
 					<div>
 						<h1 className="h1__tituloCapitulos">Que es Css?</h1>
 						<p>
@@ -35,8 +43,7 @@ class QueEsCss extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;El termino “Cascading” in CSS describe la
 							manera en que los estilos caen de una hoja(Sheet) a otra. Esto significa que el navegador
 							normalmente aplicará las reglas de estilo en una hoja de estilo del autor, si es necesario.
-							De lo contrario, aplicará el estilo en una hoja de usuario, si es necesario. De lo
-							contrario, aplicará las reglas de estilo en la hoja de estilo del buscador por defecto.
+							Sino, aplicará el estilo en una hoja de usuario, si es lo que necesita. Y sino, aplicará las reglas de estilo en la hoja de estilo del buscador por defecto.
 						</p>
 					</div>
 				</div>

@@ -16,7 +16,7 @@ class AnclasHyperlinks extends Component {
 							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
-							<title>Codeando</title>
+							<title>TandGo</title>
 							<title>Anclas e Hyperlinks - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>

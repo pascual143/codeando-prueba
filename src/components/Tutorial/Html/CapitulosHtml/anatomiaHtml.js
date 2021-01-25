@@ -15,7 +15,7 @@ class AnatomiaHtml extends Component {
 							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
-							<title>Codeando</title>
+							<title>TandGo</title>
 							<title>Anatomia del Html. Aprende codigo con codeando html css bootstrap javascript jquery</title>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>

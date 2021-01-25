@@ -49,8 +49,8 @@ export default class Nav extends Component {
 								</li>
 
 								</div>
-								
-								<div className="left_footer footerNav">
+					{/* ----------       FOOTER LEFT     ---------- */}
+								{/* <div className="left_footer footerNav">
 									<ul>
 										<li>
 											<a href="about_us.html">About</a>
@@ -77,7 +77,7 @@ export default class Nav extends Component {
 											<a href="terms_of_use.html">Terms</a>
 										</li>
 									</ul>
-								</div>
+								</div> */}
 							</div>
 						</nav>
 						{/* <!-- Left Sidebar End --> */}

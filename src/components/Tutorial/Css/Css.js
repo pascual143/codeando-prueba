@@ -1,15 +1,17 @@
 import React, { Fragment, Component } from 'react';
 import './styles.css';
 
+//HomeFeatures
+import HomeFeatures from '../../Home/HomeFeatures.js';
+
 // Capitulos
 import QueEsCss from './CapitulosCss/queEsCss';
-import AnatomiaHtml from '../Html/CapitulosHtml/anatomiaHtml.js';
+import AgregarEstilos2 from './CapitulosCss/agregarEstilos2';
 
-import HomeFeatures from '../../Home/HomeFeatures.js';
 
 // bootstrap
 import Card from 'react-bootstrap/Card';
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 
 // Slider
 import Slider from 'react-slick';
@@ -19,7 +21,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import MagicSliderDots from 'react-magic-slider-dots';
 import 'react-magic-slider-dots/dist/magic-dots.css';
 
-// import json from '../../../dis/db.json';
+import MenuTutorialCss from '../../MenusTutorial/Css/menuTutorialCss';
 
 // function RenderAnatomiaCss({ AnatomiaCss }) {
 // 	return <div>{AnatomiaCss}</div>;
@@ -72,9 +74,6 @@ export default class IntroCss extends Component {
 
 		return (
 			<Fragment>
-				<div className="homeFeatures">
-					<HomeFeatures />
-				</div>
 				<div className="divBody">
 					{/* <div style={{ textAlign: 'center' }}>
 						<Button className="buttonCapitulos" onClick={this.previous}>
@@ -84,7 +83,13 @@ export default class IntroCss extends Component {
 							Next
 						</Button>
 					</div> */}
-
+					<nav className="vertical_nav">
+						<div className="left_section menu_left" id="">
+							<div className="left_section">
+								<MenuTutorialCss />
+							</div>
+						</div>
+					</nav>
 					<Slider
 						ref={(c) => (this.slider = c)}
 						{...settings}
@@ -92,44 +97,101 @@ export default class IntroCss extends Component {
 						style={{ margin: '30px', marginTop: '-150px' }}
 					>
 						<div>
-							<div className="divBody2" style={{}}>
-								<Card className="cardHtmlInside">
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
 									<QueEsCss />
 								</Card>
 							</div>
 						</div>
 						<div>
 							<div className="divBody2">
-								{/* {this.state.AnatomiaCss.map((element) => (
-									<Card className="cardHtmlInside" style={{ width: '86%' }} key={element}>
-										<RenderAnatomiaCss AnatomiaCss={element} />
-									</Card>
-								))} */}
-								<AnatomiaHtml />
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<AgregarEstilos2 />
+								</Card>
 							</div>
 						</div>
 						<div>
-						<div className="divBody2">
-								{/* {this.state.Comments.map((element) => (
-									<Card className="cardHtmlInside" style={{ width: '86%' }} key={element.id}>
-										<RenderComments Comments={element} />
-									</Card>
-								))} */}
-						</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<QueEsCss />
+								</Card>
+							</div>
 						</div>
 						<div>
-							{/* <Button className="buttonPrev float-left" onClick={this.previous}>
-								Previous
-							</Button>
-							<Button className="buttonNext float-right" onClick={this.next}>
-								Next
-							</Button> */}
-							<Card className="cardHtmlInside" style={{ width: '86%' }}>
-								<h3>5</h3>
-							</Card>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<QueEsCss />
+								</Card>
+							</div>
 						</div>
-
-						<div />
 					</Slider>
 					<div style={{ textAlign: 'center', marginTop: '25px' }}>
 						{/* <Button className="buttonCapitulos" onClick={this.previous}>
@@ -143,6 +205,9 @@ export default class IntroCss extends Component {
 						</Card>
 					</div>
 					<div />
+				</div>
+				<div className="homeFeatures">
+					<HomeFeatures />
 				</div>
 			</Fragment>
 		);

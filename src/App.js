@@ -15,11 +15,9 @@ import Header from './components/Header';
 import Footer from './components/layouts/Footer';
 // import HomeFeatures from './components/Home/HomeFeatures.js';
 
-//Components Manual
+//Components Manual Html
 import IntroHtml from './components/Tutorial/Html/Html';
 import IntroCss from './components/Tutorial/Css/Css';
-
-// import MenuTutorialCss from './components/MenusTutorial/Css/menuTutorialCss';
 import MenuTutorialHtml from './components/MenusTutorial/Html/menuTutorialHtml';
 import queEsHtml from './components/Tutorial/Html/CapitulosHtml/queEsHtml';
 import AnatomiaHtml from './components/Tutorial/Html/CapitulosHtml/anatomiaHtml';
@@ -71,6 +69,10 @@ import MainYPiePagina48 from './components/Tutorial/Html/CapitulosHtml/mainYPieP
 import ArticuloYSeccion49 from './components/Tutorial/Html/CapitulosHtml/articuloYSeccion49';
 import Aside50 from './components/Tutorial/Html/CapitulosHtml/aside50';
 import FigureFigcaption51 from './components/Tutorial/Html/CapitulosHtml/figureFigcaption51';
+
+//components Manual Css
+import QueEsCss from './components/Tutorial/Css/CapitulosCss/queEsCss';
+import AgregarEstilos2 from './components/Tutorial/Css/CapitulosCss/agregarEstilos2';
 
 // Components CheapSheet
 import CheapSheet from './components/CheapSheet/CheapSheet';
@@ -151,6 +153,11 @@ function App() {
 				<Route path="/articuloSeccion" component={ArticuloYSeccion49} />
 				<Route path="/aside" component={Aside50} />
 				<Route path="/figureFigcaption" component={FigureFigcaption51} />
+
+				{/* Routes Menus Tutorial Left */}
+				<Route path="/queEsCss" component={QueEsCss} />
+				<Route path="/agregarEstilos2" component={AgregarEstilos2} />
+
 
 				{/* Routes CheapSheet */}
 				<Route exact path="/CheapSheet" component={CheapSheet} />

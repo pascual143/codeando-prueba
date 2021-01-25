@@ -13,6 +13,7 @@ class AgregarEtiqueta33 extends Component {
 							<meta charSet="utf-8" />
 							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
     						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
+							<title>TandGo</title>
 							<title>Agregar Etiqueta - Aprender codigo con Codeando Html Css JavaScript bootstrap jQuery</title>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						</Helmet>
