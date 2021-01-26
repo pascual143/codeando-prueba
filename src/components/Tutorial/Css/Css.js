@@ -7,6 +7,9 @@ import HomeFeatures from '../../Home/HomeFeatures.js';
 // Capitulos
 import QueEsCss from './CapitulosCss/queEsCss';
 import AgregarEstilos2 from './CapitulosCss/agregarEstilos2';
+import CreandoNormas3 from './CapitulosCss/creandoNormas3';
+import SelectoresCss4 from './CapitulosCss/selectoresCss4';
+import Backgrounds5 from './CapitulosCss/backgrounds5';
 
 
 // bootstrap
@@ -57,7 +60,7 @@ export default class IntroCss extends Component {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			appendDots: (dots) => {
-				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={20} />;
+				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={300} />;
 			}
 		};
 
@@ -164,7 +167,7 @@ export default class IntroCss extends Component {
 									</span>
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
-									<QueEsCss />
+									<CreandoNormas3 />
 								</Card>
 							</div>
 						</div>
@@ -188,22 +191,36 @@ export default class IntroCss extends Component {
 									</span>
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
-									<QueEsCss />
+									<SelectoresCss4 />
 								</Card>
 							</div>
 						</div>
+						<div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<Backgrounds5 />
+								</Card>
+							</div>
+						</div>
+						
 					</Slider>
-					<div style={{ textAlign: 'center', marginTop: '25px' }}>
-						{/* <Button className="buttonCapitulos" onClick={this.previous}>
-							Previous
-						</Button>
-						<Button className="buttonCapitulos" onClick={this.next}>
-							Next
-						</Button> */}
-						<Card className="cardHtmlInside" style={{ width: '86%' }}>
-							<h3>6</h3>
-						</Card>
-					</div>
 					<div />
 				</div>
 				<div className="homeFeatures">

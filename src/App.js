@@ -73,6 +73,9 @@ import FigureFigcaption51 from './components/Tutorial/Html/CapitulosHtml/figureF
 //components Manual Css
 import QueEsCss from './components/Tutorial/Css/CapitulosCss/queEsCss';
 import AgregarEstilos2 from './components/Tutorial/Css/CapitulosCss/agregarEstilos2';
+import CreandoNormas3 from './components/Tutorial/Css/CapitulosCss/creandoNormas3';
+import SelectoresCss4 from './components/Tutorial/Css/CapitulosCss/selectoresCss4';
+import Backgrounds5 from './components/Tutorial/Css/CapitulosCss/backgrounds5';
 
 // Components CheapSheet
 import CheapSheet from './components/CheapSheet/CheapSheet';
@@ -83,6 +86,7 @@ import RefHead from './components/CheapSheet/RefHtml/refHead';
 import RefMeta from './components/CheapSheet/RefHtml/refMeta';
 import RefTitle from './components/CheapSheet/RefHtml/refTitle';
 import RefBody from './components/CheapSheet/RefHtml/refBody';
+
 
 
 function App() {
@@ -156,8 +160,10 @@ function App() {
 
 				{/* Routes Menus Tutorial Left */}
 				<Route path="/queEsCss" component={QueEsCss} />
-				<Route path="/agregarEstilos2" component={AgregarEstilos2} />
-
+				<Route path="/agregarEstilos" component={AgregarEstilos2} />
+				<Route path="/creandoNormas" component={CreandoNormas3} />
+				<Route path="/selectoresCss" component={SelectoresCss4} />
+				<Route path="/backgrounds" component={Backgrounds5} />
 
 				{/* Routes CheapSheet */}
 				<Route exact path="/CheapSheet" component={CheapSheet} />
