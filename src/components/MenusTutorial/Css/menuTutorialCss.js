@@ -24,6 +24,8 @@ export default class MenuTutorialCss extends Component {
 								<Link to={"/creandoNormas"} className="menu--link menuDropdown">Creando Normas</Link>
 								<Link to={"/selectoresCss"} className="menu--link menuDropdown">Selectores Css</Link>
 								<Link to={"/background"} className="menu--link menuDropdown">Background o Fondos</Link>
+								<Link to={"/centering"} className="menu--link menuDropdown">Centrando Contenido</Link>
+
 
 								<li className="menu--link"><Link to={""}className="menuDropdown"> Bootstrap</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> React</Link></li>

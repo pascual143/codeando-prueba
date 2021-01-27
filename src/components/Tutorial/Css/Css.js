@@ -10,6 +10,7 @@ import AgregarEstilos2 from './CapitulosCss/agregarEstilos2';
 import CreandoNormas3 from './CapitulosCss/creandoNormas3';
 import SelectoresCss4 from './CapitulosCss/selectoresCss4';
 import Backgrounds5 from './CapitulosCss/backgrounds5';
+import Centering6 from './CapitulosCss/centering6';
 
 
 // bootstrap
@@ -216,6 +217,30 @@ export default class IntroCss extends Component {
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
 									<Backgrounds5 />
+								</Card>
+							</div>
+						</div>
+						<div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<Centering6 />
 								</Card>
 							</div>
 						</div>

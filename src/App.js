@@ -86,6 +86,7 @@ import RefHead from './components/CheapSheet/RefHtml/refHead';
 import RefMeta from './components/CheapSheet/RefHtml/refMeta';
 import RefTitle from './components/CheapSheet/RefHtml/refTitle';
 import RefBody from './components/CheapSheet/RefHtml/refBody';
+import Centering6 from './components/Tutorial/Css/CapitulosCss/centering6';
 
 
 
@@ -164,6 +165,9 @@ function App() {
 				<Route path="/creandoNormas" component={CreandoNormas3} />
 				<Route path="/selectoresCss" component={SelectoresCss4} />
 				<Route path="/backgrounds" component={Backgrounds5} />
+				<Route path="/centering" component={Centering6} />
+
+
 
 				{/* Routes CheapSheet */}
 				<Route exact path="/CheapSheet" component={CheapSheet} />

@@ -6,7 +6,6 @@ import backgrounds5b from '../../../../styles/img/capitulosPics/backgrounds5b.jp
 import backgrounds5c from '../../../../styles/img/capitulosPics/backgrounds5c.jpg';
 import backgrounds5d from '../../../../styles/img/capitulosPics/backgrounds5d.jpg';
 
-
 class Backgrounds5 extends Component {
 	render() {
 		return (
@@ -23,7 +22,8 @@ class Backgrounds5 extends Component {
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>TandGo</title>
 							<title>
-								Backgrounds o Fondos Css - TandGo - Aprende a programar con Html Css JavaScript jQuery Bootstrap
+								Backgrounds o Fondos Css - TandGo - Aprende a programar con Html Css JavaScript jQuery
+								Bootstrap
 							</title>
 						</Helmet>
 					</div>
@@ -37,9 +37,11 @@ class Backgrounds5 extends Component {
 					<div>
 						<h1 className="h1__tituloCapitulos">Backgrounds o Fondos en Css</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las propiedades de fondo de CSS se utilizan para definir los efectos de fondo de los elementos, como color de fondo, imagen de fondo, repetición de fondo, adjunto de fondo, posición de fondo.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Las propiedades de fondo de CSS se utilizan
+							para definir los efectos de fondo de los elementos, como color de fondo, imagen de fondo,
+							repetición de fondo, adjunto de fondo, posición de fondo.
 						</p>
-                        <div style={{ margin: '20px', textAlign: 'center' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="300"
@@ -55,9 +57,11 @@ class Backgrounds5 extends Component {
 						<p>• un valor RGB, como "rgb (255,0,0)"</p>
 						<h1 className="h1__tituloCapitulos">Opacidad / Transparencia</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La propiedad opacity especifica la opacidad o transparencia de un elemento. Puede tomar un valor de 0,0 a 1,0. Cuanto menor sea el valor, más transparente:
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La propiedad opacity especifica la opacidad
+							o transparencia de un elemento. Puede tomar un valor de 0,0 a 1,0. Cuanto menor sea el
+							valor, más transparente:
 						</p>
-                        <div style={{ margin: '20px', textAlign: 'center' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="300"
@@ -67,23 +71,28 @@ class Backgrounds5 extends Component {
 								src={backgrounds5b}
 							/>
 						</div>
-                        <h1 className="h1__tituloCapitulos">Propiedad Background-color</h1>
+						<h1 className="h1__tituloCapitulos">Propiedad Background-color</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La propiedad background-color establece el color de fondo de un elemento mediante un valor de color o mediante palabras clave, como transparent, inherit or initial (transparente, heredado o inicial).
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La propiedad background-color establece el
+							color de fondo de un elemento mediante un valor de color o mediante palabras clave, como
+							transparent, inherit or initial (transparente, heredado o inicial).
 						</p>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transparent (transparente), especifica que el color de fondo debe ser transparente. Esto es predeterminado. heredar, inherit(hereda) esta propiedad de su elemento padre.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;transparent (transparente), especifica que
+							el color de fondo debe ser transparente. Esto es predeterminado. heredar, inherit(hereda)
+							esta propiedad de su elemento padre.
 						</p>
-                        <p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initial(inicial), establece esta propiedad en su valor predeterminado.
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Initial(inicial), establece esta propiedad
+							en su valor predeterminado.
 						</p>
-
 
 						<h1 className="h1__tituloCapitulos">Imagen de fondo CSS</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La propiedad background-image especifica una imagen para usar como fondo de un elemento.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La propiedad background-image especifica una
+							imagen para usar como fondo de un elemento.
 						</p>
-                        <div style={{ margin: '20px', textAlign: 'center' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="300"
@@ -93,20 +102,23 @@ class Backgrounds5 extends Component {
 								src={backgrounds5c}
 							/>
 						</div>
-                       
 
-                        <h1 className="h1__tituloCapitulos">Repetición de fondo CSS</h1>
+						<h1 className="h1__tituloCapitulos">Repetición de fondo CSS</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De forma predeterminada, la background-imagepropiedad repite una imagen tanto horizontal como verticalmente.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;De forma predeterminada, la
+							background-imagepropiedad repite una imagen tanto horizontal como verticalmente.
 						</p>
-                        <p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algunas imágenes deben repetirse solo horizontal o verticalmente, o se verán extrañas
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Algunas imágenes deben repetirse solo
+							horizontal o verticalmente, o se verán extrañas
 						</p>
-                        <h1 className="h1__tituloCapitulos">Archivo adjunto de fondo CSS</h1>
-                        <p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La background-attachmentpropiedad especifica si la imagen de fondo debe desplazarse o ser fija (no se desplazará con el resto de la página):
+						<h1 className="h1__tituloCapitulos">Archivo adjunto de fondo CSS</h1>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La background-attachmentpropiedad especifica
+							si la imagen de fondo debe desplazarse o ser fija (no se desplazará con el resto de la
+							página):
 						</p>
-                        <div style={{ margin: '20px', textAlign: 'center' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="350"
@@ -116,10 +128,11 @@ class Backgrounds5 extends Component {
 								src={backgrounds5d}
 							/>
 						</div>
-                        <p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para abraviar todas propiedades en una puede usar simplemente la propiedad background.
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para abraviar todas propiedades en una puede
+							usar simplemente la propiedad background.
 						</p>
-                        <div style={{ margin: '20px', textAlign: 'center' }}>
+						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
 								width="350"
@@ -129,14 +142,16 @@ class Backgrounds5 extends Component {
 								src={backgrounds5d}
 							/>
 						</div>
-                        <p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La background-attachmentpropiedad especifica si la imagen de fondo debe desplazarse o ser fija (no se desplazará con el resto de la página):
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La background-attachmentpropiedad especifica
+							si la imagen de fondo debe desplazarse o ser fija (no se desplazará con el resto de la
+							página):
 						</p>
-                        <p>• background-color</p>
+						<p>• background-color</p>
 						<p>• background-image</p>
 						<p>• background-repeat</p>
-                        <p>• background-attachment</p>
-                        <p>• background-position</p>
+						<p>• background-attachment</p>
+						<p>• background-position</p>
 					</div>
 				</div>
 			</Fragment>
