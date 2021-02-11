@@ -76,6 +76,26 @@ import AgregarEstilos2 from './components/Tutorial/Css/CapitulosCss/agregarEstil
 import CreandoNormas3 from './components/Tutorial/Css/CapitulosCss/creandoNormas3';
 import SelectoresCss4 from './components/Tutorial/Css/CapitulosCss/selectoresCss4';
 import Backgrounds5 from './components/Tutorial/Css/CapitulosCss/backgrounds5';
+import Centering6 from './components/Tutorial/Css/CapitulosCss/centering6';
+import BoxModel7 from './components/Tutorial/Css/CapitulosCss/boxModel7';
+import Margenes8 from './components/Tutorial/Css/CapitulosCss/margenes8';
+import Paddings9 from './components/Tutorial/Css/CapitulosCss/paddings9';
+import Borders10 from './components/Tutorial/Css/CapitulosCss/borders10';
+import Overflow11 from './components/Tutorial/Css/CapitulosCss/overflow11';
+import Float12 from './components/Tutorial/Css/CapitulosCss/float12';
+import Typography13 from './components/Tutorial/Css/CapitulosCss/typography13';
+import Flexbox14 from './components/Tutorial/Css/CapitulosCss/flexbox14';
+import Color15 from './components/Tutorial/Css/CapitulosCss/color15';
+import Opacity16 from './components/Tutorial/Css/CapitulosCss/opacity16';
+import Posicionamiento17 from './components/Tutorial/Css/CapitulosCss/posicionamineto17';
+import Display18 from './components/Tutorial/Css/CapitulosCss/display18';
+import Align19 from './components/Tutorial/Css/CapitulosCss/align19';
+import Pseudoclasses20 from './components/Tutorial/Css/CapitulosCss/pseudoclasses20';
+import Grid22 from './components/Tutorial/Css/CapitulosCss/grid22';
+import Tablas23 from './components/Tutorial/Css/CapitulosCss/tablas23';
+import Transiciones24 from './components/Tutorial/Css/CapitulosCss/transiciones24';
+import Animaciones25 from './components/Tutorial/Css/CapitulosCss/animaciones25';
+
 
 // Components CheapSheet
 import CheapSheet from './components/CheapSheet/CheapSheet';
@@ -86,8 +106,6 @@ import RefHead from './components/CheapSheet/RefHtml/refHead';
 import RefMeta from './components/CheapSheet/RefHtml/refMeta';
 import RefTitle from './components/CheapSheet/RefHtml/refTitle';
 import RefBody from './components/CheapSheet/RefHtml/refBody';
-import Centering6 from './components/Tutorial/Css/CapitulosCss/centering6';
-
 
 
 function App() {
@@ -166,6 +184,27 @@ function App() {
 				<Route path="/selectoresCss" component={SelectoresCss4} />
 				<Route path="/backgrounds" component={Backgrounds5} />
 				<Route path="/centering" component={Centering6} />
+				<Route path="/boxModel" component={BoxModel7} />
+				<Route path="/margenes" component={Margenes8} />
+				<Route path="/paddings" component={Paddings9} />
+				<Route path="/borders" component={Borders10} />
+				<Route path="/overflow" component={Overflow11} />
+				<Route path="/float" component={Float12} />
+				<Route path="/tipografia" component={Typography13} />
+				<Route path="/flexbox" component={Flexbox14} />
+				<Route path="/color" component={Color15} />
+				<Route path="/opacidad" component={Opacity16} />
+				<Route path="/posicionamiento" component={Posicionamiento17} />
+				<Route path="/display" component={Display18} />
+				<Route path="/align" component={Align19} />
+				<Route path="/pseudoclasses" component={Pseudoclasses20} />
+				<Route path="/grid" component={Grid22} />
+				<Route path="/tablas" component={Tablas23} />
+				<Route path="/transiciones" component={Transiciones24} />
+				<Route path="/animaciones" component={Animaciones25} />
+
+
+
 
 
 

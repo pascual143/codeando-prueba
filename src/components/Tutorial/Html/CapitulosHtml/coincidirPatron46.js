@@ -11,28 +11,42 @@ class CoincidirPatron46 extends Component {
 					<div>
 						<Helmet>
 							<meta charSet="utf-8" />
-							<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
-    						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender" />
+							<meta name="description" content="Codeando, aprender lenguages de programacion" />
+							<meta
+								name="keywords"
+								content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery programacion desarrollo codigo aprender"
+							/>
 							{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 							<title>Codeando</title>
-							<title>Hacer coincidir un Patron - Aprender codigo con Codeando Html Css JavaScript jQuery Bootstrap</title>
+							<title>
+								Hacer coincidir un Patron - Aprender codigo con Codeando Html Css JavaScript jQuery
+								Bootstrap
+							</title>
 						</Helmet>
 					</div>
 					<nav className="vertical_nav">
-					<div className="left_section menu_left">
-						<div className="left_section" style={{margin: "10px"}}>
-							<MenuTutorialHtml />
+						<div className="left_section menu_left">
+							<div className="left_section" style={{ margin: '10px' }}>
+								<MenuTutorialHtml />
+							</div>
 						</div>
-					</div>
 					</nav>
 					<div className="body__Capitulos">
 						<h1 className="h1__tituloCapitulos">Hacer coincidir un Patron</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Además de verificar la longitud de un texto, también podríamos agregar una validación para verificar cómo se proporcionó el texto. Para los casos en que queremos que la entrada del usuario siga pautas específicas, usamos el atributo de patrón y le asignamos una expresión regular o expresión regular. Las expresiones regulares son una secuencia de caracteres que forman un patrón de búsqueda. Si la entrada coincide con la expresión regular, se puede enviar el formulario.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Además de verificar la longitud de un texto, también
+							podríamos agregar una validación para verificar cómo se proporcionó el texto. Para los casos
+							en que queremos que la entrada del usuario siga pautas específicas, usamos el atributo de
+							patrón y le asignamos una expresión regular o expresión regular. Las expresiones regulares
+							son una secuencia de caracteres que forman un patrón de búsqueda. Si la entrada coincide con
+							la expresión regular, se puede enviar el formulario.
 						</p>
 						<br />
 						<p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supongamos que deseamos verificar un número de tarjeta de crédito válido (un número de 14 a 16 dígitos). Podríamos usar la expresión regular: [0-9] y 14, 16 entre llaves{} que verifica que el usuario proporcionó solo números y que ingresó al menos 14 dígitos y como máximo 16 dígitos. Para agregar esto a un formulario:
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Supongamos que deseamos verificar un número de tarjeta
+							de crédito válido (un número de 14 a 16 dígitos). Podríamos usar la expresión regular: [0-9]
+							y 14, 16 entre llaves{} que verifica que el usuario proporcionó solo números y que ingresó
+							al menos 14 dígitos y como máximo 16 dígitos. Para agregar esto a un formulario:
 						</p>
 						<div style={{ margin: '30px', textAlign: 'center' }}>
 							<img

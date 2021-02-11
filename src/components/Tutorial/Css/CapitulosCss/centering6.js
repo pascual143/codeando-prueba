@@ -69,7 +69,7 @@ class Centering6 extends Component {
 						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
-								width="300"
+								width="350"
 								height="200"
 								alt="Centrando los elementos con position"
 								data-caption="Centrando los elementos con position"
@@ -108,7 +108,7 @@ class Centering6 extends Component {
 							<img
 								className="materialboxed"
 								width="300"
-								height="200"
+								height="400"
 								alt="Centrando usando flexbox"
 								data-caption="Centrando usando flexbox"
 								src={centrando6c}
