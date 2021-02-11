@@ -95,6 +95,7 @@ import Grid22 from './components/Tutorial/Css/CapitulosCss/grid22';
 import Tablas23 from './components/Tutorial/Css/CapitulosCss/tablas23';
 import Transiciones24 from './components/Tutorial/Css/CapitulosCss/transiciones24';
 import Animaciones25 from './components/Tutorial/Css/CapitulosCss/animaciones25';
+import Tranformaciones2D26 from './components/Tutorial/Css/CapitulosCss/tranformaciones2D26';
 
 
 // Components CheapSheet
@@ -202,6 +203,8 @@ function App() {
 				<Route path="/tablas" component={Tablas23} />
 				<Route path="/transiciones" component={Transiciones24} />
 				<Route path="/animaciones" component={Animaciones25} />
+				<Route path="/tranformaciones" component={Tranformaciones2D26} />
+
 
 
 

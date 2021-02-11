@@ -43,6 +43,7 @@ import Grid22 from './CapitulosCss/grid22';
 import Tablas23 from './CapitulosCss/tablas23';
 import Transiciones24 from './CapitulosCss/transiciones24';
 import Animaciones25 from './CapitulosCss/animaciones25';
+import Tranformaciones2D26 from './CapitulosCss/tranformaciones2D26';
 
 // function RenderAnatomiaCss({ AnatomiaCss }) {
 // 	return <div>{AnatomiaCss}</div>;
@@ -78,7 +79,7 @@ export default class IntroCss extends Component {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			appendDots: (dots) => {
-				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={300} />;
+				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={150} />;
 			}
 		};
 
@@ -673,6 +674,28 @@ export default class IntroCss extends Component {
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
 									<Animaciones25 />
+								</Card>
+							</div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<Tranformaciones2D26 />
 								</Card>
 							</div>						
 					</Slider>

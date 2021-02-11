@@ -42,6 +42,8 @@ export default class MenuTutorialCss extends Component {
 								<Link to={"/tablas"} className="menu--link menuDropdown">Tablas</Link>
 								<Link to={"/transiciones"} className="menu--link menuDropdown">Transiciones</Link>
 								<Link to={"/animaciones"} className="menu--link menuDropdown">Animaciones</Link>
+								<Link to={"/tranformaciones"} className="menu--link menuDropdown">Tranformaciones</Link>
+
 
 
 
