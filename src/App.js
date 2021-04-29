@@ -99,14 +99,24 @@ import Tranformaciones2D26 from './components/Tutorial/Css/CapitulosCss/tranform
 
 
 // Components CheapSheet
-import CheapSheet from './components/CheapSheet/CheapSheet';
-import MenuApuntesHtml from './components/CheapSheet/MenuApuntes/Html/menuApuntesHtml';
+import CheapSheetHtml from './components/CheapSheet/CheapSheetHtml';
+import MenuApuntesHtml from './components/CheapSheet/MenuApuntes/menuApuntesHtml';
 import RefHtml from './components/CheapSheet/RefHtml/refHtml';
 import RefDoctype from './components/CheapSheet/RefHtml/refDoctype';
 import RefHead from './components/CheapSheet/RefHtml/refHead';
 import RefMeta from './components/CheapSheet/RefHtml/refMeta';
 import RefTitle from './components/CheapSheet/RefHtml/refTitle';
 import RefBody from './components/CheapSheet/RefHtml/refBody';
+import RefHeadings from './components/CheapSheet/RefHtml/refHeadings';
+import RefParagraph from './components/CheapSheet/RefHtml/refParagraph';
+import RefAgregarEtiquetas from './components/CheapSheet/RefHtml/refAgregarEtiquetas';
+import refAnclas from './components/CheapSheet/RefHtml/refAnclas';
+import RefArticuloSeccion from './components/CheapSheet/RefHtml/refArticuloSeccion';
+import RefAside from './components/CheapSheet/RefHtml/refAside';
+import RefAtributos from './components/CheapSheet/RefHtml/refAtributos';
+import MenuTutorialCss from './components/MenusTutorial/Css/menuTutorialCss';
+import CheapSheetCss from './components/CheapSheet/CheapSheetCss';
+// import MenuApuntesCss from './components/CheapSheet/MenuApuntes/menuApuntesCss';
 
 
 function App() {
@@ -208,21 +218,44 @@ function App() {
 
 
 
-
-
-
-				{/* Routes CheapSheet */}
-				<Route exact path="/CheapSheet" component={CheapSheet} />
-				<Route path="/CheapSheet/Doctype" component={RefDoctype} />
+				{/* Routes CheapSheet HTML*/}
+				<Route exact path="/CheapSheetHtml" component={CheapSheetHtml} />
+				<Route exact path="/MenuApuntesHtml" component={MenuApuntesHtml} />
+				<Route path="/queEsHtml" component={queEsHtml} />
+				<Route path="/CheapSheet/doctype" component={RefDoctype} />
 				<Route path="/CheapSheet/html" component={RefHtml} />
 				<Route path="/CheapSheet/head" component={RefHead} />
 				<Route path="/CheapSheet/meta" component={RefMeta} />
 				<Route path="/CheapSheet/title" component={RefTitle} />
 				<Route path="/CheapSheet/body" component={RefBody} />
+				<Route path="/CheapSheet/headings" component={RefHeadings} />
+				<Route path="/CheapSheet/paragraph" component={RefParagraph} />
+				<Route path="/CheapSheet/agregarEtiquetas" component={RefAgregarEtiquetas} />
+				<Route path="/CheapSheet/anclas" component={refAnclas} />
+				<Route path="/CheapSheet/articulo" component={RefArticuloSeccion} />
+				<Route path="/CheapSheet/seccion" component={RefArticuloSeccion} />
+				<Route path="/CheapSheet/aside" component={RefAside} />
+				<Route path="/CheapSheet/atributos" component={RefAtributos} />
 
-				{/* Menu Apuntes Html */}
-				<Route exact path="/MenuApuntesHtml" component={MenuApuntesHtml} />
+
+				{/* Menu Apuntes Css */}
+				<Route exact path="/CheapSheetCss" component={CheapSheetCss} />
+				<Route exact path="/MenuTutorialCss" component={MenuTutorialCss} />
 				<Route path="/queEsHtml" component={queEsHtml} />
+				<Route path="/CheapSheet/doctype" component={RefDoctype} />
+				<Route path="/CheapSheet/html" component={RefHtml} />
+				<Route path="/CheapSheet/head" component={RefHead} />
+				<Route path="/CheapSheet/meta" component={RefMeta} />
+				<Route path="/CheapSheet/title" component={RefTitle} />
+				<Route path="/CheapSheet/body" component={RefBody} />
+				<Route path="/CheapSheet/headings" component={RefHeadings} />
+				<Route path="/CheapSheet/paragraph" component={RefParagraph} />
+				<Route path="/CheapSheet/agregarEtiquetas" component={RefAgregarEtiquetas} />
+				<Route path="/CheapSheet/anclas" component={refAnclas} />
+				<Route path="/CheapSheet/articulo" component={RefArticuloSeccion} />
+				<Route path="/CheapSheet/seccion" component={RefArticuloSeccion} />
+				<Route path="/CheapSheet/aside" component={RefAside} />
+				<Route path="/CheapSheet/atributos" component={RefAtributos} />
 
 
 				{/* Servicios External Link */}

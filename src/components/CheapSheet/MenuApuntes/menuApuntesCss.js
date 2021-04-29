@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom';
 // import QueEsHtml from '../../Tutorial/Html/CapitulosHtml/queEsHtml';
 // import AnatomiaHtml from '../../Tutorial/Html/CapitulosHtml/anatomiaHtml';
 
-export default class MenuApuntesHtml extends Component {
+export default class MenuApuntesCss extends Component {
     	render() {
 		return (
 			<div>
 				<div>
 					<Helmet>
 						<meta charSet="utf-8" />
-						<title>Codeando</title>
+						<title>TandGo</title>
 						<title>Categorias Menu Navegacion - Aprende codigo con Codeando Html Css JavaScript Bootstrap jQuery</title>
 					</Helmet>
 				</div>

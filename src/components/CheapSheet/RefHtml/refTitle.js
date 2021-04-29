@@ -2,7 +2,7 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import title8 from './../../../styles/img/capitulosPics/title8.jpg';
 import ButtonBack from '../buttonBack';
-import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
+import MenuApuntesHtml from '../MenuApuntes/menuApuntesHtml';
 
 class Title extends Component {
 	render() {
@@ -70,8 +70,8 @@ class Title extends Component {
 							etcetera, enseñan el resultado de la buscada en función del título, así como el SEO de
 							nuestra página mejora con un título, ya que suelen exigirlo.
 						</p>
+						<ButtonBack />
 					</div>
-					<ButtonBack />
 				</div>
 			</Fragment>
 		);

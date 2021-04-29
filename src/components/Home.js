@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import Helmet from 'react-helmet';
 import HomeFeatures from './Home/HomeFeatures.js';
 
-
 export default class Home extends Component {
 	render() {
 		return (
@@ -10,8 +9,8 @@ export default class Home extends Component {
 				<div>
 					<Helmet>
 						<meta charSet="utf-8" />
-						<meta name="description" content="Codeando, aprender lenguages de programacion" /> 
-    					<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
+						<meta name="description" content="Codeando, aprender lenguages de programacion" />
+						<meta name="keywords" content="HTML, CSS, XML, JavaScript, PHP, bootstrap, jQuery" />
 						{/* <link rel="canonical" href="http://mysite.com/example" /> */}
 						<title>Codeando</title>
 						<title>Home - Aprende codgo con TandGo Html Css bootstrap jQuery</title>
@@ -26,15 +25,19 @@ export default class Home extends Component {
 								<div className="container-fluid">
 									<div className="row">
 										<div className="col-xl-9 col-lg-8">
-											<img className="hero" src="images/hero.gif" alt="Hero entrada con animacion"/>
+											<img
+												className="hero"
+												src="images/hero.gif"
+												alt="Hero entrada con animacion"
+											/>
 											<div className="section3125 mt-50">
 												<h4 className="item_title">Featured Courses</h4>
 												<a href="/" className="see150">
 													See all
 												</a>
 												<div>
-												<HomeFeatures />
-											</div>
+													<HomeFeatures />
+												</div>
 											</div>
 											{/* <div className="section3125 mt-30">
 												<h4 className="item_title">Newest Courses</h4>
@@ -57,7 +60,10 @@ export default class Home extends Component {
 															<i className="uil uil-kayak" />
 														</div>
 														<div className="live-content">
-															<p>Suscribete a nuestro canal de YouTube para complementar las clases y el temario.</p>
+															<p>
+																Suscribete a nuestro canal de YouTube para complementar
+																las clases y el temario.
+															</p>
 															<a
 																className="live_link"
 																href="https://www.youtube.com/"
@@ -73,7 +79,15 @@ export default class Home extends Component {
 												</div>
 												<div className="get1452">
 													<h1 className="h1_hero">Obten Recomendaciones Personalizadas</h1>
-													<p className="h1_hero_p">Ser desarrollador es en gran parte consultar documentacion y resolver problemas. Por eso creamos un grupo de comunicacion entre desarrolladores profesionales y principienates, para poder resolver las dudas. Unete a nuestro grupo en Slack. Conoceras a desarrolladores web, programadores y gente que quiere compartir sus conocimientos en el campo del diseno. No importa el nivel que tengas, principiante o avanzado.</p>
+													<p className="h1_hero_p">
+														Ser desarrollador es en gran parte consultar documentacion y
+														resolver problemas. Por eso creamos un grupo de comunicacion
+														entre desarrolladores profesionales y principienates, para poder
+														resolver las dudas. Unete a nuestro grupo en Slack. Conoceras a
+														desarrolladores web, programadores y gente que quiere compartir
+														sus conocimientos en el campo del diseno. No importa el nivel
+														que tengas, principiante o avanzado.
+													</p>
 													{/* <button className="Get_btn" onClick="window.location.href = '#';">
 														Get Started
 													</button> */}
@@ -125,7 +139,7 @@ export default class Home extends Component {
 														</li>
 													</ul>
 												</div> */}
-												
+
 												{/* <div className="strttech120">
 													<h4>Become an Instructor</h4>
 													<p>
@@ -144,38 +158,45 @@ export default class Home extends Component {
 														</a>
 													</div> */}
 													<div className="tutor_content_dt">
-													<img src="images/pug.jpg" alt="pug TanGo logo" style={{width: "95px", height:"75px"}}/>
+														<img
+															src="images/pug.jpg"
+															alt="pug TanGo logo"
+															style={{ width: '95px', height: '75px' }}
+														/>
 														<div className="tutor150">
-														
-															<a
-																href="/"
-																className="tutor_name"
-															>
+															<a href="/" className="tutor_name">
 																Pascual Vila
 															</a>
 															<div className="mef78" title="Verify">
-																
 																<i className="uil uil-check-circle" />
 															</div>
 														</div>
-														
 
 														<div className="tutor_cate">
 															Web Developer, Designer, and Teacher
 														</div>
 														<ul className="tutor_social_links">
 															<li>
-																<a href="https://www.facebook.com/TandGoAgency/?view_public_for=101655021757487" className="fb">
+																<a
+																	href="https://www.facebook.com/TandGoAgency/?view_public_for=101655021757487"
+																	className="fb"
+																>
 																	<i className="fab fa-facebook-f" />
 																</a>
 															</li>
 															<li>
-																<a href="https://www.instagram.com/tandgo_web/" className="tw">
+																<a
+																	href="https://www.instagram.com/tandgo_web/"
+																	className="tw"
+																>
 																	<i className="fab fa-instagram" />
 																</a>
 															</li>
 															<li>
-																<a href="linkedin.com/in/pascual-vila-web-developer" className="ln">
+																<a
+																	href="linkedin.com/in/pascual-vila-web-developer"
+																	className="ln"
+																>
 																	<i className="fab fa-linkedin-in" />
 																</a>
 															</li>
@@ -192,9 +213,49 @@ export default class Home extends Component {
 														<a
 															href="my_instructor_profile_view.html"
 															className="prfle12link"
+															alt="intructor profile"
 														>
 															Go To Profile
 														</a>
+													</div>
+												</div>
+												<div className="fcrse_2 mb-30">
+													{/* <div className="tutor_img">
+														<a href="my_instructor_profile_view.html">
+															<img src="images/left-imgs/img-10.jpg" alt="img-10" />
+														</a>
+													</div> */}
+													<div className="tutor_content_dt">
+														<h1 className="prfle12link">
+															Esta pagina esta todavia en construccion. Si tienes algo que
+															aportar o simplemente quieres donar puedes hacerlo aqui
+														</h1>
+														<form
+															action="https://www.paypal.com/donate"
+															method="post"
+															target="_top"
+														>
+															<input
+																type="hidden"
+																name="hosted_button_id"
+																value="GSN5SZ4FFU332"
+															/>
+															<input
+																type="image"
+																src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_LG.gif"
+																border="0"
+																name="submit"
+																title="PayPal - The safer, easier way to pay online!"
+																alt="Donate with PayPal button"
+															/>
+															<img
+																alt=""
+																border="0"
+																src="https://www.paypal.com/en_GB/i/scr/pixel.gif"
+																width="1"
+																height="1"
+															/>
+														</form>
 													</div>
 												</div>
 											</div>
@@ -202,7 +263,6 @@ export default class Home extends Component {
 									</div>
 								</div>
 							</div>
-							
 						</div>
 						{/* <!-- Body End --> */}
 

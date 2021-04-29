@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../../styles/css/styles.css';
 import ButtonBack from '../buttonBack';
-import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
+import MenuApuntesHtml from '../MenuApuntes/menuApuntesHtml';
 
 import head7 from '../../../styles/img/capitulosPics/head7.jpg';
 

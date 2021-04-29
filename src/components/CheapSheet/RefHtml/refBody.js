@@ -2,7 +2,7 @@ import React, { Fragment, Component } from 'react';
 import { Helmet } from 'react-helmet';
 import bodyApuntes from './../../../styles/img/apuntesPic/bodyApuntes.jpg';
 import ButtonBack from '../buttonBack';
-import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
+import MenuApuntesHtml from '../MenuApuntes/menuApuntesHtml';
 
 class RefBody extends Component {
 	render() {
@@ -64,8 +64,8 @@ class RefBody extends Component {
 							HTML.
 						</p>
 						<br />
+						<ButtonBack />
 					</div>
-					<ButtonBack />
 				</div>
 			</Fragment>
 		);

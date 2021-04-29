@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react';
 import { Helmet } from 'react-helmet';
 import '../../../styles/css/styles.css';
 import ButtonBack from '../buttonBack';
-import MenuApuntesHtml from '../MenuApuntes/Html/menuApuntesHtml';
+import MenuApuntesHtml from '../MenuApuntes/menuApuntesHtml';
 
 // import doctype from '../../../styles/img/capitulosPics/doctype.jpg';
 
