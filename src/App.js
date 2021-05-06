@@ -17,7 +17,6 @@ import Footer from './components/layouts/Footer';
 
 //Components Manual Html
 import IntroHtml from './components/Tutorial/Html/Html';
-import IntroCss from './components/Tutorial/Css/Css';
 import MenuTutorialHtml from './components/MenusTutorial/Html/menuTutorialHtml';
 import queEsHtml from './components/Tutorial/Html/CapitulosHtml/queEsHtml';
 import AnatomiaHtml from './components/Tutorial/Html/CapitulosHtml/anatomiaHtml';
@@ -71,6 +70,7 @@ import Aside50 from './components/Tutorial/Html/CapitulosHtml/aside50';
 import FigureFigcaption51 from './components/Tutorial/Html/CapitulosHtml/figureFigcaption51';
 
 //components Manual Css
+import IntroCss from './components/Tutorial/Css/Css';
 import QueEsCss from './components/Tutorial/Css/CapitulosCss/queEsCss';
 import AgregarEstilos2 from './components/Tutorial/Css/CapitulosCss/agregarEstilos2';
 import CreandoNormas3 from './components/Tutorial/Css/CapitulosCss/creandoNormas3';
@@ -96,6 +96,15 @@ import Tablas23 from './components/Tutorial/Css/CapitulosCss/tablas23';
 import Transiciones24 from './components/Tutorial/Css/CapitulosCss/transiciones24';
 import Animaciones25 from './components/Tutorial/Css/CapitulosCss/animaciones25';
 import Tranformaciones2D26 from './components/Tutorial/Css/CapitulosCss/tranformaciones2D26';
+
+
+//Componentes Manual JavaScript
+import QueEsJavascript from './components/Tutorial/Javascript/CapitulosJavascript/queEsJavascript';
+
+
+// Componentes JavaScript
+import IntroJavascript from './components/Tutorial/Javascript/Javascript';
+
 
 
 // Components CheapSheet
@@ -134,8 +143,9 @@ function App() {
 				{/* Routes Manual */}
 				<Route exact path="/Html" component={IntroHtml} />
 				<Route exact path="/Css" component={IntroCss} />
+				<Route exact path="/Javascript" component={IntroJavascript} />
 
-				{/* Routes Menus Tutorial Left */}
+				{/* Routes Menus Tutorial Left HTML*/}
 				<Route exact path="/MenuTutorialHtml" component={MenuTutorialHtml} />
 				<Route path="/queEsHtml" component={queEsHtml} />
 				<Route path="/anatomiaHtml" component={AnatomiaHtml} />
@@ -188,7 +198,7 @@ function App() {
 				<Route path="/aside" component={Aside50} />
 				<Route path="/figureFigcaption" component={FigureFigcaption51} />
 
-				{/* Routes Menus Tutorial Left */}
+				{/* Routes Menus Tutorial Left CSS*/}
 				<Route path="/queEsCss" component={QueEsCss} />
 				<Route path="/agregarEstilos" component={AgregarEstilos2} />
 				<Route path="/creandoNormas" component={CreandoNormas3} />
@@ -215,6 +225,8 @@ function App() {
 				<Route path="/animaciones" component={Animaciones25} />
 				<Route path="/tranformaciones" component={Tranformaciones2D26} />
 
+				{/* Routes Menus Tutorial Left CSS*/}
+				<Route path="/queEsJavascript" component={QueEsJavascript} />
 
 
 

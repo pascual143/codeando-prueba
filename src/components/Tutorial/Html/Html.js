@@ -28,14 +28,14 @@ import TablasEncabezados24 from './CapitulosHtml/tablasEncabezados24';
 import BordesTablas25 from './CapitulosHtml/bordesTablas25';
 import ExpandiendoColumnas26 from './CapitulosHtml/expandiendoColumnas26';
 import EnsanchandoFilas27 from './CapitulosHtml/ensanchandoFilas27';
-import CuerpoTabla28 from "./CapitulosHtml/cuerpoTabla28";
-import CabezaTabla29 from "./CapitulosHtml/cabezaTabla29";
-import FooterTabla30 from "./CapitulosHtml/footerTabla30";
-import IntroduccionFormularios31 from "./CapitulosHtml/introduccionFormularios31";
-import EntradaTexto32 from "./CapitulosHtml/entradaTexto32";
-import EntradaContrasena34 from "./CapitulosHtml/entradaContrasena34";
-import AgregarEtiqueta33 from "./CapitulosHtml/agregarEtiqueta33";
-import EntradaNumeros35 from "./CapitulosHtml/entradaNumeros35";
+import CuerpoTabla28 from './CapitulosHtml/cuerpoTabla28';
+import CabezaTabla29 from './CapitulosHtml/cabezaTabla29';
+import FooterTabla30 from './CapitulosHtml/footerTabla30';
+import IntroduccionFormularios31 from './CapitulosHtml/introduccionFormularios31';
+import EntradaTexto32 from './CapitulosHtml/entradaTexto32';
+import EntradaContrasena34 from './CapitulosHtml/entradaContrasena34';
+import AgregarEtiqueta33 from './CapitulosHtml/agregarEtiqueta33';
+import EntradaNumeros35 from './CapitulosHtml/entradaNumeros35';
 import RangoEntrada36 from './CapitulosHtml/rangoEntrada36';
 import EntradaVerificaion37 from './CapitulosHtml/entradaVerificacion37';
 import EntradaRadio38 from './CapitulosHtml/entradaRadio38';
@@ -54,7 +54,6 @@ import Aside50 from './CapitulosHtml/aside50';
 import FigureFigcaption51 from './CapitulosHtml/figureFigcaption51';
 
 import HomeFeatures from '../../Home/HomeFeatures.js';
-
 
 // bootstrap
 import Card from 'react-bootstrap/Card';
@@ -96,13 +95,12 @@ export default class IntroHtml extends Component {
 			slidesToShow: 1,
 			slidesToScroll: 1,
 			appendDots: (dots) => {
-				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={40} />
+				return <MagicSliderDots dots={dots} numDotsToShow={50} dotWidth={40} />;
 			}
 		};
 
 		return (
 			<Fragment>
-				
 				<div className="divBody">
 					<div style={{ textAlign: 'center' }}>
 						{/* <Button className="buttonCapitulos" onClick={this.previous}>
@@ -113,11 +111,11 @@ export default class IntroHtml extends Component {
 						</Button> */}
 					</div>
 					<nav className="vertical_nav">
-					<div className="left_section menu_left" id="">
-						<div className="left_section">
-							<MenuTutorialHtml />
+						<div className="left_section menu_left" id="">
+							<div className="left_section">
+								<MenuTutorialHtml />
+							</div>
 						</div>
-					</div>
 					</nav>
 					<Slider
 						ref={(c) => (this.slider = c)}
@@ -128,555 +126,1105 @@ export default class IntroHtml extends Component {
 						<div>
 							<div className="divBody2">
 								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
 								</Button>
 								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
 									<QueEsHtml />
 								</Card>
 							</div>
 						</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<AnatomiaHtml />
-								</Card>
-							</div>
-							<div className="divBody2">
+						<div className="divBody2">
 							<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<NormasStandar />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EtiquetaHtml />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EstructuraHtml />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Divs />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Head />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Title />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2 body__Capitulos_2">
-									<Headings />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2 body__Capitulos_2">
-									<Atributos />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Texto />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EstilosTexto />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<SaltosLinea />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ListasNoOrdenadas />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ListasOrdenadas />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Imagenes />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Videos />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<AnclasHyperlinks />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EnlacePagina />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EnlaceOtra />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ImagenesHyperlink />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Tabla />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<TablasEncabezados24 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<BordesTablas25 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ExpandiendoColumnas26 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EnsanchandoFilas27 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<CuerpoTabla28 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<CabezaTabla29 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<FooterTabla30 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<IntroduccionFormularios31 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EntradaTexto32 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<AgregarEtiqueta33 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EntradaContrasena34 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EntradaNumeros35 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<RangoEntrada36 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EntradaVerificaion37 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EntradaRadio38 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ListaDesplegable39 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EntradaDataList40 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ElementoAreaTexto41 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ValidacionFormularios42 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<RequerirEntrada43 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<EstablecerMinMax44 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<LongitudTexto45 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<CoincidirPatron46 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<SemanticoHtml47 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<MainYPiePagina48 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<ArticuloYSeccion49 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<Aside50 />
-								</Card>
-							</div>
-							<div className="divBody2">
-								<Button className="buttonPrev float-left" onClick={this.previous}>
-									<span style={{color: "white"}}>P<br /><br />r<br /><br />e<br /><br />v</span>
-								</Button>
-								<Button className="buttonNext float-right" onClick={this.next}>
-									<span style={{color: "white"}}>N<br /><br />e<br /><br /><br />x<br /><br />t</span>
-								</Button>
-								<Card className="cardHtmlInside body__Capitulos_2">
-									<FigureFigcaption51 />
-								</Card>
-							</div>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<AnatomiaHtml />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<NormasStandar />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EtiquetaHtml />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EstructuraHtml />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Divs />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Head />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Title />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2 body__Capitulos_2">
+								<Headings />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2 body__Capitulos_2">
+								<Atributos />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Texto />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EstilosTexto />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<SaltosLinea />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ListasNoOrdenadas />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ListasOrdenadas />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Imagenes />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Videos />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<AnclasHyperlinks />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EnlacePagina />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EnlaceOtra />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ImagenesHyperlink />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Tabla />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<TablasEncabezados24 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<BordesTablas25 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ExpandiendoColumnas26 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EnsanchandoFilas27 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<CuerpoTabla28 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<CabezaTabla29 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<FooterTabla30 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<IntroduccionFormularios31 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EntradaTexto32 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<AgregarEtiqueta33 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EntradaContrasena34 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EntradaNumeros35 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<RangoEntrada36 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EntradaVerificaion37 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EntradaRadio38 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ListaDesplegable39 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EntradaDataList40 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ElementoAreaTexto41 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ValidacionFormularios42 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<RequerirEntrada43 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<EstablecerMinMax44 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<LongitudTexto45 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<CoincidirPatron46 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<SemanticoHtml47 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<MainYPiePagina48 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<ArticuloYSeccion49 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<Aside50 />
+							</Card>
+						</div>
+						<div className="divBody2">
+							<Button className="buttonPrev float-left" onClick={this.previous}>
+								<span style={{ color: 'white' }}>
+									P<br />
+									<br />r<br />
+									<br />e<br />
+									<br />v
+								</span>
+							</Button>
+							<Button className="buttonNext float-right" onClick={this.next}>
+								<span style={{ color: 'white' }}>
+									N<br />
+									<br />e<br />
+									<br />
+									<br />x<br />
+									<br />t
+								</span>
+							</Button>
+							<Card className="cardHtmlInside body__Capitulos_2">
+								<FigureFigcaption51 />
+							</Card>
+						</div>
 					</Slider>
 					<div style={{ textAlign: 'center', marginTop: '25px' }}>
 						<Button className="buttonCapitulos" onClick={this.previous}>

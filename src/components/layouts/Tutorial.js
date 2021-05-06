@@ -69,7 +69,7 @@ export default class Manual extends Component {
 
 								<li className="menu--link"><Link to={"/Html"}className="menuDropdown">HTML</Link></li>
 								<li className="menu--link"><Link to={"/Css"}className="menuDropdown">CSS</Link></li>
-								<li className="menu--link"><Link to={""}className="menuDropdown"> JavaScript</Link></li>
+								<li className="menu--link"><Link to={"/Javascript"}className="menuDropdown">JavaScript</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> jQuery</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> Bootstrap</Link></li>
 								<li className="menu--link"><Link to={""}className="menuDropdown"> React</Link></li>
