@@ -19,7 +19,7 @@ class QueEsJavascript extends Component {
 							<title>TandGo</title>
 							<title>
 								Introduccion. Que es JavaSCript? - TandGo - Aprende a programar con Html Css JavaScript
-								jQuery
+								
 							</title>
 						</Helmet>
 					</div>
