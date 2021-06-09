@@ -19,7 +19,8 @@ import 'react-magic-slider-dots/dist/magic-dots.css';
 import MenuTutorialJavaScript from '../../MenusTutorial/JavaScript/menuTutorialJavaScript';
 
 // Capitulos
-import QueEsJavascript from './CapitulosJavascript/queEsJavascript';
+import QueEsJavascript from './CapitulosJavascript/queEsJavascript1';
+import AnadirJavascript from './CapitulosJavascript/anadirJavascript2';
 // function RenderAnatomiaCss({ AnatomiaCss }) {
 // 	return <div>{AnatomiaCss}</div>;
 // }
@@ -140,8 +141,31 @@ export default class IntroJavascript extends Component {
 									<QueEsJavascript />
 								</Card>
 							</div>
-							
-						</div>			
+						</div>	
+						<div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<AnadirJavascript />
+								</Card>
+							</div>
+						</div>		
 					</Slider>
 					<div />
 				</div>

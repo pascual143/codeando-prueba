@@ -22,7 +22,8 @@ export default class MenuTutorialJavaScript extends Component {
 								<div className="font" style={{minHeight:"250px"}}>
 
 								<Link to={"/queEsJavaScript"} className="menu--link menuDropdown">Que es JavaScript</Link>
-							
+								<Link to={"/anadirJavaScript"} className="menu--link menuDropdown">Anadir JavaScript</Link>
+
 							</div>
 					</li>
 					</div>

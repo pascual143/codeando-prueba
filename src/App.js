@@ -99,7 +99,8 @@ import Tranformaciones2D26 from './components/Tutorial/Css/CapitulosCss/tranform
 
 
 //Componentes Manual JavaScript
-import QueEsJavascript from './components/Tutorial/Javascript/CapitulosJavascript/queEsJavascript';
+import QueEsJavascript from './components/Tutorial/Javascript/CapitulosJavascript/queEsJavascript1';
+import AnadirJavascript2 from './components/Tutorial/Javascript/CapitulosJavascript/anadirJavascript2';
 
 
 // Componentes JavaScript
@@ -225,8 +226,10 @@ function App() {
 				<Route path="/animaciones" component={Animaciones25} />
 				<Route path="/tranformaciones" component={Tranformaciones2D26} />
 
-				{/* Routes Menus Tutorial Left CSS*/}
+				{/* Routes Menus Tutorial Left JavaScript*/}
 				<Route path="/queEsJavascript" component={QueEsJavascript} />
+				<Route path="/anadirJavascript" component={AnadirJavascript2} />
+
 
 
 

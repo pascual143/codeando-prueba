@@ -22,7 +22,7 @@ export default class HomeFeatures extends Component {
 									<p className="HomeFeatures_p">Aprende a dar estilo a tus paginas web con el lenguage CSS</p>
 								</div>
 							</a>
-							<a href="/" className="slide">
+							<a href="/Javascript" className="slide">
 								<div className="content">
 									<h2>JavaScritp</h2>
 									<p className="HomeFeatures_p">Aprende JavaScript para dar logica, interaccion y mucho mas a tus paginas web</p>
