@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import Helmet from 'react-helmet';
-// import 'react-dropdown/style.css';
+import 'react-dropdown/style.css';
 import './stylesLayouts.css';
 
 

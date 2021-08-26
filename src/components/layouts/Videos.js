@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import Dropdown from 'react-dropdown';
 import Helmet from 'react-helmet';
-// import 'react-dropdown/style.css';
+import 'react-dropdown/style.css';
 
 import Html from '../Tutorial/Html/Html.js';
 
