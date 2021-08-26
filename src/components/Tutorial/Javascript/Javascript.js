@@ -20,7 +20,10 @@ import MenuTutorialJavaScript from '../../MenusTutorial/JavaScript/menuTutorialJ
 
 // Capitulos
 import QueEsJavascript from './CapitulosJavascript/queEsJavascript1';
-import AnadirJavascript from './CapitulosJavascript/anadirJavascript2';
+import AnadirJavascript2 from './CapitulosJavascript/anadirJavascript2';
+import OutputJavascript3 from './CapitulosJavascript/outputJavaScript3';
+import TipoDatos4 from './CapitulosJavascript/tipoDatos4';
+import Number5 from './CapitulosJavascript/numbers5';
 // function RenderAnatomiaCss({ AnatomiaCss }) {
 // 	return <div>{AnatomiaCss}</div>;
 // }
@@ -138,7 +141,7 @@ export default class IntroJavascript extends Component {
 									</span>
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
-									<QueEsJavascript />
+									<AnadirJavascript2 />
 								</Card>
 							</div>
 						</div>	
@@ -162,10 +165,58 @@ export default class IntroJavascript extends Component {
 									</span>
 								</Button>
 								<Card className="cardHtmlInside body__Capitulos_2">
-									<AnadirJavascript />
+									<OutputJavascript3 />
 								</Card>
 							</div>
-						</div>		
+						</div>	
+						<div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<TipoDatos4 />
+								</Card>
+							</div>
+						</div>	
+						<div>
+							<div className="divBody2">
+								<Button className="buttonPrev float-left" onClick={this.previous}>
+									<span style={{ color: 'white' }}>
+										P<br />
+										<br />r<br />
+										<br />e<br />
+										<br />v
+									</span>
+								</Button>
+								<Button className="buttonNext float-right" onClick={this.next}>
+									<span style={{ color: 'white' }}>
+										N<br />
+										<br />e<br />
+										<br />
+										<br />x<br />
+										<br />t
+									</span>
+								</Button>
+								<Card className="cardHtmlInside body__Capitulos_2">
+									<Number5 />
+								</Card>
+							</div>
+						</div>	
 					</Slider>
 					<div />
 				</div>

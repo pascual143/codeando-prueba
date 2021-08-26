@@ -48,6 +48,7 @@ class QueEsJavascript extends Component {
 							apenas incidir en el peso de la página, lo que garantiza una mayor velocidad de carga y una
 							mejor reputación a ojos de Google.
 						</p>
+						<br />
 						<h1 className="h1__tituloCapitulos">Que es JavaScript?</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript (js) es un lenguaje de
@@ -71,6 +72,7 @@ class QueEsJavascript extends Component {
 							como Microsoft Internet Explorer, Mozilla Firefox, Opera y Safari.
 						</p>
 						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;No hay que confundir Java con JavaScript.</p>
+						<br />
 						<h1 className="h1__tituloCapitulos">Caracteristicas de JavaScript?</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Existen las siguientes características de
@@ -110,6 +112,7 @@ class QueEsJavascript extends Component {
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Proporciona un buen control a
 							los usuarios sobre los navegadores web.
 						</p>
+						<br />
 						<h1 className="h1__tituloCapitulos">Caracteristicas de JavaScript?</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JavaScript se utiliza para crear sitios web

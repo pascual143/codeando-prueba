@@ -101,6 +101,9 @@ import Tranformaciones2D26 from './components/Tutorial/Css/CapitulosCss/tranform
 //Componentes Manual JavaScript
 import QueEsJavascript from './components/Tutorial/Javascript/CapitulosJavascript/queEsJavascript1';
 import AnadirJavascript2 from './components/Tutorial/Javascript/CapitulosJavascript/anadirJavascript2';
+import OutputJavascript3 from './components/Tutorial/Javascript/CapitulosJavascript/outputJavaScript3';
+import TipoDatos4 from './components/Tutorial/Javascript/CapitulosJavascript/tipoDatos4';
+import Number5 from './components/Tutorial/Javascript/CapitulosJavascript/tipoDatos4';
 
 
 // Componentes JavaScript
@@ -229,7 +232,9 @@ function App() {
 				{/* Routes Menus Tutorial Left JavaScript*/}
 				<Route path="/queEsJavascript" component={QueEsJavascript} />
 				<Route path="/anadirJavascript" component={AnadirJavascript2} />
-
+				<Route path="/outputJavaScript" component={OutputJavascript3} />
+				<Route path="/tipoDatos" component={TipoDatos4} />
+				<Route path="/numberos" component={Number5} />
 
 
 

@@ -5,8 +5,7 @@ import anadirJavascript1 from '../../../../styles/img/capitulosPics/anadirJavasc
 import anadirJavascript2 from '../../../../styles/img/capitulosPics/anadirJavascript2.jpg';
 import anadirJavascript3 from '../../../../styles/img/capitulosPics/anadirJavascript3.jpg';
 
-
-class QueEsJavascript extends Component {
+class AnadirJavascript2 extends Component {
 	render() {
 		return (
 			<Fragment>
@@ -35,11 +34,12 @@ class QueEsJavascript extends Component {
 						</div>
 					</nav>
 					<div>
-						<h1 className="h1__tituloCapitulos">Formas de anadir JavaScript JavaScript</h1>
+						<h1 className="h1__tituloCapitulos">Formas de anadir JavaScript</h1>
 						<p>
 							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hay 3 formas princiales de agregar
 							JavaScript a nuestros documentos: Inline, External o en el Head.
 						</p>
+						<br />
 						<h1 className="h1__tituloCapitulos">Inline - En linea</h1>
 
 						<p>
@@ -63,6 +63,7 @@ class QueEsJavascript extends Component {
 							estos navegadores visualizaran primero el documento en html y luego arrancaran la logica de
 							JavaScript.
 						</p>
+						<br />
 						<h1 className="h1__tituloCapitulos">Script en el Head</h1>
 
 						<p>
@@ -83,17 +84,25 @@ class QueEsJavascript extends Component {
 								src={anadirJavascript2}
 							/>
 						</div>
+						<br />
 						<h1 className="h1__tituloCapitulos">External JavaScript</h1>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los scripts también se pueden colocar en archivos externos:
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los scripts también se pueden colocar en
+							archivos externos:
 						</p>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los scripts externos son prácticos cuando se usa el mismo código en muchas páginas web diferentes.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los scripts externos son prácticos cuando se
+							usa el mismo código en muchas páginas web diferentes.
 						</p>
 						<p>
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los archivos JavaScript tienen la extensión de archivo .js.
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Los archivos JavaScript tienen la extensión
+							de archivo .js.
 						</p>
-						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para utilizar un script externo, ponga el nombre del archivo de script en el atributo src (fuente) de una etiqueta <code>&lt;script&gt;</code>:</p>
+						<p>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Para utilizar un script externo, ponga el
+							nombre del archivo de script en el atributo src (fuente) de una etiqueta{' '}
+							<code>&lt;script&gt;</code>:
+						</p>
 						<div style={{ margin: '20px', textAlign: 'center' }}>
 							<img
 								className="materialboxed"
@@ -111,4 +120,4 @@ class QueEsJavascript extends Component {
 	}
 }
 
-export default QueEsJavascript;
+export default AnadirJavascript2;

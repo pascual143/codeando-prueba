@@ -77,7 +77,7 @@ export default class Footer extends Component {
 													</li>
 													<li>
 														<p>
-															© 2021 <strong>TandGo</strong>. All Rights Reserved.
+															© 2021 <strong>www.tandgo.es</strong>. All Rights Reserved.
 														</p>
 													</li>
 												</ul>
